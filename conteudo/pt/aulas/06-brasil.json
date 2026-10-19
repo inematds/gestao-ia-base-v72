@@ -7,12 +7,24 @@
   "minutos": 17,
   "lead": "As pesquisas de 2026 mostram empresas brasileiras adotando IA e agentes num ritmo alto, e poucas com governança madura. O resultado aparece como projetos soltos, ferramentas sem dono e IA usada por conta própria. Nesta aula você lê os números do Brasil comparando a definição antes da porcentagem e faz o diagnóstico de cinco linhas da sua empresa.",
   "objetivo": "explicar por que adoção sem gestão vira projeto desconectado e diagnosticar a sua empresa em cinco linhas: o que existe, dono e medida.",
-  "competencias": ["ler-numeros-do-brasil-com-definicao", "diagnosticar-adocao-sem-gestao", "inventariar-ia-em-uso"],
+  "competencias": [
+    "ler-numeros-do-brasil-com-definicao",
+    "diagnosticar-adocao-sem-gestao",
+    "inventariar-ia-em-uso"
+  ],
   "aprende": [
-    {"t": "O que as pesquisas de 2026 dizem sobre IA e agentes no Brasil"},
-    {"t": "Por que \"adotaram\", \"investem\", \"integram\" e \"em uso\" não se comparam"},
-    {"t": "Como a adoção sem gestão vira projeto desconectado e IA na sombra"},
-    {"t": "O diagnóstico de cinco linhas: o que existe, quem é dono, o que se mede"}
+    {
+      "t": "O que as pesquisas de 2026 dizem sobre IA e agentes no Brasil"
+    },
+    {
+      "t": "Por que \"adotaram\", \"investem\", \"integram\" e \"em uso\" não se comparam"
+    },
+    {
+      "t": "Como a adoção sem gestão vira projeto desconectado e IA na sombra"
+    },
+    {
+      "t": "O diagnóstico de cinco linhas: o que existe, quem é dono, o que se mede"
+    }
   ],
   "hero_alt": "No estoque da distribuidora, um supervisor com um tablet conversa com um funcionário ao lado de uma paleteira, entre prateleiras de galões sem rótulo.",
   "secoes": [
@@ -22,16 +34,37 @@
       "sub": "Cada etapa leva à seguinte quando ninguém decide nada. A seta de volta é o diagnóstico desta aula. Clique em cada etapa.",
       "volta": "O diagnóstico de cinco linhas traz cada ferramenta de volta para um dono e uma medida",
       "nos": [
-        {"icone": "carregar", "titulo": "Ferramenta entra", "sub": "por alguém",
-         "detalhe": "A IA entra pela porta mais próxima: o fornecedor que liga um recurso novo, a TI que monta uma automação, o vendedor que instala um aplicativo no celular. Ninguém decide; alguém só começa a usar."},
-        {"icone": "usuario", "titulo": "Sem dono", "sub": "ninguém responde",
-         "detalhe": "Quem instalou cuida de manter ligado, mas ninguém do negócio responde pelo resultado. Quando algo dá errado, a pergunta \"quem aprovou isso?\" não tem resposta."},
-        {"icone": "grafico", "titulo": "Sem medida", "sub": "ninguém compara",
-         "detalhe": "Sem dono, ninguém define o que é dar certo. Sem ponto de partida, não há como dizer se melhorou. A ferramenta fica pela impressão de quem usa."},
-        {"icone": "camadas", "titulo": "Desconectado", "sub": "projetos soltos",
-         "detalhe": "Cada área tem a sua iniciativa, com o seu fornecedor e o seu dado. Nada se soma: o atendimento resume conversas num serviço, o comercial vende com outro, o financeiro usa um terceiro."},
-        {"icone": "x", "titulo": "Na sombra", "sub": "uso sem ninguém saber", "forte": true,
-         "detalhe": "No fim, parte do uso nem aparece: contas pessoais, extensões de navegador, aplicativos que gravam reuniões. É a IA na sombra, onde o dado de cliente sai da empresa sem que ninguém tenha decidido isso."}
+        {
+          "icone": "carregar",
+          "titulo": "Ferramenta entra",
+          "sub": "por alguém",
+          "detalhe": "A IA entra pela porta mais próxima: o fornecedor que liga um recurso novo, a TI que monta uma automação, o vendedor que instala um aplicativo no celular. Ninguém decide; alguém só começa a usar."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Sem dono",
+          "sub": "ninguém responde",
+          "detalhe": "Quem instalou cuida de manter ligado, mas ninguém do negócio responde pelo resultado. Quando algo dá errado, a pergunta \"quem aprovou isso?\" não tem resposta."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Sem medida",
+          "sub": "ninguém compara",
+          "detalhe": "Sem dono, ninguém define o que é dar certo. Sem ponto de partida, não há como dizer se melhorou. A ferramenta fica pela impressão de quem usa."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Desconectado",
+          "sub": "projetos soltos",
+          "detalhe": "Cada área tem a sua iniciativa, com o seu fornecedor e o seu dado. Nada se soma: o atendimento resume conversas num serviço, o comercial vende com outro, o financeiro usa um terceiro."
+        },
+        {
+          "icone": "x",
+          "titulo": "Na sombra",
+          "sub": "uso sem ninguém saber",
+          "forte": true,
+          "detalhe": "No fim, parte do uso nem aparece: contas pessoais, extensões de navegador, aplicativos que gravam reuniões. É a IA na sombra, onde o dado de cliente sai da empresa sem que ninguém tenha decidido isso."
+        }
       ],
       "legenda": "Cadeia didática desta aula, ilustrada com o laboratório Horizonte. Os números do Brasil estão nos passos abaixo, cada um com data e fonte."
     },
@@ -40,18 +73,54 @@
       "titulo": "O que dizem os números de 2026",
       "sub": "Quatro leituras. Repare na definição de cada estudo: é ela que diz o que o número conta.",
       "passos": [
-        {"titulo": "Muita adoção", "sub": "Deloitte e GFT",
-         "texto": ["Deloitte (17/09/2026): 50% das empresas brasileiras adotaram IA. GFT, no Tech Trends 2026 LATAM com dados da BCG: 18% das empresas brasileiras integram agentes, contra 13% no mundo.", "\"Adotar IA\" e \"integrar agentes\" são perguntas diferentes. Uma empresa que usa um assistente de texto adotou IA; integrar agente é pô-lo dentro de um processo."],
-         "exemplo": {"rot": "Na Horizonte", "texto": "A Horizonte (empresa fictícia de estudo) \"adotou IA\" há tempo. \"Integrou agente\" só em julho de 2026, com a Hora."}},
-        {"titulo": "Investimento chegando", "sub": "ABES e IDC",
-         "texto": ["ABES e IDC (15/06/2026), com 103 executivos: 40% já investem em agentes e 33% planejam investir em 12 meses. Os obstáculos citados: dados, sistemas legados, governança e falta de profissionais.", "Repare na amostra: 103 executivos. É uma fotografia útil do que a liderança declara, não um censo das empresas brasileiras."],
-         "exemplo": {"rot": "Leitura", "texto": "Dois dos quatro obstáculos (governança e falta de profissionais) são de gestão, não de tecnologia."}},
-        {"titulo": "Pouca gestão", "sub": "KPMG e Deloitte",
-         "texto": ["KPMG, Global Tech Report 2026 (04/2026): 45% dos executivos brasileiros relatam vários projetos de IA desconectados entre si. Deloitte (17/09/2026): só 27% das empresas brasileiras têm governança de IA madura.", "Juntos, os números contam a mesma história do diagrama: adoção alta, projetos soltos, pouca gente decidindo quem responde e como se mede."],
-         "exemplo": {"rot": "Na Horizonte", "texto": "Atendimento, comercial e financeiro usam IA cada um do seu jeito. Nenhum projeto conversa com o outro, e só a Hora tem algum número acompanhado."}},
-        {"titulo": "Compare a definição", "sub": "antes do número",
-         "texto": ["\"Adotaram\" (50%), \"investem\" (40%), \"integram\" (18%) e \"em uso\" (17%, Gartner, mundo) medem coisas diferentes, com amostras e datas diferentes. Não dá para somar, subtrair nem dizer que um contradiz o outro.", "Antes de citar um número numa reunião, diga a definição junto: \"18% integram agentes, segundo a GFT com dados da BCG\". Quem escuta entende o que o número conta."],
-         "exemplo": {"rot": "Erro comum", "texto": "\"Metade das empresas já usa agentes.\" Não: metade adotou IA de algum tipo (Deloitte). Agentes integrados são 18% (GFT/BCG)."}}
+        {
+          "titulo": "Muita adoção",
+          "sub": "Deloitte e GFT",
+          "texto": [
+            "Deloitte (17/09/2026): 50% das empresas brasileiras adotaram IA. GFT, no Tech Trends 2026 LATAM com dados da BCG: 18% das empresas brasileiras integram agentes, contra 13% no mundo.",
+            "\"Adotar IA\" e \"integrar agentes\" são perguntas diferentes. Uma empresa que usa um assistente de texto adotou IA; integrar agente é pô-lo dentro de um processo."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "A Horizonte (empresa fictícia de estudo) \"adotou IA\" há tempo. \"Integrou agente\" só em julho de 2026, com a Hora."
+          }
+        },
+        {
+          "titulo": "Investimento chegando",
+          "sub": "ABES e IDC",
+          "texto": [
+            "ABES e IDC (15/06/2026), com 103 executivos: 40% já investem em agentes e 33% planejam investir em 12 meses. Os obstáculos citados: dados, sistemas legados, governança e falta de profissionais.",
+            "Repare na amostra: 103 executivos. É uma fotografia útil do que a liderança declara, não um censo das empresas brasileiras."
+          ],
+          "exemplo": {
+            "rot": "Leitura",
+            "texto": "Dois dos quatro obstáculos (governança e falta de profissionais) são de gestão, não de tecnologia."
+          }
+        },
+        {
+          "titulo": "Pouca gestão",
+          "sub": "KPMG e Deloitte",
+          "texto": [
+            "KPMG, Global Tech Report 2026 (04/2026): 45% dos executivos brasileiros relatam vários projetos de IA desconectados entre si. Deloitte (17/09/2026): só 27% das empresas brasileiras têm governança de IA madura.",
+            "Juntos, os números contam a mesma história do diagrama: adoção alta, projetos soltos, pouca gente decidindo quem responde e como se mede."
+          ],
+          "exemplo": {
+            "rot": "Na Horizonte",
+            "texto": "Atendimento, comercial e financeiro usam IA cada um do seu jeito. Nenhum projeto conversa com o outro, e só a Hora tem algum número acompanhado."
+          }
+        },
+        {
+          "titulo": "Compare a definição",
+          "sub": "antes do número",
+          "texto": [
+            "\"Adotaram\" (50%), \"investem\" (40%), \"integram\" (18%) e \"em uso\" (17%, Gartner, Hype Cycle de IA agêntica, mundo) medem coisas diferentes, com amostras e datas diferentes. Não dá para somar, subtrair nem dizer que um contradiz o outro.",
+            "Antes de citar um número numa reunião, diga a definição junto: \"18% integram agentes, segundo a GFT com dados da BCG\". Quem escuta entende o que o número conta."
+          ],
+          "exemplo": {
+            "rot": "Erro comum",
+            "texto": "\"Metade das empresas já usa agentes.\" Não: metade adotou IA de algum tipo (Deloitte). Agentes integrados são 18% (GFT/BCG)."
+          }
+        }
       ]
     },
     {
@@ -59,15 +128,30 @@
       "titulo": "Modelo para copiar: diagnóstico de cinco linhas",
       "sub": "Cabe numa mensagem para a direção. Conte o que existe antes de opinar sobre o que falta.",
       "blocos": [
-        {"rot": "Diagnóstico de cinco linhas", "icone": "lupa",
-         "conteudo": "DIAGNÓSTICO DE IA · <empresa ou área> · <data> · feito por <nome>\n\n1. EM USO: <N> agentes e ferramentas de IA (<a> oficiais, <b> montados fora da lista, <c> por conta própria)\n2. COM DONO DO NEGÓCIO (nome): <x> de <N> · sem dono: <quais>\n3. COM MEDIDA (número acompanhado + ponto de partida): <y> de <N>\n4. LIGADOS A UM PROCESSO COM DONO (não são projeto solto): <z> de <N>\n5. PRIMEIRA AÇÃO: <o quê> · responsável <nome> · até <data>\n\nComo contei: <inventário da TI + perguntas a quantas pessoas>"},
-        {"rot": "Prompt · revisar o diagnóstico", "icone": "chat",
-         "conteudo": "Você é um gestor experiente revisando um diagnóstico de uso de IA de uma\nempresa. Não recomende ferramentas: aponte lacunas na contagem.\n\nDiagnóstico:\n\"\"\"<cole aqui>\"\"\"\n\nResponda, nesta ordem:\n1. A contagem da linha 1 parece incluir o uso por conta própria? Que\n   perguntas fariam aparecer o que falta?\n2. Algum \"dono\" da linha 2 é da TI ou é \"a equipe\"?\n3. Na linha 3, há \"medida\" sem ponto de partida?\n4. A primeira ação tem responsável e data, e ataca a linha mais fraca?"}
+        {
+          "rot": "Diagnóstico de cinco linhas",
+          "icone": "lupa",
+          "conteudo": "DIAGNÓSTICO DE IA · <empresa ou área> · <data> · feito por <nome>\n\n1. EM USO: <N> agentes e ferramentas de IA (<a> oficiais, <b> montados fora da lista, <c> por conta própria)\n2. COM DONO DO NEGÓCIO (nome): <x> de <N> · sem dono: <quais>\n3. COM MEDIDA (número acompanhado + ponto de partida): <y> de <N>\n4. LIGADOS A UM PROCESSO COM DONO (não são projeto solto): <z> de <N>\n5. PRIMEIRA AÇÃO: <o quê> · responsável <nome> · até <data>\n\nComo contei: <inventário da TI + perguntas a quantas pessoas>"
+        },
+        {
+          "rot": "Prompt · revisar o diagnóstico",
+          "icone": "chat",
+          "conteudo": "Você é um gestor experiente revisando um diagnóstico de uso de IA de uma\nempresa. Não recomende ferramentas: aponte lacunas na contagem.\n\nDiagnóstico:\n\"\"\"<cole aqui>\"\"\"\n\nResponda, nesta ordem:\n1. A contagem da linha 1 parece incluir o uso por conta própria? Que\n   perguntas fariam aparecer o que falta?\n2. Algum \"dono\" da linha 2 é da TI ou é \"a equipe\"?\n3. Na linha 3, há \"medida\" sem ponto de partida?\n4. A primeira ação tem responsável e data, e ataca a linha mais fraca?"
+        }
       ],
-      "saida": {"selo": "simulacao", "abas": [
-        {"rot": "Diagnóstico da Horizonte (exemplo)", "html": "<p><b>Horizonte Distribuidora</b> · empresa fictícia de estudo · a partir do inventário e da pesquisa interna (22 de 40 pessoas)</p><ol><li><b>Em uso:</b> 7 ferramentas de IA. 2 oficiais (Hora, assistente de e-mail do comercial), 1 montada pela TI fora da lista (resumo de atendimento) e 4 por conta própria (extensão que resume e-mails, app que grava visitas, chatbot gratuito em conta pessoal, complemento de planilha com acesso a todos os arquivos).</li><li><b>Com dono do negócio:</b> 0 de 7. As três da TI estão com o Rafael; as quatro por conta própria não têm dono.</li><li><b>Com medida e ponto de partida:</b> 0 de 7. A Hora tem painel, mas sem ponto de partida.</li><li><b>Ligadas a um processo com dono:</b> 0 de 7.</li><li><b>Primeira ação:</b> a Patrícia assume a Hora e o assistente de e-mail; a Juliana, o resumo; o Carlos decide até 31/10 sobre as quatro por conta própria.</li></ol>"},
-        {"rot": "Como conferir", "html": "<ol><li>A linha 1 separa oficiais, montadas fora da lista e por conta própria.</li><li>As linhas 2 a 4 são contagens (\"x de N\"), não adjetivos.</li><li>A primeira ação tem nome e data.</li><li>Erro comum: contar só o que está no inventário da TI. Na Horizonte, isso mostraria 2 ferramentas de IA, e são 7.</li></ol>"}
-      ]}
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Diagnóstico da Horizonte (exemplo)",
+            "html": "<p><b>Horizonte Distribuidora</b> · empresa fictícia de estudo · a partir do inventário e da pesquisa interna (22 de 40 pessoas)</p><ol><li><b>Em uso:</b> 7 ferramentas de IA. 2 oficiais (Hora, assistente de e-mail do comercial), 1 montada pela TI fora da lista (resumo de atendimento) e 4 por conta própria (extensão que resume e-mails, app que grava visitas, chatbot gratuito em conta pessoal, complemento de planilha com acesso a todos os arquivos).</li><li><b>Com dono do negócio:</b> 0 de 7. As três da TI estão com o Rafael; as quatro por conta própria não têm dono.</li><li><b>Com medida e ponto de partida:</b> 0 de 7. A Hora tem painel, mas sem ponto de partida.</li><li><b>Ligadas a um processo com dono:</b> 0 de 7.</li><li><b>Primeira ação:</b> a Patrícia assume a Hora e o assistente de e-mail; a Juliana, o resumo; o Carlos decide até 31/10 sobre as quatro por conta própria.</li></ol>"
+          },
+          {
+            "rot": "Como conferir",
+            "html": "<ol><li>A linha 1 separa oficiais, montadas fora da lista e por conta própria.</li><li>As linhas 2 a 4 são contagens (\"x de N\"), não adjetivos.</li><li>A primeira ação tem nome e data.</li><li>Erro comum: contar só o que está no inventário da TI. Na Horizonte, isso mostraria 2 ferramentas de IA, e são 7.</li></ol>"
+          }
+        ]
+      }
     },
     {
       "tipo": "pratica",
@@ -75,12 +159,20 @@
       "sub": "A Horizonte para treinar a contagem; a sua empresa para valer.",
       "fonte": "Peças do laboratório: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">inventário de TI e pesquisa interna</a> e <a href=\"https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/\">resumo de atendimento</a> (empresa fictícia de estudo).",
       "exercicios": [
-        {"id": "e1", "titulo": "1 · O diagnóstico da Horizonte", "min": "20 min",
-         "texto": "Com o inventário oficial, as 22 respostas da pesquisa interna e a peça do resumo de atendimento abertos, conte as ferramentas de IA em uso na Horizonte e preencha as cinco linhas sem olhar o exemplo. Depois compare a sua contagem com a do exemplo.",
-         "pronto": "as cinco linhas estão preenchidas com contagens \"x de N\", a linha 1 separa oficiais, fora da lista e por conta própria (e chega a 7), e a primeira ação tem um nome e uma data."},
-        {"id": "e2", "titulo": "2 · O diagnóstico da sua empresa", "min": "30 min",
-         "texto": "Peça a lista de ferramentas à TI e pergunte a pelo menos três pessoas de áreas diferentes que IA usam no trabalho, inclusive no celular e em contas pessoais. Preencha as cinco linhas, rode o prompt e mande o diagnóstico para quem decide na sua empresa.",
-         "pronto": "o diagnóstico tem as cinco linhas, a linha 1 inclui o que você ouviu de pelo menos três pessoas, há pelo menos uma ferramenta apontada como sem dono e a mensagem foi enviada a quem decide."}
+        {
+          "id": "e1",
+          "titulo": "1 · O diagnóstico da Horizonte",
+          "min": "20 min",
+          "texto": "Com o inventário oficial, as 22 respostas da pesquisa interna e a peça do resumo de atendimento abertos, conte as ferramentas de IA em uso na Horizonte e preencha as cinco linhas sem olhar o exemplo. Depois compare a sua contagem com a do exemplo.",
+          "pronto": "as cinco linhas estão preenchidas com contagens \"x de N\", a linha 1 separa oficiais, fora da lista e por conta própria (e chega a 7), e a primeira ação tem um nome e uma data."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · O diagnóstico da sua empresa",
+          "min": "30 min",
+          "texto": "Peça a lista de ferramentas à TI e pergunte a pelo menos três pessoas de áreas diferentes que IA usam no trabalho, inclusive no celular e em contas pessoais. Preencha as cinco linhas, rode o prompt e mande o diagnóstico para quem decide na sua empresa.",
+          "pronto": "o diagnóstico tem as cinco linhas, a linha 1 inclui o que você ouviu de pelo menos três pessoas, há pelo menos uma ferramenta apontada como sem dono e a mensagem foi enviada a quem decide."
+        }
       ]
     },
     {
@@ -88,45 +180,104 @@
       "titulo": "Teste rápido",
       "sub": "5 perguntas. A explicação aparece depois da sua tentativa.",
       "perguntas": [
-        {"p": "Um colega diz: \"Metade das empresas brasileiras já usa agentes\". O que está errado?",
-         "opcoes": ["Nada", "O 50% (Deloitte) é de empresas que adotaram IA de algum tipo; agentes integrados são 18% (GFT/BCG)", "O número certo é 40%"],
-         "certa": 1, "ref": "passos",
-         "explica": "Adotar IA e integrar agentes são perguntas diferentes. O erro clássico é pegar o número maior e trocar a definição."},
-        {"p": "O que a KPMG (04/2026) encontrou entre executivos brasileiros?",
-         "opcoes": ["45% relatam vários projetos de IA desconectados entre si", "45% desligaram seus agentes", "45% têm governança madura"],
-         "certa": 0, "ref": "passos",
-         "explica": "É o sintoma central desta aula: adoção alta, cada área com a sua iniciativa, nada se soma. Governança madura é o dado da Deloitte, e é de 27%."},
-        {"p": "Por que o diagnóstico da Horizonte encontra 7 ferramentas de IA, se o inventário oficial só mostra 2?",
-         "opcoes": ["Porque o inventário está desatualizado de propósito", "Porque uma foi montada pela TI fora da lista e quatro são usadas por conta própria, e só aparecem perguntando às pessoas", "Porque o diagnóstico conta também o antivírus"],
-         "certa": 1, "ref": "codigo",
-         "explica": "Contar só o que a TI registrou esconde a parte mais arriscada. A IA na sombra só aparece quando se pergunta a quem usa."},
-        {"p": "Na pesquisa da ABES e IDC (06/2026), quais obstáculos citados são de gestão, e não de tecnologia?",
-         "opcoes": ["Dados e sistemas legados", "Governança e falta de profissionais", "Nenhum"],
-         "certa": 1, "ref": "passos",
-         "explica": "Dados e legado são técnicos; governança e falta de gente preparada são de gestão. É o espaço que esta formação ocupa."},
-        {"p": "Qual é a seta de volta do diagrama?",
-         "opcoes": ["Desligar toda a IA", "O diagnóstico: trazer cada ferramenta para um dono e uma medida", "Contratar um fornecedor único"],
-         "certa": 1, "ref": "diagrama",
-         "explica": "Proibir empurra o uso para mais longe da vista; fornecedor único não dá dono a nada. O caminho de volta começa contando o que existe e nomeando quem responde."}
+        {
+          "p": "Um colega diz: \"Metade das empresas brasileiras já usa agentes\". O que está errado?",
+          "opcoes": [
+            "Nada",
+            "O 50% (Deloitte) é de empresas que adotaram IA de algum tipo; agentes integrados são 18% (GFT/BCG)",
+            "O número certo é 40%"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Adotar IA e integrar agentes são perguntas diferentes. O erro clássico é pegar o número maior e trocar a definição."
+        },
+        {
+          "p": "O que a KPMG (04/2026) encontrou entre executivos brasileiros?",
+          "opcoes": [
+            "45% desligaram seus agentes",
+            "45% têm governança madura",
+            "45% relatam vários projetos de IA desconectados entre si"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "É o sintoma central desta aula: adoção alta, cada área com a sua iniciativa, nada se soma. Governança madura é o dado da Deloitte, e é de 27%."
+        },
+        {
+          "p": "Por que o diagnóstico da Horizonte encontra 7 ferramentas de IA, se o inventário oficial só mostra 2?",
+          "opcoes": [
+            "Porque uma foi montada pela TI fora da lista e quatro são usadas por conta própria, e só aparecem perguntando às pessoas",
+            "Porque o inventário está desatualizado de propósito",
+            "Porque o diagnóstico conta também o antivírus"
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "Contar só o que a TI registrou esconde a parte mais arriscada. A IA na sombra só aparece quando se pergunta a quem usa."
+        },
+        {
+          "p": "Na pesquisa da ABES e IDC (06/2026), quais obstáculos citados são de gestão, e não de tecnologia?",
+          "opcoes": [
+            "Dados e sistemas legados",
+            "Governança e falta de profissionais",
+            "Nenhum"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Dados e legado são técnicos; governança e falta de gente preparada são de gestão. É o espaço que esta formação ocupa."
+        },
+        {
+          "p": "Qual é a seta de volta do diagrama?",
+          "opcoes": [
+            "Desligar toda a IA",
+            "Contratar um fornecedor único",
+            "O diagnóstico: trazer cada ferramenta para um dono e uma medida"
+          ],
+          "certa": 2,
+          "ref": "diagrama",
+          "explica": "Proibir empurra o uso para mais longe da vista; fornecedor único não dá dono a nada. O caminho de volta começa contando o que existe e nomeando quem responde."
+        }
       ]
     },
     {
       "tipo": "resumo",
       "titulo": "Resumo",
       "itens": [
-        {"t": "Muita adoção", "texto": "50% adotaram IA; 18% integram agentes; 40% investem."},
-        {"t": "Pouca gestão", "texto": "45% com projetos desconectados; 27% com governança madura."},
-        {"t": "Definição primeiro", "texto": "Adotar, investir, integrar e usar contam coisas diferentes."},
-        {"t": "Cinco linhas", "texto": "O que existe, dono, medida, processo e a primeira ação."}
+        {
+          "t": "Muita adoção",
+          "texto": "50% adotaram IA; 18% integram agentes; 40% investem."
+        },
+        {
+          "t": "Pouca gestão",
+          "texto": "45% com projetos desconectados; 27% com governança madura."
+        },
+        {
+          "t": "Definição primeiro",
+          "texto": "Adotar, investir, integrar e usar contam coisas diferentes."
+        },
+        {
+          "t": "Cinco linhas",
+          "texto": "O que existe, dono, medida, processo e a primeira ação."
+        }
       ]
     },
     {
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "GFT: Brasil lidera adoção de IA agêntica (Tech Trends 2026 LATAM)", "href": "https://www.gft.com/br/pt/about-us/newsroom/press-and-news/2026/press-releases/brasil-lidera-adocao-de-ia-agentica", "icone": "grafico"},
-        {"t": "KPMG: ganhos e desafios da era da inteligência (04/2026)", "href": "https://kpmg.com/br/pt/insights/2026/04/ganhos-desafios-era-inteligencia.html", "icone": "arquivo"},
-        {"t": "Laboratório Horizonte: inventário de TI e pesquisa interna (empresa fictícia de estudo)", "href": "https://inematds.github.io/prof2030-lab/inventario.html", "icone": "lista"}
+        {
+          "t": "GFT: Brasil lidera adoção de IA agêntica (Tech Trends 2026 LATAM)",
+          "href": "https://www.gft.com/br/pt/about-us/newsroom/press-and-news/2026/press-releases/brasil-lidera-adocao-de-ia-agentica",
+          "icone": "grafico"
+        },
+        {
+          "t": "KPMG: ganhos e desafios da era da inteligência (04/2026)",
+          "href": "https://kpmg.com/br/pt/insights/2026/04/ganhos-desafios-era-inteligencia.html",
+          "icone": "arquivo"
+        },
+        {
+          "t": "Laboratório Horizonte: inventário de TI e pesquisa interna (empresa fictícia de estudo)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lista"
+        }
       ]
     }
   ]

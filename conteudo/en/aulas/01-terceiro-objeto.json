@@ -231,21 +231,21 @@
           "p": "What does the 2027 era add to the earlier ones?",
           "opcoes": [
             "It replaces people management with agent management",
-            "It coordinates humans, agents, processes, models and compute budget at the same time",
-            "It swaps process design for agents that decide everything"
+            "It swaps process design for agents that decide everything",
+            "It coordinates humans, agents, processes, models and compute budget at the same time"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "diagrama",
           "explica": "Each era adds, none erases. The role still comes from people management and the design from process management. The agent is the third object, and it brings the model, context and cost along with it."
         },
         {
           "p": "Horizonte wants to put an agent in place to speed up order checking, which today goes through three people. What is the first question?",
           "opcoes": [
-            "Which AI model is the fastest",
             "If I had humans, agents and automations today, would this checking still exist in this form?",
+            "Which AI model is the fastest",
             "How much time the agent will save"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Speeding up an old process delivers the error faster. First you ask whether the step needs to exist this way; the model and the time come later. That's the subject of G2."
         },
@@ -264,21 +264,21 @@
           "p": "Which of these are management questions, not technical ones?",
           "opcoes": [
             "What programming language the agent uses",
-            "Who is accountable for the agent, what it does on its own, how it is measured and how much each result costs",
-            "Which server the agent runs on"
+            "Which server the agent runs on",
+            "Who is accountable for the agent, what it does on its own, how it is measured and how much each result costs"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "The four questions are the same ones you ask about a new employee. IT can answer where the agent runs; the business answers for what it does."
         },
         {
           "p": "How should you treat the sentence \"2026 is the year companies stop building agents and start operating them\"?",
           "opcoes": [
-            "As survey data",
             "As the opinion of a column, useful for describing the shift, with no number behind it",
+            "As survey data",
             "As an official market forecast"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "It is an IT Forum column. Opinion can help you understand the moment, but it does not support a decision on its own. In lesson 5 you learn to tell opinion, survey and forecast apart."
         }

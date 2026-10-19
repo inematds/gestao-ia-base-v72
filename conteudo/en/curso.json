@@ -104,7 +104,7 @@
           "img": "assets/img/cursos/g0.jpg"
         },
         {
-          "rot": "G2 · processes",
+          "rot": "G2 · processes · published",
           "t": "Processes: a process is not sacred",
           "l": "Take the process apart before automating it: eliminate, simplify, redesign and decide who does each step.",
           "href": "https://inematds.github.io/gestao-ia-processos-v72/",
@@ -120,7 +120,7 @@
           "img": "assets/img/cursos/g3.jpg"
         },
         {
-          "rot": "G4 · resources",
+          "rot": "G4 · resources · published",
           "t": "Resources: models, data and budget",
           "l": "Choose a model for each case, take care of context and company knowledge, and measure cost per result.",
           "href": "https://inematds.github.io/gestao-ia-recursos-v72/",

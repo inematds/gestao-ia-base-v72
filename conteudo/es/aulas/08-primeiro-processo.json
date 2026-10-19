@@ -81,7 +81,7 @@
           ],
           "exemplo": {
             "rot": "En Horizonte",
-            "texto": "Candidatos: el pedido por WhatsApp hasta la facturación, la cobranza (que Carlos quiere poner con Hora en noviembre) y el resumen diario de atención."
+            "texto": "Candidatos: el pedido por WhatsApp hasta la facturación, el cobro (Carlos decide en noviembre si Hora pasa a ocuparse de él) y el resumen diario de atención."
           }
         },
         {
@@ -176,9 +176,9 @@
         },
         {
           "titulo": "Pocos agentes en uso real",
-          "sub": "encuestas",
+          "sub": "investigación y análisis de mercado",
           "texto": [
-            "Gartner (2026): solo el 17% de las empresas tiene agentes en uso, en el mundo. GFT, Tech Trends 2026 LATAM con datos de BCG: el 18% de las empresas brasileñas integra agentes, frente al 13% en el mundo.",
+            "Gartner (2026, Hype Cycle de IA agéntica): solo el 17% de las empresas tiene agentes en uso, en el mundo. GFT, Tech Trends 2026 LATAM con datos de BCG: el 18% de las empresas brasileñas integra agentes, contra el 13% en el mundo.",
             "Definiciones distintas, misma lectura: quien está empezando ahora no está atrasado respecto a la mayoría."
           ],
           "exemplo": {
@@ -357,32 +357,32 @@
           "p": "¿Por dónde empezar la formación, según esta clase?",
           "opcoes": [
             "Por la herramienta más nueva del mercado",
-            "Por un proceso de tu empresa, elegido por volumen, regla y daño conocido",
-            "Por la certificación más conocida"
+            "Por la certificación más conocida",
+            "Por un proceso de tu empresa, elegido por volumen, regla y daño conocido"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "diagrama",
           "explica": "La herramienta cambia en meses; el proceso y la medida se quedan. Los tres filtros ayudan a elegir un primer proceso en el que se puede aprender sin un gran estropicio."
         },
         {
           "p": "¿Por qué medir el proceso durante dos semanas antes de cambiar cualquier cosa?",
           "opcoes": [
-            "Para generar un informe para la dirección",
             "Para tener el punto de partida que permite decir, después, si mejoró",
+            "Para generar un informe para la dirección",
             "Porque el agente necesita datos para entrenar"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Sin un punto de partida, todo número posterior se vuelve impresión. Es lo que pasó con el panel de Hora, que empezó el día en que se encendió."
         },
         {
           "p": "Tu mayor duda es \"¿esta etapa de revisión todavía debería existir?\". ¿Cuál es el curso siguiente?",
           "opcoes": [
-            "G2 · Procesos",
             "G4 · Recursos",
+            "G2 · Procesos",
             "G5 · Gobernar, medir y evolucionar"
           ],
-          "certa": 0,
+          "certa": 1,
           "ref": "passos",
           "explica": "Preguntarse si una etapa debería existir es arquitectura del trabajo: el tema de G2, que enseña a desarmar el proceso antes de automatizar."
         },
@@ -390,10 +390,10 @@
           "p": "El Agent Builder de AgentKit será desactivado el 30/11/2026. ¿Qué enseña esto sobre el primer proceso?",
           "opcoes": [
             "Que es mejor esperar a que las herramientas se estabilicen",
-            "Que el proceso y la medida deben elegirse antes que la herramienta, porque sobreviven a su reemplazo",
-            "Que solo se debe usar una marca de proveedor"
+            "Que solo se debe usar una marca de proveedor",
+            "Que el proceso y la medida deben elegirse antes que la herramienta, porque sobreviven a su reemplazo"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Un producto sale de línea y cambia de precio en meses. Quien eligió el proceso y midió el punto de partida cambia de herramienta sin perder lo que aprendió."
         }

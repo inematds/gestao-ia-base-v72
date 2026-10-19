@@ -57,8 +57,16 @@ Somas (conferidas à mão): melhor caminho 2 + 2 + 2 = **6** (`fim-bom`). `fim-c
 - Aula 8: painel "O que mudou" com fatos datados, enquadrado na escolha do primeiro processo (não copia as 4 abas do G3).
 
 ## Página inicial
-- `inicio.cursos`: os 6 cursos na ordem sugerida **G0 → G2 → G3 → G4 → G1 → G5** (G1 pode vir em paralelo; quem é de RH entra por ele). Cartões: G0 = capa própria; G3 = capa do piloto publicado; os outros = recortes das fotos deste curso (padrão do `loop-r-eng-base-v72`), até os irmãos terem capa.
-- Links para G1, G2, G4, G5 dão 404 até serem publicados (esperado).
+- `inicio.cursos`: os 6 cursos na ordem sugerida **G0 → G2 → G3 → G4 → G1 → G5** (G1 pode vir em paralelo; quem é de RH entra por ele). Cartões: G0 = capa própria; G2, G3 e G4 = capas reais dos cursos publicados (copiadas de `https://inematds.github.io/<repo>/assets/img/capa.jpg` em 19/10, porque o motor só aceita `img` local); G1 e G5 = recortes das fotos deste curso até terem capa.
+- Links para G1 e G5 dão 404 até serem publicados (esperado).
+
+## Revisão independente (19/10/2026)
+- Aula 3: o objeto **contexto** passou de G3 para **G4** (o G4 ensina o pacote de contexto com dono; rubrica item 5).
+- Aula 4: `sub` dos 8 nós com uma palavra (a pergunta foi para o `detalhe`), porque quebrava palavra por palavra no desktop; corrigida a soma por metade da Patrícia (governança é da 2ª metade).
+- Quizzes: a certa estava na posição B em 33 de 37 perguntas; posições redistribuídas (o motor não embaralha).
+- Aula 5: "formar a Juliana para decidir as exceções" (antes "para me substituir", que enfraquecia o argumento); crítica do WTI atribuída ao The Microsoft Cloud Blog sem "até". Gartner 17% com a origem (Hype Cycle de IA agêntica) nas aulas 5, 6 e 8.
+- Aula 7: AAIR sem descrição de conteúdo (só fonte secundária); cursos pagos brasileiros sem nomes de escola (sem citar curso de terceiros); "CISM ou CISSP" na AAISM.
+- Aula 8: a cobrança é decisão do Carlos em novembro (frase do painel do lab), não plano fechado.
 
 ## Decisões
 - **Capa sem texto** (brief, passo 6, e convenção 8 do piloto), por isso não há `capa-en/es`. O SKILL.md fala em capa com título em serifa; vale o brief desta formação.

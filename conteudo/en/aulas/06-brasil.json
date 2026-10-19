@@ -113,7 +113,7 @@
           "titulo": "Compare the definition",
           "sub": "before the number",
           "texto": [
-            "\"Adopted\" (50%), \"invest\" (40%), \"integrate\" (18%), and \"in use\" (17%, Gartner, worldwide) measure different things, with different samples and dates. You can't add them, subtract them, or say that one contradicts another.",
+            "\"Adopted\" (50%), \"investing\" (40%), \"integrating\" (18%), and \"in use\" (17%, Gartner, Hype Cycle for agentic AI, worldwide) measure different things, with different samples and dates. You can't add them, subtract them, or say that one contradicts another.",
             "Before you cite a number in a meeting, state the definition along with it: \"18% integrate agents, according to GFT with data from BCG.\" The people listening understand what the number counts."
           ],
           "exemplo": {
@@ -194,22 +194,22 @@
         {
           "p": "What did KPMG (04/2026) find among Brazilian executives?",
           "opcoes": [
-            "45% report several AI projects that are disconnected from one another",
             "45% turned off their agents",
-            "45% have mature governance"
+            "45% have mature governance",
+            "45% report several AI projects that are disconnected from one another"
           ],
-          "certa": 0,
+          "certa": 2,
           "ref": "passos",
           "explica": "This is the central symptom of this lesson: high adoption, each area with its own initiative, nothing adds up. Mature governance is the Deloitte figure, and it is 27%."
         },
         {
           "p": "Why does Horizonte's diagnosis find 7 AI tools if the official inventory shows only 2?",
           "opcoes": [
-            "Because the inventory is out of date on purpose",
             "Because one was built by IT outside the list and four are used on people's own initiative, and they only show up when you ask people",
+            "Because the inventory is out of date on purpose",
             "Because the diagnosis also counts antivirus software"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "codigo",
           "explica": "Counting only what IT has recorded hides the riskiest part. Shadow AI only shows up when you ask the people who use it."
         },
@@ -228,10 +228,10 @@
           "p": "What is the return arrow in the diagram?",
           "opcoes": [
             "Shut down all AI",
-            "The diagnosis: bring each tool to one owner and one measure",
-            "Hire a single vendor"
+            "Hire a single vendor",
+            "The diagnosis: bring each tool to one owner and one measure"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "diagrama",
           "explica": "Banning pushes use further out of sight; a single vendor gives nothing an owner. The way back starts with counting what exists and naming who answers for it."
         }

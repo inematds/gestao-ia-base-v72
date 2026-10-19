@@ -201,21 +201,21 @@
           "p": "The accounting posting agent prepared 40 payments. Who approves?",
           "opcoes": [
             "The agent itself, if the amount is low",
-            "A person with the authority limit for it: whoever posts does not approve",
-            "No one, if the agent got it right last month"
+            "No one, if the agent got it right last month",
+            "A person with the authority limit for it: whoever posts does not approve"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Separation of duties applies to the agent just as it did to the assistant. The agent goes up to the signature gate, never past it."
         },
         {
           "p": "The agent got the price wrong on three orders this week. Which response fits managing an agent?",
           "opcoes": [
-            "Talk to it about motivation",
             "Fix the instruction, create a test case with the error and check again",
+            "Talk to it about motivation",
             "Turn it off and switch tools"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "With an agent, an error becomes a corrected instruction and a test case. Talking about motivation is for people. Switching tools without understanding the error just carries the problem along."
         },
@@ -234,10 +234,10 @@
           "p": "Which of these sentences treats people like machines?",
           "opcoes": [
             "Measuring Hora by the percentage of requests accepted without correction",
-            "Evaluating Juliana only by the number of conversations she closed, without talking about what changed in her work",
-            "Talking with Juliana about her exception load"
+            "Talking with Juliana about her exception load",
+            "Evaluating Juliana only by the number of conversations she closed, without talking about what changed in her work"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Measuring the agent by numbers is right. Reducing the person to a number, with no conversation about workload and future, is the opposite mistake. The comparison helps up to this point."
         }

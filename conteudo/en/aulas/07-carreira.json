@@ -137,7 +137,7 @@
         "abas": [
           {
             "rot": "Overview (Oct/2026)",
-            "html": "<table><thead><tr><th>Credential</th><th>What it covers</th><th>Prerequisite</th><th>Manage an agent?</th></tr></thead><tbody><tr><td><b>AIGP</b> · IAPP, since 04/2024</td><td>governance and responsible AI; strong on privacy and legal</td><td>none</td><td>governs; doesn't teach how to run the agent day to day</td></tr><tr><td><b>AAISM</b> · ISACA, 08/2025</td><td>AI governance and program, risk and controls, from the security side</td><td>requires CISM or CISSP</td><td>for those already in security</td></tr><tr><td><b>AAIR</b> · ISACA</td><td>AI risk for IT risk professionals</td><td>only a secondary source exists; check at isaca.org</td><td>not confirmed</td></tr><tr><td><b>ISO/IEC 42001</b> · lead auditor or lead implementer</td><td>audit or implement the AI management system; the standard certifies the company, the course trains the person</td><td>varies by body</td><td>shows up in vendor questionnaires; it is not an agent routine</td></tr><tr><td><b>Vendor credentials</b> · NVIDIA, GitHub, Google, Oracle, IBM</td><td>build and deploy agents in each vendor's tool</td><td>varied</td><td>they are about building, not managing</td></tr><tr><td><b>Brazilian courses</b> · ESPM, PUC-Rio, Anhembi Morumbi, Vanzolini, CBEXS, MIT Professional (in Portuguese)</td><td>management and leadership with AI, some with agents</td><td>paid; from 4 hours to 10 months</td><td>they are courses, not an independent certification</td></tr><tr><td><b>INEMA \"AI Manager\"</b> · coming soon at cert.inema.pro</td><td>the 6 courses in this program</td><td>qualification exam</td><td>yes, it is the focus; but it is a qualification, not regulated</td></tr></tbody></table><p>The INEMA certificate is a qualification, not a regulated professional certification, and does not replace AIGP or ISO/IEC 42001 when your role or your client requires one of them.</p>"
+            "html": "<table><thead><tr><th>Credential</th><th>What it covers</th><th>Prerequisite</th><th>Managing an agent?</th></tr></thead><tbody><tr><td><b>AIGP</b> · IAPP, since 04/2024</td><td>governance and responsible AI; strong on privacy and legal</td><td>none</td><td>governs; doesn't teach you to run the agent day to day</td></tr><tr><td><b>AAISM</b> · ISACA, 08/2025</td><td>AI governance and program, risk and controls, from the security side</td><td>requires CISM or CISSP</td><td>for those already in security</td></tr><tr><td><b>AAIR</b> · ISACA</td><td>not confirmed: only a secondary source exists</td><td>check at isaca.org</td><td>not confirmed</td></tr><tr><td><b>ISO/IEC 42001</b> · lead auditor or lead implementer</td><td>audit or implement the AI management system; the standard certifies the company, the course trains the person</td><td>varies by certifying body</td><td>shows up in vendor questionnaires; it's not agent routine</td></tr><tr><td><b>Vendor credentials</b> · NVIDIA, GitHub, Google, Oracle, IBM</td><td>build and deploy agents on each vendor's tool</td><td>varies</td><td>they're about building, not managing</td></tr><tr><td><b>Courses from schools and universities</b> · offered in Brazil, in Portuguese</td><td>management and leadership with AI, some with agents</td><td>paid; from 4 hours to 10 months</td><td>they're courses, not an independent certification</td></tr><tr><td><b>INEMA \"AI Manager\"</b> · coming soon at cert.inema.pro</td><td>the 6 courses of this program</td><td>qualification exam</td><td>yes, it's the focus; but it's a qualification, not regulated</td></tr></tbody></table><p>The INEMA certificate is a qualification, not a regulated professional certification, and it doesn't replace AIGP or ISO/IEC 42001 when the role or the client requires one of them.</p>"
           },
           {
             "rot": "How to check",
@@ -202,11 +202,11 @@
         {
           "p": "What leaves and what grows in the work of a manager who becomes a hybrid team manager?",
           "opcoes": [
-            "Coordinating leaves; making reports grows",
             "Passing along information and the report leave; coordinating, deciding authority limits, reviewing results and developing people grow",
+            "Coordinating leaves; making reports grows",
             "Everything leaves; the agent takes over management"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "AI does the handoff and the report well. Coordinating, setting limits, reviewing and developing people remain work for people."
         },
@@ -219,16 +219,16 @@
           ],
           "certa": 1,
           "ref": "codigo",
-          "explica": "No independent agent-management certification was found as of Oct 2026. The AIGP is about governance and has no prerequisite; the CISSP is a requirement for the AAISM."
+          "explica": "No independent certification in agent management was found in Oct/2026. AIGP is about governance and has no prerequisite; CISM or CISSP are required for AAISM."
         },
         {
           "p": "What are the NVIDIA, GitHub, Google and Oracle credentials about agents for?",
           "opcoes": [
             "To manage agents from any vendor",
-            "To build and deploy agents on each vendor's own tool",
-            "To audit the company's AI management system"
+            "To audit the company's AI management system",
+            "To build and deploy agents on each vendor's own tool"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "codigo",
           "explica": "They are about building, not managing. Auditing the management system is the field of ISO/IEC 42001."
         },

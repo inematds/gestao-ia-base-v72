@@ -201,21 +201,21 @@
           "p": "El agente de registros de la contabilidad preparó 40 pagos. ¿Quién aprueba?",
           "opcoes": [
             "El propio agente, si el valor es bajo",
-            "Una persona con nivel de autorización para eso: quien registra no aprueba",
-            "Nadie, si el agente acertó el mes pasado"
+            "Nadie, si el agente acertó el mes pasado",
+            "Una persona con nivel de autorización para eso: quien registra no aprueba"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "La separación de funciones vale para el agente como valía para el auxiliar. El agente llega hasta la puerta de la firma, nunca más allá."
         },
         {
           "p": "El agente se equivocó en el precio de tres pedidos en la semana. ¿Qué respuesta combina con gestionar un agente?",
           "opcoes": [
-            "Conversar con él sobre motivación",
             "Corregir la instrucción, crear un caso de prueba con el error y revisar de nuevo",
+            "Conversar con él sobre motivación",
             "Apagarlo y cambiar de herramienta"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "En el agente, el error se vuelve instrucción corregida y caso de prueba. Conversar sobre motivación es con las personas. Cambiar de herramienta sin entender el error solo lleva el problema contigo."
         },
@@ -234,10 +234,10 @@
           "p": "¿Cuál de estas frases trata a las personas como máquinas?",
           "opcoes": [
             "Medir a Hora por el porcentaje de pedidos aceptados sin corrección",
-            "Evaluar a Juliana solo por la cantidad de conversaciones que cerró, sin conversar sobre lo que cambió en su trabajo",
-            "Conversar con Juliana sobre la carga de excepciones"
+            "Conversar con Juliana sobre la carga de excepciones",
+            "Evaluar a Juliana solo por la cantidad de conversaciones que cerró, sin conversar sobre lo que cambió en su trabajo"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Medir al agente con números es lo correcto. Reducir a la persona a un número, sin conversar sobre carga y futuro, es el error inverso. La comparación ayuda hasta aquí."
         }

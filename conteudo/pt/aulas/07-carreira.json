@@ -137,7 +137,7 @@
         "abas": [
           {
             "rot": "Quadro (out/2026)",
-            "html": "<table><thead><tr><th>Credencial</th><th>O que cobre</th><th>Pré-requisito</th><th>Gerenciar agente?</th></tr></thead><tbody><tr><td><b>AIGP</b> · IAPP, desde 04/2024</td><td>governança e IA responsável; forte em privacidade e jurídico</td><td>nenhum</td><td>governa; não ensina a operar o agente no dia a dia</td></tr><tr><td><b>AAISM</b> · ISACA, 08/2025</td><td>governança e programa de IA, risco e controles, pelo lado da segurança</td><td>exige CISM ou CISSP</td><td>para quem já é de segurança</td></tr><tr><td><b>AAIR</b> · ISACA</td><td>risco de IA para profissionais de risco de TI</td><td>só há fonte secundária; conferir em isaca.org</td><td>não confirmado</td></tr><tr><td><b>ISO/IEC 42001</b> · lead auditor ou lead implementer</td><td>auditar ou implantar o sistema de gestão de IA; a norma certifica a empresa, o curso forma a pessoa</td><td>varia por organismo</td><td>aparece em questionário de fornecedor; não é rotina de agente</td></tr><tr><td><b>Credenciais de fornecedor</b> · NVIDIA, GitHub, Google, Oracle, IBM</td><td>construir e implantar agentes na ferramenta de cada fornecedor</td><td>variado</td><td>são de construir, não de gerenciar</td></tr><tr><td><b>Cursos brasileiros</b> · ESPM, PUC-Rio, Anhembi Morumbi, Vanzolini, CBEXS, MIT Professional (em português)</td><td>gestão e liderança com IA, alguns com agentes</td><td>pagos; de 4 horas a 10 meses</td><td>são cursos, não certificação independente</td></tr><tr><td><b>INEMA \"Gestor de IA\"</b> · em breve no cert.inema.pro</td><td>os 6 cursos desta formação</td><td>prova de qualificação</td><td>sim, é o foco; mas é qualificação, não regulada</td></tr></tbody></table><p>A certificação INEMA é de qualificação, não profissional regulada, e não substitui AIGP ou ISO/IEC 42001 quando o cargo ou o cliente exige uma delas.</p>"
+            "html": "<table><thead><tr><th>Credencial</th><th>O que cobre</th><th>Pré-requisito</th><th>Gerenciar agente?</th></tr></thead><tbody><tr><td><b>AIGP</b> · IAPP, desde 04/2024</td><td>governança e IA responsável; forte em privacidade e jurídico</td><td>nenhum</td><td>governa; não ensina a operar o agente no dia a dia</td></tr><tr><td><b>AAISM</b> · ISACA, 08/2025</td><td>governança e programa de IA, risco e controles, pelo lado da segurança</td><td>exige CISM ou CISSP</td><td>para quem já é de segurança</td></tr><tr><td><b>AAIR</b> · ISACA</td><td>não confirmado: só há fonte secundária</td><td>conferir em isaca.org</td><td>não confirmado</td></tr><tr><td><b>ISO/IEC 42001</b> · lead auditor ou lead implementer</td><td>auditar ou implantar o sistema de gestão de IA; a norma certifica a empresa, o curso forma a pessoa</td><td>varia por organismo</td><td>aparece em questionário de fornecedor; não é rotina de agente</td></tr><tr><td><b>Credenciais de fornecedor</b> · NVIDIA, GitHub, Google, Oracle, IBM</td><td>construir e implantar agentes na ferramenta de cada fornecedor</td><td>variado</td><td>são de construir, não de gerenciar</td></tr><tr><td><b>Cursos de escolas e universidades</b> · oferecidos no Brasil, em português</td><td>gestão e liderança com IA, alguns com agentes</td><td>pagos; de 4 horas a 10 meses</td><td>são cursos, não certificação independente</td></tr><tr><td><b>INEMA \"Gestor de IA\"</b> · em breve no cert.inema.pro</td><td>os 6 cursos desta formação</td><td>prova de qualificação</td><td>sim, é o foco; mas é qualificação, não regulada</td></tr></tbody></table><p>A certificação INEMA é de qualificação, não profissional regulada, e não substitui AIGP ou ISO/IEC 42001 quando o cargo ou o cliente exige uma delas.</p>"
           },
           {
             "rot": "Como conferir",
@@ -202,11 +202,11 @@
         {
           "p": "O que sai e o que cresce no trabalho do gerente que vira gestor de equipe híbrida?",
           "opcoes": [
-            "Sai coordenar; cresce fazer relatório",
             "Sai o repasse de informação e o relatório; crescem coordenar, decidir alçada, revisar resultado e formar gente",
+            "Sai coordenar; cresce fazer relatório",
             "Sai tudo; o agente assume a gerência"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "A IA faz bem o repasse e o relatório. Coordenar, decidir limites, revisar e formar continuam sendo trabalho de gente."
         },
@@ -219,16 +219,16 @@
           ],
           "certa": 1,
           "ref": "codigo",
-          "explica": "Nenhuma certificação independente de gestão de agentes foi encontrada em out/2026. A AIGP é de governança e não tem pré-requisito; o CISSP é exigência da AAISM."
+          "explica": "Nenhuma certificação independente de gestão de agentes foi encontrada em out/2026. A AIGP é de governança e não tem pré-requisito; CISM ou CISSP são exigência da AAISM."
         },
         {
           "p": "Para que servem as credenciais de NVIDIA, GitHub, Google e Oracle sobre agentes?",
           "opcoes": [
             "Para gerenciar agentes de qualquer fornecedor",
-            "Para construir e implantar agentes na ferramenta de cada fornecedor",
-            "Para auditar o sistema de gestão de IA da empresa"
+            "Para auditar o sistema de gestão de IA da empresa",
+            "Para construir e implantar agentes na ferramenta de cada fornecedor"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "codigo",
           "explica": "São de construir, não de gerenciar. Auditar o sistema de gestão é o campo da ISO/IEC 42001."
         },

@@ -38,50 +38,50 @@
         {
           "icone": "alvo",
           "titulo": "Strategy",
-          "sub": "result?",
-          "detalhe": "Result first, tool second. Don't start with the model or the platform. This is the skill for this course (G0): knowing what you want before you turn anything on."
+          "sub": "result",
+          "detalhe": "Question: what result do we want? Result first, tool second. Don't start with the model or the platform. This is the skill of this course (G0): knowing what you want before you turn anything on."
         },
         {
           "icone": "fila",
           "titulo": "Architecture",
-          "sub": "should it exist?",
-          "detalhe": "Work architecture: eliminate, simplify, redesign, and only then automate. Step by step, decide what is a person, an agent, a simple automation, or nothing. This is the G2 course."
+          "sub": "redesign",
+          "detalhe": "Question: should this process exist this way at all? Architecture of the work: eliminate, simplify, redesign, and only then automate. Step by step, decide what is a person, an agent, a simple automation, or nothing. This is course G2."
         },
         {
           "icone": "enviar",
           "titulo": "Delegation",
-          "sub": "what do I hand over?",
-          "detalhe": "Objective, responsibility, context, tools, deadline, and evidence of completion. Delegating means handing the agent work it can finish and you can check. This is the G3 course."
+          "sub": "handoff",
+          "detalhe": "Question: what exactly am I handing to the agent? Goal, responsibility, context, tools, deadline, and evidence of completion. Delegating means handing the agent work it can finish and you can check. This is course G3."
         },
         {
           "icone": "camadas",
           "titulo": "Orchestration",
-          "sub": "one or several?",
-          "detalhe": "One agent or several, in series or in parallel, with a person in the middle, a supervisor agent, or a reviewer. Split only when there is a signal for it. Also in the G3 course."
+          "sub": "combination",
+          "detalhe": "Question: one agent or several? One agent or several, in series or in parallel, with a person in the middle, a supervisor agent, or a reviewer. Split only when there is a signal for it. Also in course G3."
         },
         {
           "icone": "escudo",
           "titulo": "Governance",
-          "sub": "can it act alone?",
-          "detalhe": "Permissions, identity, credentials, records, and traceability. Authority limits before autonomy: what the agent does alone, what it confirms, and what it never executes. This is the G5 course."
+          "sub": "limits",
+          "detalhe": "Question: does it act on its own, confirm first, or never do it? Permissions, identity, credentials, logging, and traceability. Authority limits before autonomy: what the agent does on its own, what it confirms, and what it never executes. This is course G5."
         },
         {
           "icone": "grafico",
           "titulo": "Economics",
-          "sub": "how much does it cost?",
-          "detalhe": "Model, tokens, time, infrastructure: cost per run, per task, and per result. A cheap agent that makes mistakes and needs two tries cost double the price list. This is the G4 course."
+          "sub": "cost",
+          "detalhe": "Question: how much does the result cost? Model, tokens, time, infrastructure: cost per run, per task, and per result. A cheap agent that gets it wrong and needs two tries cost double the price list. This is course G4."
         },
         {
           "icone": "lupa",
           "titulo": "Evaluation",
-          "sub": "compared to what?",
-          "detalhe": "Quality, time, cost, failures, rework, autonomy, human intervention, and business results, always compared to a starting point. An agent gets a performance review. This is the G5 course."
+          "sub": "comparison",
+          "detalhe": "Question: is it good, compared to what? Quality, time, cost, failures, rework, autonomy, human intervention, and business result, always compared to a starting point. An agent gets a performance review. This is course G5."
         },
         {
           "icone": "relogio",
           "titulo": "Evolution",
-          "sub": "what did I learn?",
-          "detalhe": "The company stops asking only \"did the task finish?\" and starts asking what it learned from it. A tested improvement is promoted; one that made things worse is reverted. This is LOOP-R, in the G5 course."
+          "sub": "learning",
+          "detalhe": "Question: what did we learn? The company stops asking only \"did the task finish?\" and starts asking what it learned from it. A tested improvement is promoted; one that made things worse is rolled back. This is LOOP-R, in course G5."
         }
       ],
       "rolagem_fim": {
@@ -129,7 +129,7 @@
           ],
           "exemplo": {
             "rot": "At Horizonte",
-            "texto": "Patrícia has a 1 in delegation and governance (first half) and a 0 in economics and evolution (second). Both halves are weak."
+            "texto": "In the first half, Patrícia scores 1 in strategy and delegation and 0 in architecture and orchestration. In the second, 1 in governance and evaluation and 0 in economics and evolution. Both halves are weak: 2 of 12 in each."
           }
         },
         {
@@ -228,11 +228,11 @@
         {
           "p": "The last four competencies (governance, economics, evaluation, evolution) decide what?",
           "opcoes": [
-            "What the agent will do",
             "Whether the agent keeps doing it",
+            "What the agent will do",
             "Which tool to buy"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "The first four decide what the agent does; the last four, whether it continues: whether it is safe, how much it costs, whether it is good and how it improves."
         },

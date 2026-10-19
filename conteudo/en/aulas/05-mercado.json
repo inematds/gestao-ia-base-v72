@@ -106,7 +106,7 @@
           "titulo": "Gartner",
           "sub": "forecast",
           "texto": [
-            "Forecast made in October 2024: by the end of 2026, 1 in 5 organizations will use AI to flatten the structure and cut more than half of middle management roles. In 2026, the same Gartner reported that only 17% of companies have agents in use.",
+            "Forecast made in October 2024: by the end of 2026, 1 in 5 organizations will use AI to flatten their structure and cut more than half of middle management roles. In 2026, in the Hype Cycle for agentic AI, the same Gartner recorded that only 17% of companies have agents in use.",
             "Type: forecast, with a deadline that is coming due now. Critics point out that taking a layer off the org chart does not eliminate the work it did: coordinating, reviewing, training the people who join. That is where the agent manager comes in."
           ],
           "exemplo": {
@@ -195,7 +195,7 @@
               "comenta": "Maybe, but without a measure it's opinion against opinion. The dashboard has no starting point to prove either that it makes mistakes or that it gets things right."
             },
             {
-              "t": "I decide the 5% to 10% discounts, I approve orders above R$ 5 thousand, I take care of the exception queue and I'm training Juliana to replace me. That work doesn't disappear if the layer leaves the org chart.",
+              "t": "I decide the 5% to 10% discounts, I approve requests above R$ 5 mil, I take care of the exception queue, and I'm training Juliana to decide the customer service exceptions. That work doesn't disappear if the layer leaves the org chart.",
               "vai": "numero",
               "nota": 2,
               "comenta": "You listed the work that stays: authority limit, approval, exceptions and training people. It's the argument of the critics of flattening, now with an example from your own house."
@@ -273,21 +273,21 @@
           "p": "\"2 to 5 people supervising 50 to 100 agents\" (McKinsey) is what kind of claim?",
           "opcoes": [
             "Survey with a sample",
-            "Self-reported experience from the consultancy",
-            "Forecast with a deadline"
+            "Forecast with a deadline",
+            "Self-reported experience from the consultancy"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "It's what the consultancy observes and proposes based on its own clients, not a measured study. Use it to understand the direction, not to size your team."
         },
         {
           "p": "When was Gartner's forecast about cutting more than half of middle management made, and for when?",
           "opcoes": [
-            "In 2026, for 2030",
             "In October 2024, for the end of 2026",
+            "In 2026, for 2030",
             "It has no date"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "A forecast from Oct/2024 with a deadline at the end of 2026, which means you can already check it. And it says \"1 in 5 organizations,\" not all of them."
         },
@@ -300,27 +300,27 @@
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "The sample is large (20 thousand people), but the publisher sells the solution for what it measures, and the number isn't from your company. Even an analysis on The Microsoft Cloud Blog warns against using it alone in a business case."
+          "explica": "The sample is large (20 thousand people), but the publisher sells the solution to what it measures, and the number isn't from your company. An analysis published on The Microsoft Cloud Blog (05/2026) warns against using it alone in a business case."
         },
         {
           "p": "What is the argument of the critics of \"flattening\" middle management?",
           "opcoes": [
             "AI doesn't work",
-            "Removing the layer from the org chart doesn't eliminate its work: coordinating, reviewing, training newcomers",
-            "The average manager is irreplaceable by law"
+            "The average manager is irreplaceable by law",
+            "Removing the layer from the org chart doesn't eliminate its work: coordinating, reviewing, training newcomers"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "The work of coordinating, reviewing and training still exists. What changes is who does it and how; that's where the agent manager comes in."
         },
         {
           "p": "What is the last question on the critical reading sheet?",
           "opcoes": [
-            "Who the author is",
             "What applies to me: what I take away and what I need to measure here before deciding",
+            "Who the author is",
             "How many pages the report has"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "The report is a map. The sheet ends by turning the map into a measure for your company, with a deadline and an owner."
         }

@@ -106,7 +106,7 @@
           "titulo": "Gartner",
           "sub": "pronóstico",
           "texto": [
-            "Pronóstico hecho en octubre de 2024: para fines de 2026, 1 de cada 5 organizaciones usará IA para aplanar la estructura y recortar más de la mitad de los puestos de gerencia media. En 2026, el mismo Gartner registró que solo el 17% de las empresas tiene agentes en uso.",
+            "Pronóstico hecho en octubre de 2024: hasta fines de 2026, 1 de cada 5 organizaciones usará IA para aplanar la estructura y recortar más de la mitad de los puestos de gerencia media. En 2026, en el Hype Cycle de IA agéntica, el mismo Gartner registró que solo el 17% de las empresas tiene agentes en uso.",
             "Tipo: pronóstico, con un plazo que vence ahora. Los críticos recuerdan que sacar la capa del organigrama no elimina el trabajo que hacía: coordinar, revisar, formar a quien llega. Ahí es donde entra el gestor de agentes."
           ],
           "exemplo": {
@@ -195,7 +195,7 @@
               "comenta": "Puede ser, pero sin medida es opinión contra opinión. El panel no tiene un punto de partida para probar ni que ella se equivoca, ni que acierta."
             },
             {
-              "t": "Yo decido los descuentos del 5% al 10%, apruebo los pedidos de más de R$ 5 mil, me ocupo de la cola de excepciones y estoy formando a Juliana para que me reemplace. Ese trabajo no desaparece si la capa sale del organigrama.",
+              "t": "Yo decido los descuentos del 5% al 10%, apruebo los pedidos de más de R$ 5 mil, me ocupo de la cola de excepciones y estoy formando a Juliana para decidir las excepciones de la atención al cliente. Ese trabajo no desaparece si la capa sale del organigrama.",
               "vai": "numero",
               "nota": 2,
               "comenta": "Listaste el trabajo que queda: nivel de autorización, aprobación, excepciones y formación de personas. Es el argumento de los críticos del aplanamiento, ahora con el ejemplo de la casa."
@@ -273,21 +273,21 @@
           "p": "\"De 2 a 5 personas supervisando de 50 a 100 agentes\" (McKinsey) es qué tipo de afirmación?",
           "opcoes": [
             "Encuesta con muestra",
-            "Experiencia declarada de la consultora",
-            "Pronóstico con plazo"
+            "Pronóstico con plazo",
+            "Experiencia declarada de la consultora"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Es lo que la consultora observa y propone a partir de sus clientes, no un estudio medido. Sirve para entender la dirección, no para dimensionar tu equipo."
         },
         {
           "p": "El pronóstico de Gartner sobre recortar más de la mitad de la gerencia media se hizo cuándo, y para cuándo?",
           "opcoes": [
-            "En 2026, para 2030",
             "En octubre de 2024, para fines de 2026",
+            "En 2026, para 2030",
             "No tiene fecha"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Pronóstico de oct/2024 con plazo a fines de 2026, es decir, ya se puede comprobar. Y dice \"1 de cada 5 organizaciones\", no todas."
         },
@@ -300,27 +300,27 @@
           ],
           "certa": 1,
           "ref": "passos",
-          "explica": "La muestra es grande (20 mil personas), pero quien publica vende la solución de lo que mide y el número no es de tu empresa. Incluso un análisis del blog The Microsoft Cloud Blog advierte que no se use solo en un business case."
+          "explica": "La muestra es grande (20 mil personas), pero el publicador vende la solución de lo que mide y el número no es de tu empresa. Un análisis publicado en The Microsoft Cloud Blog (05/2026) advierte que no se lo use solo en un business case."
         },
         {
           "p": "Cuál es el argumento de los críticos del \"aplanamiento\" de la gerencia?",
           "opcoes": [
             "La IA no funciona",
-            "Quitar la capa del organigrama no elimina su trabajo: coordinar, revisar, formar a quien llega",
-            "El gerente medio es insustituible por ley"
+            "El gerente medio es insustituible por ley",
+            "Quitar la capa del organigrama no elimina su trabajo: coordinar, revisar, formar a quien llega"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "El trabajo de coordinación, revisión y formación sigue existiendo. Cambia quién lo hace y cómo; ahí es donde entra el gestor de agentes."
         },
         {
           "p": "Cuál es la última pregunta de la ficha de lectura crítica?",
           "opcoes": [
-            "Quién es el autor",
             "Qué vale para mí: qué me llevo y qué necesito medir aquí antes de decidir",
+            "Quién es el autor",
             "Cuántas páginas tiene el informe"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "El informe es un mapa. La ficha termina convirtiendo el mapa en una medida de tu empresa, con plazo y responsable."
         }

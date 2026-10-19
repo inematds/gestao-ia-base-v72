@@ -81,7 +81,7 @@
           ],
           "exemplo": {
             "rot": "At Horizonte",
-            "texto": "Candidates: the order that comes in by WhatsApp through to invoicing, collections (which Carlos wants to hand to Hora in November) and the daily customer service summary."
+            "texto": "Candidates: the order from WhatsApp through to billing, collections (Carlos decides in November whether Hora takes it over), and the daily customer service summary."
           }
         },
         {
@@ -176,9 +176,9 @@
         },
         {
           "titulo": "Few agents in real use",
-          "sub": "surveys",
+          "sub": "market research and analysis",
           "texto": [
-            "Gartner (2026): only 17% of companies have agents in use, worldwide. GFT, Tech Trends 2026 LATAM with data from BCG: 18% of Brazilian companies integrate agents, versus 13% worldwide.",
+            "Gartner (2026, Hype Cycle for agentic AI): only 17% of companies have agents in use, worldwide. GFT, Tech Trends 2026 LATAM with BCG data: 18% of Brazilian companies integrate agents, versus 13% worldwide.",
             "Different definitions, same reading: if you are just starting now, you are not behind most others."
           ],
           "exemplo": {
@@ -357,32 +357,32 @@
           "p": "Where should the program start, according to this lesson?",
           "opcoes": [
             "With the newest tool on the market",
-            "With a process in your company, chosen by volume, rules and known damage",
-            "With the best-known certificate"
+            "With the best-known certificate",
+            "With a process in your company, chosen by volume, rules and known damage"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "diagrama",
           "explica": "Tools change in months; the process and the measure stay. The three filters help you pick a first process where you can learn without big damage."
         },
         {
           "p": "Why measure the process for two weeks before changing anything?",
           "opcoes": [
-            "To produce a report for the board",
             "To have the starting point that lets you say, later, whether it got better",
+            "To produce a report for the board",
             "Because the agent needs data to train"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Without a starting point, every number that comes later becomes an impression. That is what happened with Hora's dashboard, which started on the day it was turned on."
         },
         {
           "p": "Your biggest question is \"should this checking step still exist?\" Which course comes next?",
           "opcoes": [
-            "G2 · Processes",
             "G4 · Resources",
+            "G2 · Processes",
             "G5 · Govern, measure and evolve"
           ],
-          "certa": 0,
+          "certa": 1,
           "ref": "passos",
           "explica": "Asking whether a step should exist is work architecture: the subject of G2, which teaches you to take the process apart before automating it."
         },
@@ -390,10 +390,10 @@
           "p": "AgentKit's Agent Builder will be shut down on 11/30/2026. What does this teach about the first process?",
           "opcoes": [
             "That it is better to wait for the tools to stabilize",
-            "That the process and the measure should be chosen before the tool, because they outlast the tool's replacement",
-            "That you should only use one vendor's brand"
+            "That you should only use one vendor's brand",
+            "That the process and the measure should be chosen before the tool, because they outlast the tool's replacement"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Products get discontinued and change price within months. If you chose the process and measured the baseline, you can switch tools without losing what you learned."
         }

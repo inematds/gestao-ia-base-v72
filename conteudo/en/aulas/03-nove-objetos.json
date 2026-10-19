@@ -69,14 +69,9 @@
               "icone": "robo",
               "t": "agents",
               "sub": "roles and authority limits"
-            },
-            {
-              "icone": "memoria",
-              "t": "context",
-              "sub": "what each one receives"
             }
           ],
-          "detalhe": "Each agent, with a role, a goal and authority limits, and the context it receives to do its work. Poorly kept context is the most common cause of an agent that \"makes things up\": it only knows what is written down."
+          "detalhe": "Each agent, with a role, a goal, and an authority limit: what it does on its own, what it prepares for approval, what it never does. Without this written down, the agent decides its own limit."
         },
         {
           "icone": "chip",
@@ -94,6 +89,11 @@
               "sub": "that each agent calls"
             },
             {
+              "icone": "memoria",
+              "t": "context",
+              "sub": "what each agent receives"
+            },
+            {
               "icone": "arquivo",
               "t": "knowledge",
               "sub": "in a form the agent reads"
@@ -104,7 +104,7 @@
               "sub": "tokens, time, infrastructure"
             }
           ],
-          "detalhe": "The resources that drive the agents: the model, the tools, the company's knowledge written in a way the agent can read, and the compute budget. The cost question changes from \"how much does one call cost?\" to \"how much does it cost to produce the result?\"."
+          "detalhe": "The resources that move the agents: the model, the tools, the context each agent receives, the company's knowledge written in a way the agent can read, and the compute budget. Poorly kept context is the most common cause of an agent that \"makes things up\": it only knows what is written down. The cost question changes from \"how much does one call cost?\" to \"how much does it cost to produce the result?\"."
         },
         {
           "icone": "escudo",
@@ -198,7 +198,7 @@
         {
           "rot": "Map of the 9 objects in my area",
           "icone": "camadas",
-          "conteudo": "MAP OF THE 9 OBJECTS · <area> · <company> · <date>\n\nOBJECT          | WHAT IT IS HERE                | OWNER TODAY      | RIGHT OWNER (answers) | WHO MAINTAINS | COURSE\n1 People        | <who, what stays with them>    | <name/no owner>  | <name>                | -             | G1\n2 Agents        | <each agent in use>            | <name/no owner>  | <name>                | <name>        | G3\n3 Models        | <what powers each agent>       | <name/no owner>  | <name>                | <name>        | G4\n4 Processes     | <process and version>          | <name/no owner>  | <name>                | -             | G2\n5 Tools         | <what each agent can call>     | <name/no owner>  | <name>                | <name>        | G4\n6 Permissions   | <who can do what, credentials> | <name/no owner>  | <name>                | <name>        | G5\n7 Context       | <what each agent receives>     | <name/no owner>  | <name>                | <name>        | G3\n8 Knowledge     | <tables, policies, manuals>    | <name/no owner>  | <name>                | <name>        | G4\n9 Budget        | <cost per month / per result>  | <name/no owner>  | <name>                | <name>        | G4\n\nNO OWNER TODAY: <list>\nBIGGEST RISK: <object> because <reason>\nFIRST DECISION: <who takes what, by when>"
+          "conteudo": "MAP OF THE 9 OBJECTS · <area> · <company> · <date>\n\nOBJECT          | WHAT IT IS HERE                | OWNER TODAY      | RIGHT OWNER (answers) | WHO MAINTAINS | COURSE\n1 People        | <who, what stays with them>    | <name/no owner>  | <name>                | -             | G1\n2 Agents        | <each agent in use>            | <name/no owner>  | <name>                | <name>        | G3\n3 Models        | <what moves each agent>        | <name/no owner>  | <name>                | <name>        | G4\n4 Processes     | <process and version>          | <name/no owner>  | <name>                | -             | G2\n5 Tools         | <what each agent can call>     | <name/no owner>  | <name>                | <name>        | G4\n6 Permissions   | <who can do what, credentials> | <name/no owner>  | <name>                | <name>        | G5\n7 Context       | <what each agent receives>     | <name/no owner>  | <name>                | <name>        | G4\n8 Knowledge     | <tables, policies, manuals>    | <name/no owner>  | <name>                | <name>        | G4\n9 Budget        | <cost per month / per result>  | <name/no owner>  | <name>                | <name>        | G4\n\nNO OWNER TODAY: <list>\nBIGGEST RISK: <object> because <reason>\nFIRST DECISION: <who takes what, by when>"
         },
         {
           "rot": "Prompt · find gaps in the map",
@@ -250,11 +250,11 @@
         {
           "p": "Which of these is NOT among the nine management objects?",
           "opcoes": [
-            "Compute budget",
             "The company org chart",
+            "Compute budget",
             "Context each agent receives"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "The nine are people, agents, models, processes, tools, permissions, context, knowledge and compute budget. The org chart shows people; the invisible objects don't appear on it."
         },
@@ -273,21 +273,21 @@
           "p": "Why start the map with the invisible objects?",
           "opcoes": [
             "Because they are the most expensive",
-            "Because context, knowledge, permissions and budget don't show up on an org chart, and they are the ones most likely to have no owner",
-            "Because they are technical and IT has to fill them in first"
+            "Because they are technical and IT has to fill them in first",
+            "Because context, knowledge, permissions and budget don't show up on an org chart, and they are the ones most likely to have no owner"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "That's where the risk nobody sees lives: customer data leaking out, a tool that deletes things, a cost with no owner. And the business decides about them, not just IT."
         },
         {
           "p": "Deloitte (Tech Trends 2026) calls agents a \"silicon-based\" workforce. How should you use that?",
           "opcoes": [
-            "As measured proof that agents replace people",
             "As a consulting view that supports the logic: an agent needs integration, graduated autonomy and prepared supervisors",
+            "As measured proof that agents replace people",
             "As a standard the company is required to follow"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "It's a view, not a measurement or a standard. Use it to show leadership that integrating the agent and preparing the people who supervise it are management tasks."
         }

@@ -69,14 +69,9 @@
               "icone": "robo",
               "t": "agentes",
               "sub": "roles y niveles de autorización"
-            },
-            {
-              "icone": "memoria",
-              "t": "contexto",
-              "sub": "lo que recibe cada uno"
             }
           ],
-          "detalhe": "Cada agente, con rol, objetivo y nivel de autorización, y el contexto que recibe para trabajar. El contexto mal cuidado es la causa más común de que un agente \"invente\": solo sabe lo que está escrito."
+          "detalhe": "Cada agente, con rol, objetivo y nivel de autorización: lo que hace solo, lo que prepara para que lo apruebes, lo que nunca hace. Sin eso por escrito, el agente decide su propio límite."
         },
         {
           "icone": "chip",
@@ -94,6 +89,11 @@
               "sub": "que llama cada agente"
             },
             {
+              "icone": "memoria",
+              "t": "contexto",
+              "sub": "lo que recibe cada agente"
+            },
+            {
               "icone": "arquivo",
               "t": "conocimiento",
               "sub": "en una forma que el agente lee"
@@ -104,7 +104,7 @@
               "sub": "tokens, tiempo, infraestructura"
             }
           ],
-          "detalhe": "Los recursos que mueven a los agentes: el modelo, las herramientas, el conocimiento de la empresa escrito de una forma que el agente lee, y el presupuesto computacional. La pregunta de costo cambia de \"¿cuánto cuesta una llamada?\" a \"¿cuánto cuesta producir el resultado?\"."
+          "detalhe": "Los recursos que mueven a los agentes: el modelo, las herramientas, el contexto que recibe cada agente, el conocimiento de la empresa escrito de una forma que el agente lee y el presupuesto computacional. El contexto mal cuidado es la causa más común de que un agente \"invente\": solo sabe lo que está escrito. La pregunta de costo cambia de \"¿cuánto cuesta una llamada?\" a \"¿cuánto cuesta producir el resultado?\"."
         },
         {
           "icone": "escudo",
@@ -198,7 +198,7 @@
         {
           "rot": "Mapa de los 9 objetos de mi área",
           "icone": "camadas",
-          "conteudo": "MAPA DE LOS 9 OBJETOS · <área> · <empresa> · <fecha>\n\nOBJETO          | QUÉ ES AQUÍ                    | DUEÑO HOY        | DUEÑO CORRECTO (responde) | QUIÉN MANTIENE | CURSO\n1 Personas      | <quiénes, qué queda con ellas> | <nombre/sin dueño> | <nombre>                | -           | G1\n2 Agentes       | <cada agente en uso>           | <nombre/sin dueño> | <nombre>                | <nombre>    | G3\n3 Modelos       | <qué mueve a cada agente>      | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n4 Procesos      | <proceso y versión>            | <nombre/sin dueño> | <nombre>                | -           | G2\n5 Herramientas  | <qué puede llamar cada agente> | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n6 Permisos      | <quién puede qué, credenciales>| <nombre/sin dueño> | <nombre>                | <nombre>    | G5\n7 Contexto      | <qué recibe cada agente>       | <nombre/sin dueño> | <nombre>                | <nombre>    | G3\n8 Conocimiento  | <tablas, políticas, manuales>  | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n9 Presupuesto   | <costo por mes / por resultado>| <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n\nSIN DUEÑO HOY: <lista>\nMAYOR RIESGO: <objeto> porque <motivo>\nPRIMERA DECISIÓN: <quién asume qué, hasta cuándo>"
+          "conteudo": "MAPA DE LOS 9 OBJETOS · <área> · <empresa> · <fecha>\n\nOBJETO          | QUÉ ES AQUÍ                    | DUEÑO HOY        | DUEÑO CORRECTO (responde) | QUIÉN MANTIENE | CURSO\n1 Personas      | <quién, qué queda con ellas>   | <nombre/sin dueño> | <nombre>                | -           | G1\n2 Agentes       | <cada agente en uso>           | <nombre/sin dueño> | <nombre>                | <nombre>    | G3\n3 Modelos       | <qué mueve a cada agente>      | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n4 Procesos      | <proceso y versión>            | <nombre/sin dueño> | <nombre>                | -           | G2\n5 Herramientas  | <qué puede llamar cada agente> | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n6 Permisos      | <quién puede qué, credenciales>| <nombre/sin dueño> | <nombre>                | <nombre>    | G5\n7 Contexto      | <qué recibe cada agente>       | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n8 Conocimiento  | <tablas, políticas, manuales>  | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n9 Presupuesto   | <costo por mes / por resultado>| <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n\nSIN DUEÑO HOY: <lista>\nMAYOR RIESGO: <objeto> porque <motivo>\nPRIMERA DECISIÓN: <quién asume qué, hasta cuándo>"
         },
         {
           "rot": "Prompt · encontrar brechas en el mapa",
@@ -250,11 +250,11 @@
         {
           "p": "¿Cuál de estos NO está entre los nueve objetos de gestión?",
           "opcoes": [
-            "Presupuesto computacional",
             "El organigrama de la empresa",
+            "Presupuesto computacional",
             "Contexto que recibe cada agente"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "Los nueve son personas, agentes, modelos, procesos, herramientas, permisos, contexto, conocimiento y presupuesto computacional. El organigrama muestra personas; los objetos invisibles no aparecen en él."
         },
@@ -273,21 +273,21 @@
           "p": "¿Por qué empezar el mapa por los objetos invisibles?",
           "opcoes": [
             "Porque son los más caros",
-            "Porque contexto, conocimiento, permisos y presupuesto no aparecen en un organigrama y son los que más se quedan sin dueño",
-            "Porque son técnicos y TI tiene que llenarlos antes"
+            "Porque son técnicos y TI tiene que llenarlos antes",
+            "Porque contexto, conocimiento, permisos y presupuesto no aparecen en un organigrama y son los que más se quedan sin dueño"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Ahí vive el riesgo que nadie ve: datos de clientes que se filtran, una herramienta que borra, un costo sin dueño. Y quien decide sobre ellos es el negocio, no solo TI."
         },
         {
           "p": "Deloitte (Tech Trends 2026) llama a los agentes fuerza laboral \"de silicio\". ¿Cómo usar eso?",
           "opcoes": [
-            "Como prueba medida de que los agentes reemplazan a las personas",
             "Como visión de consultoría que refuerza la lógica: un agente necesita integración, autonomía graduada y supervisores preparados",
+            "Como prueba medida de que los agentes reemplazan a las personas",
             "Como una norma que la empresa está obligada a seguir"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Es una visión, no una medición ni una norma. Sirve para mostrarle a la dirección que integrar al agente y preparar a quien supervisa son tareas de gestión."
         }

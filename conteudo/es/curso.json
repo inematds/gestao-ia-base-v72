@@ -104,7 +104,7 @@
           "img": "assets/img/cursos/g0.jpg"
         },
         {
-          "rot": "G2 · procesos",
+          "rot": "G2 · procesos · publicado",
           "t": "Procesos: el proceso no es sagrado",
           "l": "Desarmar el proceso antes de automatizar: eliminar, simplificar, rediseñar y decidir quién hace cada etapa.",
           "href": "https://inematds.github.io/gestao-ia-processos-v72/",
@@ -120,7 +120,7 @@
           "img": "assets/img/cursos/g3.jpg"
         },
         {
-          "rot": "G4 · recursos",
+          "rot": "G4 · recursos · publicado",
           "t": "Recursos: modelos, datos y presupuesto",
           "l": "Elegir modelo por caso, cuidar el contexto y el conocimiento de la empresa y medir el costo por resultado.",
           "href": "https://inematds.github.io/gestao-ia-recursos-v72/",

@@ -231,21 +231,21 @@
           "p": "¿Qué agrega la era de 2027 a las anteriores?",
           "opcoes": [
             "Sustituye la gestión de personas por la de agentes",
-            "Coordina al mismo tiempo humanos, agentes, procesos, modelos y presupuesto computacional",
-            "Cambia el diseño de procesos por agentes que deciden todo"
+            "Cambia el diseño de procesos por agentes que deciden todo",
+            "Coordina al mismo tiempo humanos, agentes, procesos, modelos y presupuesto computacional"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "diagrama",
           "explica": "Cada era agrega, ninguna borra. El puesto sigue viniendo de la gestión de personas y el diseño, de la de procesos. El agente es el tercer objeto, y trae consigo modelo, contexto y costo."
         },
         {
           "p": "Horizonte quiere poner un agente para agilizar la revisión de pedidos, que hoy pasa por tres personas. ¿Cuál es la primera pregunta?",
           "opcoes": [
-            "Qué modelo de IA es el más rápido",
             "Si hoy tuviera humanos, agentes y automatizaciones, ¿esta revisión todavía existiría de esta forma?",
+            "Qué modelo de IA es el más rápido",
             "Cuánto tiempo va a ahorrar el agente"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Acelerar un proceso viejo entrega el error más rápido. Primero se pregunta si la etapa necesita existir así; el modelo y el tiempo vienen después. Es el tema de G2."
         },
@@ -264,21 +264,21 @@
           "p": "¿Cuáles de estas son preguntas de gestión, y no técnicas?",
           "opcoes": [
             "Qué lenguaje de programación usa el agente",
-            "Quién responde por el agente, qué hace por su cuenta, cómo se mide y cuánto cuesta cada resultado",
-            "En qué servidor corre el agente"
+            "En qué servidor corre el agente",
+            "Quién responde por el agente, qué hace por su cuenta, cómo se mide y cuánto cuesta cada resultado"
           ],
-          "certa": 1,
+          "certa": 2,
           "ref": "passos",
           "explica": "Las cuatro preguntas son las mismas que se hacen con un empleado nuevo. TI puede responder dónde corre el agente; quien responde por lo que hace es el negocio."
         },
         {
           "p": "¿Cómo tratar la frase \"2026 es el año en que las empresas dejan de construir agentes y pasan a operarlos\"?",
           "opcoes": [
-            "Como dato de una encuesta",
             "Como opinión de una columna, útil para describir el giro, sin un número detrás",
+            "Como dato de una encuesta",
             "Como pronóstico oficial del mercado"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "passos",
           "explica": "Es una columna de IT Forum. La opinión puede ayudar a entender el momento, pero no sostiene una decisión por sí sola. En la clase 5 aprendes a separar opinión, encuesta y pronóstico."
         }

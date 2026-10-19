@@ -38,50 +38,50 @@
         {
           "icone": "alvo",
           "titulo": "Estratégia",
-          "sub": "resultado?",
-          "detalhe": "Primeiro o resultado, depois a ferramenta. Não começar pelo modelo nem pela plataforma. É a competência deste curso (G0): saber o que se quer antes de ligar qualquer coisa."
+          "sub": "resultado",
+          "detalhe": "Pergunta: qual resultado queremos? Primeiro o resultado, depois a ferramenta. Não começar pelo modelo nem pela plataforma. É a competência deste curso (G0): saber o que se quer antes de ligar qualquer coisa."
         },
         {
           "icone": "fila",
           "titulo": "Arquitetura",
-          "sub": "deve existir?",
-          "detalhe": "Arquitetura do trabalho: eliminar, simplificar, redesenhar e só então automatizar. Etapa por etapa, decidir o que é pessoa, agente, automação simples ou nada. É o curso G2."
+          "sub": "redesenho",
+          "detalhe": "Pergunta: esse processo deveria existir assim? Arquitetura do trabalho: eliminar, simplificar, redesenhar e só então automatizar. Etapa por etapa, decidir o que é pessoa, agente, automação simples ou nada. É o curso G2."
         },
         {
           "icone": "enviar",
           "titulo": "Delegação",
-          "sub": "o que entrego?",
-          "detalhe": "Objetivo, responsabilidade, contexto, ferramentas, prazo e evidência de conclusão. Delegar é entregar ao agente um trabalho que ele consegue terminar e você consegue conferir. É o curso G3."
+          "sub": "entrega",
+          "detalhe": "Pergunta: o que exatamente eu entrego ao agente? Objetivo, responsabilidade, contexto, ferramentas, prazo e evidência de conclusão. Delegar é entregar ao agente um trabalho que ele consegue terminar e você consegue conferir. É o curso G3."
         },
         {
           "icone": "camadas",
           "titulo": "Orquestração",
-          "sub": "um ou vários?",
-          "detalhe": "Um agente ou vários, em série ou em paralelo, com pessoa no meio, agente supervisor ou revisor. Separar só quando há sinal para isso. Também no curso G3."
+          "sub": "combinação",
+          "detalhe": "Pergunta: um agente ou vários? Um agente ou vários, em série ou em paralelo, com pessoa no meio, agente supervisor ou revisor. Separar só quando há sinal para isso. Também no curso G3."
         },
         {
           "icone": "escudo",
           "titulo": "Governança",
-          "sub": "pode sozinho?",
-          "detalhe": "Permissões, identidade, credenciais, registro e rastreabilidade. Alçada antes de autonomia: o que o agente faz sozinho, o que confirma e o que jamais executa. É o curso G5."
+          "sub": "limites",
+          "detalhe": "Pergunta: faz sozinho, confirma ou nunca faz? Permissões, identidade, credenciais, registro e rastreabilidade. Alçada antes de autonomia: o que o agente faz sozinho, o que confirma e o que jamais executa. É o curso G5."
         },
         {
           "icone": "grafico",
           "titulo": "Economia",
-          "sub": "quanto custa?",
-          "detalhe": "Modelo, tokens, tempo, infraestrutura: custo por execução, por tarefa e por resultado. Um agente barato que erra e precisa de duas tentativas custou o dobro da tabela. É o curso G4."
+          "sub": "custo",
+          "detalhe": "Pergunta: quanto custa o resultado? Modelo, tokens, tempo, infraestrutura: custo por execução, por tarefa e por resultado. Um agente barato que erra e precisa de duas tentativas custou o dobro da tabela. É o curso G4."
         },
         {
           "icone": "lupa",
           "titulo": "Avaliação",
-          "sub": "comparado a quê?",
-          "detalhe": "Qualidade, tempo, custo, falhas, retrabalho, autonomia, intervenção humana e resultado comercial, sempre comparados a um ponto de partida. Agente tem avaliação de desempenho. É o curso G5."
+          "sub": "comparação",
+          "detalhe": "Pergunta: está bom, comparado a quê? Qualidade, tempo, custo, falhas, retrabalho, autonomia, intervenção humana e resultado comercial, sempre comparados a um ponto de partida. Agente tem avaliação de desempenho. É o curso G5."
         },
         {
           "icone": "relogio",
           "titulo": "Evolução",
-          "sub": "o que aprendi?",
-          "detalhe": "A empresa deixa de perguntar só \"a tarefa terminou?\" e passa a perguntar o que aprendeu com ela. Melhoria testada é promovida; a que piorou é revertida. É o LOOP-R, no curso G5."
+          "sub": "aprendizado",
+          "detalhe": "Pergunta: o que aprendemos? A empresa deixa de perguntar só \"a tarefa terminou?\" e passa a perguntar o que aprendeu com ela. Melhoria testada é promovida; a que piorou é revertida. É o LOOP-R, no curso G5."
         }
       ],
       "rolagem_fim": {
@@ -129,7 +129,7 @@
           ],
           "exemplo": {
             "rot": "Na Horizonte",
-            "texto": "A Patrícia tem 1 em delegação e governança (primeira metade) e 0 em economia e evolução (segunda). As duas metades estão fracas."
+            "texto": "Na primeira metade, a Patrícia tem 1 em estratégia e delegação e 0 em arquitetura e orquestração. Na segunda, 1 em governança e avaliação e 0 em economia e evolução. As duas metades estão fracas: 2 de 12 em cada."
           }
         },
         {
@@ -228,11 +228,11 @@
         {
           "p": "As quatro últimas competências (governança, economia, avaliação, evolução) decidem o quê?",
           "opcoes": [
-            "O que o agente vai fazer",
             "Se o agente continua fazendo",
+            "O que o agente vai fazer",
             "Qual ferramenta comprar"
           ],
-          "certa": 1,
+          "certa": 0,
           "ref": "diagrama",
           "explica": "As quatro primeiras decidem o que o agente faz; as quatro últimas, se ele continua: se é seguro, quanto custa, se está bom e como melhora."
         },
