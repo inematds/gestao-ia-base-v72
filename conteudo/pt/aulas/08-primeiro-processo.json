@@ -1,0 +1,211 @@
+{
+  "slug": "primeiro-processo",
+  "num": 8,
+  "menu": "Projeto",
+  "titulo": "Seu primeiro diagnóstico + O que mudou",
+  "titulo_curto": "Projeto: o primeiro processo",
+  "minutos": 20,
+  "lead": "O melhor primeiro passo da formação é um processo da sua empresa, não uma ferramenta. O projeto deste curso é a ficha do primeiro processo que você vai gerir com agentes: dono, volume, a medida de hoje e o curso que responde à sua maior dúvida. No fim, o que mudou no mercado neste trimestre, com data e fonte.",
+  "objetivo": "escolher o primeiro processo a gerir com agentes, com dono, volume e medida de hoje, e o curso seguinte da formação.",
+  "competencias": ["escolher-primeiro-processo", "medir-linha-de-base", "escolher-trilha-da-formacao"],
+  "aprende": [
+    {"t": "Escolher o primeiro processo por três filtros, não pela ferramenta da moda"},
+    {"t": "Medir como o processo está hoje, antes de qualquer agente mexer nele"},
+    {"t": "Ligar a sua maior dúvida ao curso da formação que a responde"},
+    {"t": "O que mudou até outubro de 2026, com data e fonte"}
+  ],
+  "hero_alt": "Uma gerente desenha caixas ligadas por setas numa folha grande sobre a mesa, com notas coloridas e um celular ao lado; um colega chega com dois cafés.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Como escolher o primeiro processo",
+      "sub": "Da lista de candidatos ao curso seguinte, em cinco passos. Clique em cada um.",
+      "nos": [
+        {"icone": "lista", "titulo": "Candidatos", "sub": "três processos",
+         "detalhe": "Liste três processos que hoje rodam com pessoas e que já têm, ou vão ter, IA por perto. Use o diagnóstico da aula 6: as ferramentas sem dono costumam apontar onde o processo está."},
+        {"icone": "portao", "titulo": "Três filtros", "sub": "volume, regra, dano",
+         "detalhe": "Fica o que tem volume (acontece toda semana), regra que dá para escrever (alguém consegue explicar o certo e o errado) e dano conhecido (você sabe o que pode dar errado e quanto custa). Os filtros são deste curso, para escolher por onde começar."},
+        {"icone": "usuario", "titulo": "Dono", "sub": "um nome", "forte": true,
+         "detalhe": "O processo escolhido ganha um dono do negócio, com nome, que responde pelo resultado de ponta a ponta. Sem dono, o processo vira mais um projeto desconectado."},
+        {"icone": "grafico", "titulo": "Medida de hoje", "sub": "antes do agente",
+         "detalhe": "Duas ou três medidas do processo como ele está, tomadas antes de qualquer mudança: quantos casos, quantos corrigidos, quanto tempo. É o ponto de partida que faltou no painel da Hora."},
+        {"icone": "seta", "titulo": "Curso seguinte", "sub": "pela sua dúvida",
+         "detalhe": "A maior dúvida sobre o processo escolhe o curso: deveria existir assim? G2. Como entrego ao agente? G3. Qual modelo e quanto custa? G4. E as pessoas? G1. Como governo e meço? G5."}
+      ],
+      "legenda": "A recomendação de começar por um processo da própria empresa vem da área Gestão de IA (\"Comece agora\"). Os três filtros são um instrumento deste curso."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Do candidato à ficha",
+      "sub": "Quatro passos. A Horizonte (empresa fictícia de estudo) faz o treino; o seu processo é o que vale.",
+      "passos": [
+        {"titulo": "Processo, não ferramenta", "sub": "o ponto de partida",
+         "texto": ["Quem começa pela ferramenta acaba procurando um processo que caiba nela. Quem começa pelo processo pergunta, antes de tudo, se ele ainda deveria existir desse jeito, e só depois escolhe pessoa, agente ou automação.", "Escolha um só. O primeiro processo é para aprender a gerir; o segundo já sai mais rápido."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "Candidatos: o pedido pelo WhatsApp até o faturamento, a cobrança (que o Carlos quer pôr com a Hora em novembro) e o resumo diário de atendimento."}},
+        {"titulo": "Três filtros", "sub": "volume, regra, dano",
+         "texto": ["Volume: acontece toda semana, em quantidade que justifica olhar. Regra: alguém consegue escrever o que é certo e errado. Dano: você sabe o que pode dar errado e o tamanho do estrago.", "Processo que falha no terceiro filtro não está proibido; só não é o primeiro. Comece onde o erro é conhecido e dá para conter."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "O pedido passa nos três: de 141 a 171 pedidos por semana no painel, política de desconto escrita e dano conhecido (desconto, pedido grande). A cobrança ainda não tem regra escrita."}},
+        {"titulo": "A medida de hoje", "sub": "duas semanas bastam",
+         "texto": ["Escolha duas ou três medidas que o processo já permite contar: quantos casos, quantos precisaram de correção, quanto tempo do começo ao fim. Meça por duas semanas, do jeito que está, sem mudar nada.", "Sem esse ponto de partida, qualquer número depois vira impressão. É a falha F11 do laboratório: o painel começou no dia em que a Hora foi ligada."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "Medir por duas semanas: pedidos aceitos sem correção na separação, horas do pedido ao faturamento e exceções por dia. Responsável: Patrícia."}},
+        {"titulo": "O curso seguinte", "sub": "pela dúvida maior",
+         "texto": ["Escreva a sua maior dúvida sobre o processo numa frase. Ela escolhe o curso: G2 se é \"deveria existir assim?\", G3 se é \"como entrego ao agente e até onde ele vai?\", G4 se é modelo e custo, G1 se são as pessoas, G5 se é governar e medir.", "A ordem sugerida da formação (G0, G2, G3, G4, G1, G5) vale quando não há urgência. Risco presente vence a ordem."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "A dúvida maior da Patrícia é \"até onde a Hora pode ir sozinha?\". Curso seguinte: G3. Depois, G2 para redesenhar o pedido."}}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelos para copiar",
+      "sub": "A ficha do primeiro processo, que é o projeto deste curso, a rubrica para conferir e um prompt que aponta lacunas sem escolher por você.",
+      "blocos": [
+        {"rot": "Ficha · meu primeiro processo", "icone": "arquivo",
+         "conteudo": "MEU PRIMEIRO PROCESSO · <empresa / área> · <data>\n\nCANDIDATOS: 1 <...> · 2 <...> · 3 <...>\nFILTROS (volume / regra / dano conhecido):\n  1: <s/n> <s/n> <s/n>   2: <s/n> <s/n> <s/n>   3: <s/n> <s/n> <s/n>\n\nESCOLHIDO: <de onde até onde, ex.: pedido no WhatsApp até o faturamento>\nDONO DO NEGÓCIO: <nome e cargo> · QUEM MANTÉM OS SISTEMAS: <nome>\nVOLUME: <casos por semana ou mês> · fonte: <de onde tirei o número>\nIA JÁ PRESENTE: <agentes e ferramentas, do diagnóstico da aula 6>\n\nMEDIDA DE HOJE (antes de mudar nada)\n  1. <medida> · como conto: <...>\n  2. <medida> · como conto: <...>\n  3. <medida> · como conto: <...>\n  Período: <data> a <data> · responsável: <nome>\n\nMAIOR DÚVIDA (1 frase): <...>\nCURSO SEGUINTE: <G1..G5> · DEPOIS: <...>\nREVISÃO DESTA FICHA: <data>"},
+        {"rot": "Rubrica da ficha (100 pontos)", "icone": "lista",
+         "conteudo": "RUBRICA · ficha do primeiro processo · aprova com >= 70 E os 4 obrigatórios\n\nBLOCO                                PONTOS  PONTO CHEIO QUANDO\n1. Candidatos e filtros                15    3 candidatos, os 3 filtros marcados em cada\n2. Processo com começo e fim           15    \"de onde até onde\" sem ambiguidade\n3. Dono e quem mantém                  15    dono do negócio com nome; TI separada\n4. Volume com fonte                    15    número por período e de onde veio\n5. Medida de hoje                      25    2 ou 3 medidas, como contar, período, responsável\n6. Dúvida e curso seguinte             15    1 frase de dúvida ligada a um curso G1..G5\n\nOBRIGATÓRIOS (um faltando reprova)\n[ ] Dono do negócio com nome\n[ ] Pelo menos uma medida de hoje com período definido\n[ ] Nenhum número sem fonte\n[ ] Dados de cliente fictícios ou anonimizados identificados\n\nNOTA: <...>/100 · obrigatórios: <...>/4 · [ ] pronta  [ ] volta para <bloco>"},
+        {"rot": "Prompt · lacunas da ficha", "icone": "chat",
+         "conteudo": "Você é um gestor experiente revisando a ficha do primeiro processo que uma\nempresa vai gerir com agentes de IA, usando a rubrica abaixo. Não escolha\no processo e não dê a nota final: aponte lacunas.\n\n1. Para cada bloco da rubrica, diga o que falta para o ponto cheio,\n   citando o trecho da ficha.\n2. Marque cada obrigatório como presente ou ausente.\n3. Alguma medida de hoje depende de algo que ainda não é registrado?\n   Como contar sem sistema novo?\n4. A dúvida escrita combina com o curso escolhido?\n\nRubrica:\n\"\"\"<cole a rubrica>\"\"\"\nFicha:\n\"\"\"<cole a ficha>\"\"\""}
+      ],
+      "saida": {"selo": "simulacao", "abas": [
+        {"rot": "Ficha da Horizonte (exemplo)", "html": "<p><b>Comercial · Horizonte Distribuidora</b> · empresa fictícia de estudo · números do painel do laboratório</p><ul><li><b>Escolhido:</b> pedido que chega pelo WhatsApp até o faturamento.</li><li><b>Dono:</b> Patrícia Lima · sistemas: Rafael.</li><li><b>Volume:</b> de 141 a 171 pedidos fechados por semana e de 702 a 901 atendimentos da Hora por semana (set–out/2026, painel).</li><li><b>IA presente:</b> Hora; assistente de e-mail do comercial.</li><li><b>Medida de hoje (duas semanas):</b> % de pedidos aceitos sem correção na separação; horas do pedido ao faturamento; exceções por dia.</li><li><b>Dúvida maior:</b> até onde a Hora pode ir sozinha? <b>Curso seguinte:</b> G3; depois G2.</li><li><b>Rubrica:</b> 85/100, 4 de 4 obrigatórios.</li></ul>"},
+        {"rot": "Como conferir", "html": "<ol><li>O processo tem começo e fim que qualquer pessoa da área reconhece.</li><li>Cada número tem fonte (painel, sistema, contagem à mão).</li><li>A medida de hoje tem período e responsável, e é tomada antes de mudar nada.</li><li>Erro comum: escolher o processo mais vistoso. O primeiro é o que tem volume, regra e dano conhecido.</li></ol>"}
+      ]}
+    },
+    {
+      "tipo": "passos",
+      "titulo": "O que mudou · outubro de 2026",
+      "sub": "Painel do trimestre, trocado a cada revisão do curso. Cada item tem data, fonte e tipo de afirmação, e uma consequência para a escolha do seu primeiro processo.",
+      "passos": [
+        {"titulo": "Ferramenta muda em meses", "sub": "anúncios dos fornecedores",
+         "texto": ["OpenAI: os Workspace Agents, que substituem os Custom GPTs, passaram a ser cobrados por token (06/07/2026), e o Agent Builder do AgentKit será desativado em 30/11/2026. Microsoft: Agent 365, anunciado no Build (06/2026).", "Fontes: notas de lançamento e anúncios de cada fornecedor. São exemplos trocáveis: no próximo trimestre a lista será outra."],
+         "exemplo": {"rot": "Para o primeiro processo", "texto": "Escolha o processo e a medida antes da ferramenta. Se a ferramenta mudar, o processo e o ponto de partida continuam valendo."}},
+        {"titulo": "Poucos agentes em uso de verdade", "sub": "pesquisas",
+         "texto": ["Gartner (2026): só 17% das empresas têm agentes em uso, no mundo. GFT, Tech Trends 2026 LATAM com dados da BCG: 18% das empresas brasileiras integram agentes, contra 13% no mundo.", "Definições diferentes, mesma leitura: quem está começando agora não está atrasado em relação à maioria."],
+         "exemplo": {"rot": "Para o primeiro processo", "texto": "Um processo bem escolhido e bem medido vale mais do que cinco agentes ligados sem dono."}},
+        {"titulo": "Governança atrás da adoção", "sub": "pesquisa e previsão",
+         "texto": ["Okta, AI Agents at Work 2026 (pesquisa do fornecedor): quase dois terços das organizações aplicam controles mais fracos aos agentes do que às pessoas. Deloitte (17/09/2026): 27% das empresas brasileiras com governança madura.", "Gartner (17/02/2026, previsão): o gasto com governança de IA passa de US$ 492 milhões em 2026 para mais de US$ 1 bilhão em 2030."],
+         "exemplo": {"rot": "Para o primeiro processo", "texto": "Dono, permissões e registro entram já no primeiro processo, não depois do primeiro susto."}},
+        {"titulo": "A gestão no centro", "sub": "fornecedor e opinião",
+         "texto": ["Microsoft, Work Trend Index 2026 (05/2026, pesquisa do fornecedor): quando o gestor usa IA na frente da equipe, o valor percebido sobe 17 pontos. IT Forum (2026, coluna de opinião): o ano em que as empresas deixam de construir agentes e passam a operá-los.", "Próxima revisão deste painel: janeiro de 2027. O que é método (aulas 1 a 7) não muda; o que é produto e número, sim."],
+         "exemplo": {"rot": "Para o primeiro processo", "texto": "Quem conduz o primeiro processo é o gestor da área, na frente da equipe. Não terceirize o exemplo."}}
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "O mapa do curso",
+      "sub": "As quatro entregas que levam à ficha do primeiro processo. Clique num exercício para ver o \"pronto quando\".",
+      "degraus": [
+        {"aula": "nove-objetos", "icone": "camadas", "quando": "Semana 1", "titulo": "Mapear", "sub": "os 9 objetos",
+         "saida": "Mapa da sua área com nove donos ou \"sem dono\" assumido.",
+         "passo": "Vem depois de entender as eras e a tese (aulas 1 e 2). Mostra o que existe e quem responde."},
+        {"aula": "competencias", "icone": "lupa", "quando": "Semana 1", "titulo": "Medir-se", "sub": "8 competências",
+         "saida": "Autoavaliação com evidência e um curso escolhido.",
+         "passo": "Requer o mapa: a competência de maior risco aparece onde há objetos sem dono."},
+        {"aula": "brasil", "icone": "grafico", "quando": "Semana 2", "titulo": "Diagnosticar", "sub": "cinco linhas",
+         "saida": "Diagnóstico de cinco linhas enviado a quem decide.",
+         "passo": "Usa a leitura crítica da aula 5 e conta o que existe, inclusive na sombra. A carreira (aula 7) corre em paralelo."},
+        {"aula": "primeiro-processo", "icone": "alvo", "quando": "Semana 3", "titulo": "Escolher", "sub": "o primeiro processo",
+         "saida": "Ficha do primeiro processo com medida de hoje e curso seguinte.",
+         "passo": "Requer o diagnóstico. A medida de hoje pede duas semanas de contagem antes de mudar qualquer coisa."}
+      ],
+      "rolagem_fim": {"titulo": "O caminho inteiro", "texto": "Mapear, medir-se, diagnosticar e escolher. Cada entrega usa a anterior, e a ficha do primeiro processo é a porta para o curso seguinte da formação."},
+      "resultado": {"titulo": "Ao final do curso", "texto": "O primeiro processo escolhido, com dono, volume e medida de hoje, e o curso da formação que responde à sua maior dúvida.", "total": "17 exercícios"},
+      "legenda": "Ordem recomendada: cada entrega usa a anterior."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Gere o seu plano com datas",
+      "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano inclui as duas semanas de medida do primeiro processo.",
+      "curso": "A empresa agêntica e o gestor de 2027",
+      "horas_padrao": 3,
+      "degraus": [
+        {"titulo": "Aula 1 · O terceiro objeto da gestão", "aula": "terceiro-objeto"},
+        {"titulo": "Aula 2 · Gerenciar agente parece gerenciar gente", "aula": "como-gente"},
+        {"titulo": "Aula 3 · Os 9 objetos de gestão", "aula": "nove-objetos"},
+        {"titulo": "Aula 4 · As 8 competências", "aula": "competencias"},
+        {"titulo": "Aula 5 · Como o mercado está se reorganizando", "aula": "mercado"},
+        {"titulo": "Aula 6 · Brasil: muita adoção, pouca gestão", "aula": "brasil"},
+        {"titulo": "Aula 7 · Carreira", "aula": "carreira"},
+        {"titulo": "Aula 8 · O primeiro processo", "aula": "primeiro-processo"}
+      ],
+      "txt": {
+        "titulo": "Plano — A empresa agêntica e o gestor de 2027",
+        "inicio": "Início",
+        "ritmo": "Ritmo",
+        "termino": "Término previsto",
+        "ate": "até",
+        "pronto": "pronto quando",
+        "semanas": "semanas",
+        "travou": "## O que travou e a regra que criei",
+        "h": "h por semana",
+        "exs": "exercícios"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "A ficha da Horizonte para treinar a rubrica; a do seu processo para valer.",
+      "fonte": "Peça do laboratório: <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">painel da Hora</a> (números fictícios; empresa fictícia de estudo).",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · A ficha da Horizonte", "min": "25 min",
+         "texto": "Com o painel e o seu diagnóstico da aula 6 abertos, preencha a ficha do primeiro processo da Horizonte para os três candidatos (pedido, cobrança, resumo de atendimento). Passe pela rubrica e rode o prompt. Só depois compare com o exemplo.",
+         "pronto": "a ficha tem os três candidatos com os três filtros marcados, o pedido escolhido com a Patrícia como dona, o volume com a fonte (painel), três medidas de hoje com período e responsável, e nota de 70 ou mais com os quatro obrigatórios."},
+        {"id": "e2", "titulo": "2 · A ficha do seu processo", "min": "40 min", "dias": 14,
+         "texto": "Faça a ficha do seu primeiro processo. Combine com o dono as duas semanas de medida de hoje e comece a contar. Escreva a dúvida maior, escolha o curso seguinte e marque na agenda a data de revisão da ficha, ao fim das duas semanas.",
+         "pronto": "a sua ficha tem nota de 70 ou mais com os quatro obrigatórios, a medida de hoje começou (há pelo menos um dia de contagem registrado) e o curso seguinte está escolhido, com a dúvida que o justifica."},
+        {"id": "e3", "titulo": "3 · O seu plano datado", "min": "5 min",
+         "texto": "Use o gerador acima para montar o plano com as suas datas e baixe o .ics para o calendário.",
+         "pronto": "o plano está salvo e as datas estão no seu calendário."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Por onde começar a formação, segundo esta aula?",
+         "opcoes": ["Pela ferramenta mais nova do mercado", "Por um processo da sua empresa, escolhido por volume, regra e dano conhecido", "Pela certificação mais conhecida"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Ferramenta muda em meses; o processo e a medida ficam. Os três filtros ajudam a escolher um primeiro processo em que dá para aprender sem estrago grande."},
+        {"p": "Por que medir o processo por duas semanas antes de mudar qualquer coisa?",
+         "opcoes": ["Para gerar relatório para a diretoria", "Para ter o ponto de partida que permite dizer, depois, se melhorou", "Porque o agente precisa de dados para treinar"],
+         "certa": 1, "ref": "passos",
+         "explica": "Sem ponto de partida, todo número depois vira impressão. É o que aconteceu com o painel da Hora, que começou no dia em que ela foi ligada."},
+        {"p": "A sua maior dúvida é \"essa etapa de conferência ainda deveria existir?\". Qual é o curso seguinte?",
+         "opcoes": ["G2 · Processos", "G4 · Recursos", "G5 · Governar, medir e evoluir"],
+         "certa": 0, "ref": "passos",
+         "explica": "Perguntar se uma etapa deveria existir é arquitetura do trabalho: o assunto do G2, que ensina a desmontar o processo antes de automatizar."},
+        {"p": "O Agent Builder do AgentKit será desativado em 30/11/2026. O que isso ensina sobre o primeiro processo?",
+         "opcoes": ["Que é melhor esperar as ferramentas estabilizarem", "Que o processo e a medida devem ser escolhidos antes da ferramenta, porque sobrevivem à troca dela", "Que só se deve usar uma marca de fornecedor"],
+         "certa": 1, "ref": "passos",
+         "explica": "Produto sai de linha e muda de preço em meses. Quem escolheu o processo e mediu o ponto de partida troca a ferramenta sem perder o que aprendeu."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Processo primeiro", "texto": "Três candidatos, três filtros, um escolhido."},
+        {"t": "Dono e volume", "texto": "Um nome do negócio e um número com fonte."},
+        {"t": "Medida de hoje", "texto": "Duas semanas de contagem antes de mudar nada."},
+        {"t": "Curso pela dúvida", "texto": "A maior dúvida escolhe entre G1 e G5."}
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Certificação",
+      "paragrafos": [
+        "Certificação INEMA de qualificação \"Gestor de IA\", em breve no cert.inema.pro. Não é certificação profissional regulada.",
+        "Este é o curso G0, a porta de entrada da Formação Gestão de IA 2027. Os outros cursos tratam das pessoas (G1), dos processos (G2), dos agentes (G3), dos recursos (G4) e de governar, medir e evoluir (G5), onde fica o projeto final da formação."
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Curso G3 · Agentes: contratar, delegar e supervisionar (publicado)", "href": "https://inematds.github.io/gestao-ia-agentes-v72/", "icone": "usuario"},
+        {"t": "Curso G2 · Processos: processo não é sagrado", "href": "https://inematds.github.io/gestao-ia-processos-v72/", "icone": "fila"},
+        {"t": "Área Gestão de IA: comece agora", "href": "https://eventos.inema.pro/gestao-ia/", "icone": "alvo"}
+      ]
+    }
+  ]
+}

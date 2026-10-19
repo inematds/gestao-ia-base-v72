@@ -1,0 +1,136 @@
+{
+  "slug": "nove-objetos",
+  "num": 3,
+  "menu": "Objetos",
+  "titulo": "Os 9 objetos de gestão",
+  "titulo_curto": "Os 9 objetos",
+  "minutos": 17,
+  "lead": "O gerente de 2027 não administra só pessoas. Pela mesa dele passam agentes, modelos, processos, ferramentas, permissões, contexto, conhecimento e orçamento computacional. A maioria desses objetos já existe na sua empresa e não tem dono. Nesta aula você monta o mapa dos nove, com um nome ao lado de cada um, e descobre qual curso da formação cuida de qual.",
+  "objetivo": "listar os 9 objetos que passam pela mesa do gestor de 2027 e dar um dono com nome a cada um na sua área.",
+  "competencias": ["mapear-objetos-de-gestao", "nomear-dono-do-negocio", "achar-objetos-sem-dono"],
+  "aprende": [
+    {"t": "Os nove objetos de gestão, agrupados em quatro eixos e dois temas transversais"},
+    {"t": "A diferença entre quem responde pelo objeto e quem o mantém funcionando"},
+    {"t": "Os objetos invisíveis: contexto, conhecimento, permissões e orçamento"},
+    {"t": "Qual curso da formação cuida de cada objeto"}
+  ],
+  "hero_alt": "Uma gerente aponta para um quadro branco com notas coloridas em grade de três por três, sem nada escrito; dois colegas acompanham sentados.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Nove objetos, quatro eixos e dois temas transversais",
+      "sub": "Cada bloco é um eixo; dentro, os objetos que ele reúne e o curso da formação que cuida deles. Clique para ver o detalhe.",
+      "nos": [
+        {"icone": "usuario", "titulo": "Pessoas", "sub": "curso G1",
+         "itens": [{"icone": "usuario", "t": "pessoas", "sub": "e o que fica com elas"}],
+         "detalhe": "As pessoas da equipe e o que continua com elas: decisão, relação, exceção, formação de quem chega. É o primeiro objeto e o que mais muda de forma: o júnior que supervisiona agentes, a carga de exceções, a conversa sobre o medo."},
+        {"icone": "fila", "titulo": "Processos", "sub": "curso G2",
+         "itens": [{"icone": "fila", "t": "processos", "sub": "redesenhados e versionados"}],
+         "detalhe": "O processo deixa de ser papel na gaveta e passa a ter versão, como software. Antes de pôr agente, ele é desmontado: o que existe por hábito, o que existe por exigência, o que só existia porque não havia outro jeito."},
+        {"icone": "robo", "titulo": "Agentes", "sub": "curso G3", "forte": true,
+         "itens": [{"icone": "robo", "t": "agentes", "sub": "papéis e alçadas"}, {"icone": "memoria", "t": "contexto", "sub": "o que cada um recebe"}],
+         "detalhe": "Cada agente, com papel, objetivo e alçada, e o contexto que ele recebe para trabalhar. Contexto mal cuidado é a causa mais comum de agente que \"inventa\": ele só sabe o que está escrito."},
+        {"icone": "chip", "titulo": "Recursos", "sub": "curso G4",
+         "itens": [{"icone": "chip", "t": "modelos", "sub": "e quando trocar"}, {"icone": "pasta", "t": "ferramentas", "sub": "que cada agente chama"}, {"icone": "arquivo", "t": "conhecimento", "sub": "em forma que o agente lê"}, {"icone": "grafico", "t": "orçamento", "sub": "tokens, tempo, infraestrutura"}],
+         "detalhe": "Os recursos que movem os agentes: o modelo, as ferramentas, o conhecimento da empresa escrito de um jeito que o agente lê, e o orçamento computacional. A pergunta de custo muda de \"quanto custa uma chamada?\" para \"quanto custa produzir o resultado?\"."},
+        {"icone": "escudo", "titulo": "Governança", "sub": "curso G5",
+         "itens": [{"icone": "cadeado", "t": "permissões", "sub": "identidade e credenciais"}],
+         "detalhe": "Quem pode o quê, com qual identidade e qual credencial, e onde fica o registro. Atravessa todos os eixos: uma ferramenta liberada sem dono vira permissão sem dono."},
+        {"icone": "lupa", "titulo": "Evidência", "sub": "curso G5",
+         "itens": [{"icone": "grafico", "t": "indicadores", "sub": "qualidade, tempo, custo, falhas"}],
+         "detalhe": "Não é um dos nove objetos: é como o gestor sabe se cada um vai bem. Qualidade, tempo por tarefa, custo por resultado, falhas e retrabalho, quanto o agente fez sem parar e quanta intervenção humana precisou."}
+      ],
+      "legenda": "Os nove objetos vêm da área Gestão de IA do INEMA (seção \"O gerente de 2027\"); o agrupamento em eixos é o da Formação Gestão de IA 2027."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Do objeto ao dono",
+      "sub": "Quatro ideias para montar o mapa sem cair nas armadilhas mais comuns. A Horizonte é a empresa fictícia de estudo.",
+      "passos": [
+        {"titulo": "Nove coisas na mesa", "sub": "a lista cresceu",
+         "texto": ["A lista do que passa pela mesa do gestor cresceu: pessoas, agentes, modelos, processos, ferramentas, permissões, contexto, conhecimento e orçamento computacional. Você não precisa dominar cada um tecnicamente. Precisa saber quem responde por ele.", "Um objeto sem dono não fica parado: alguém decide por ele sem perceber, quase sempre quem tem acesso ao sistema."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "Ninguém escolheu o modelo que move a Hora: o Rafael usou o que veio na ferramenta. Quando o preço ou o comportamento mudar, ninguém vai saber que precisa decidir."}},
+        {"titulo": "Quem responde × quem mantém", "sub": "negócio e TI",
+         "texto": ["Para cada objeto há duas funções: quem responde pelo resultado e quem mantém funcionando. A TI mantém; o negócio responde. Quando as duas caem na mesma pessoa técnica, o negócio perde o controle sem notar.", "O dono é sempre um nome. \"A equipe\" ou \"a TI\" não contam: quando todos respondem, ninguém responde."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "No inventário oficial, o Rafael é o responsável por 6 das 8 ferramentas, inclusive a Hora e o assistente de e-mail do comercial. A Patrícia só aparece como dona das planilhas."}},
+        {"titulo": "Os objetos invisíveis", "sub": "contexto, permissões, orçamento",
+         "texto": ["Pessoas e agentes aparecem em qualquer organograma. Contexto, conhecimento, permissões e orçamento não aparecem, e é neles que mora o risco: o dado de cliente que sai da empresa, a ferramenta que pode apagar, o custo que ninguém olha.", "Ao montar o mapa, comece pelos invisíveis. São os que mais aparecem como \"sem dono\"."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "O resumo de atendimento manda as conversas, com nome, telefone e CPF, para um serviço gratuito fora do Brasil (falha F10 do laboratório). E o assistente de e-mail pode enviar e apagar sem aprovação (F9)."}},
+        {"titulo": "Força de trabalho de silício", "sub": "Deloitte, 2026",
+         "texto": ["A Deloitte, no Tech Trends 2026, trata agentes como força de trabalho \"de silício\": precisam de integração aos dados e à operação, autonomia graduada com gatilhos de supervisão humana, e os supervisores humanos também precisam de treinamento.", "É a visão de uma consultoria, não uma medição. Mas ela confirma a lógica do mapa: agente é objeto de gestão, com dono, e quem o supervisiona também precisa ser preparado."],
+         "exemplo": {"rot": "Na Horizonte", "texto": "Ninguém integrou a Hora: ela foi configurada. E ninguém preparou a Patrícia para supervisioná-la. O mapa mostra as duas lacunas na mesma linha."}}
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: o mapa dos 9 objetos",
+      "sub": "Uma página por área. Preencha o que existe, o dono de hoje e o dono certo. Onde não houver dono, escreva \"sem dono\": é a informação mais útil do mapa.",
+      "blocos": [
+        {"rot": "Mapa dos 9 objetos da minha área", "icone": "camadas",
+         "conteudo": "MAPA DOS 9 OBJETOS · <área> · <empresa> · <data>\n\nOBJETO          | O QUE É AQUI                   | DONO HOJE        | DONO CERTO (responde) | QUEM MANTÉM | CURSO\n1 Pessoas       | <quem, o que fica com elas>    | <nome/sem dono>  | <nome>                | -           | G1\n2 Agentes       | <cada agente em uso>           | <nome/sem dono>  | <nome>                | <nome>      | G3\n3 Modelos       | <o que move cada agente>       | <nome/sem dono>  | <nome>                | <nome>      | G4\n4 Processos     | <processo e versão>            | <nome/sem dono>  | <nome>                | -           | G2\n5 Ferramentas   | <o que cada agente pode chamar>| <nome/sem dono>  | <nome>                | <nome>      | G4\n6 Permissões    | <quem pode o quê, credenciais> | <nome/sem dono>  | <nome>                | <nome>      | G5\n7 Contexto      | <o que cada agente recebe>     | <nome/sem dono>  | <nome>                | <nome>      | G3\n8 Conhecimento  | <tabelas, políticas, manuais>  | <nome/sem dono>  | <nome>                | <nome>      | G4\n9 Orçamento     | <custo por mês / por resultado>| <nome/sem dono>  | <nome>                | <nome>      | G4\n\nSEM DONO HOJE: <lista>\nMAIOR RISCO: <objeto> porque <motivo>\nPRIMEIRA DECISÃO: <quem assume o quê, até quando>"},
+        {"rot": "Prompt · achar lacunas no mapa", "icone": "chat",
+         "conteudo": "Você é um gestor experiente revisando o mapa dos 9 objetos de gestão de uma\nárea que começou a usar agentes de IA. Não preencha nada: aponte lacunas.\n\nMapa:\n\"\"\"<cole aqui>\"\"\"\n\nResponda, nesta ordem:\n1. Em que linhas o \"dono certo\" é da TI quando deveria ser do negócio?\n2. Algum dono é \"a equipe\", \"todos\" ou um cargo sem nome?\n3. Dos objetos invisíveis (contexto, conhecimento, permissões, orçamento),\n   qual parece preenchido sem que ninguém tenha olhado de verdade?\n4. Que pergunta eu faria a cada dono para saber se ele sabe que é dono?"}
+      ],
+      "saida": {"selo": "simulacao", "abas": [
+        {"rot": "Mapa da Horizonte (exemplo)", "html": "<p><b>Comercial · Horizonte Distribuidora</b> · empresa fictícia de estudo</p><table><thead><tr><th>Objeto</th><th>Dono hoje</th><th>Dono certo</th></tr></thead><tbody><tr><td>Pessoas</td><td>Patrícia</td><td>Patrícia</td></tr><tr><td>Agentes (Hora)</td><td>Rafael</td><td>Patrícia; Rafael mantém</td></tr><tr><td>Modelos</td><td>sem dono</td><td>Patrícia aprova a troca; Rafael testa</td></tr><tr><td>Processos (pedido)</td><td>sem dono</td><td>Patrícia</td></tr><tr><td>Ferramentas (e-mail)</td><td>Rafael</td><td>Patrícia decide; Rafael configura</td></tr><tr><td>Permissões</td><td>Rafael</td><td>Carlos aprova; Rafael executa</td></tr><tr><td>Contexto (resumo)</td><td>sem dono</td><td>Juliana; Carlos decide sobre dado de cliente</td></tr><tr><td>Conhecimento (tabela, política)</td><td>Patrícia</td><td>Patrícia</td></tr><tr><td>Orçamento</td><td>sem dono</td><td>Carlos; Patrícia acompanha</td></tr></tbody></table><p><b>Sem dono hoje:</b> 4. <b>Maior risco:</b> contexto, porque dado de cliente sai da empresa todo dia.</p>"},
+        {"rot": "Como conferir", "html": "<ol><li>As nove linhas existem, mesmo as que você acha que não se aplicam.</li><li>Todo \"dono certo\" é um nome.</li><li>Onde o dono certo é da TI, há um motivo escrito.</li><li>Erro comum: preencher \"TI\" em tudo que parece técnico. Quem decide se o agente pode apagar e-mail é o negócio; a TI configura.</li></ol>"}
+      ]}
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Prática",
+      "sub": "O mapa da Horizonte para treinar; o da sua área para valer.",
+      "fonte": "Peças do laboratório: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">inventário de TI</a>, <a href=\"https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/\">resumo de atendimento</a> e <a href=\"https://inematds.github.io/prof2030-lab/pecas/mcp-email/\">assistente de e-mail</a> (empresa fictícia de estudo).",
+      "exercicios": [
+        {"id": "e1", "titulo": "1 · O mapa da Horizonte", "min": "25 min",
+         "texto": "Com o inventário e as duas peças do laboratório abertos, preencha o mapa dos 9 objetos do comercial da Horizonte sem olhar o exemplo. Para cada objeto, escreva o dono de hoje (pelo inventário) e o dono certo. Depois compare e anote onde você discordou do exemplo e por quê.",
+         "pronto": "as nove linhas estão preenchidas, pelo menos três objetos aparecem como \"sem dono\" hoje, todo dono certo é um nome, e há uma frase dizendo qual é o maior risco e por quê."},
+        {"id": "e2", "titulo": "2 · O mapa da sua área", "min": "30 min",
+         "texto": "Faça o mapa da sua área. Para os objetos invisíveis (contexto, conhecimento, permissões e orçamento), pergunte a quem mantém os sistemas antes de preencher. Rode o prompt e termine com a primeira decisão: quem assume qual objeto, até quando.",
+         "pronto": "o mapa tem nove linhas com um nome ou \"sem dono\" assumido em cada uma, pelo menos uma conversa com quem mantém os sistemas, e uma primeira decisão com nome e data."}
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Teste rápido",
+      "sub": "4 perguntas. A explicação aparece depois da sua tentativa.",
+      "perguntas": [
+        {"p": "Qual destes NÃO está entre os nove objetos de gestão?",
+         "opcoes": ["Orçamento computacional", "O organograma da empresa", "Contexto que cada agente recebe"],
+         "certa": 1, "ref": "diagrama",
+         "explica": "Os nove são pessoas, agentes, modelos, processos, ferramentas, permissões, contexto, conhecimento e orçamento computacional. O organograma mostra pessoas; os objetos invisíveis não aparecem nele."},
+        {"p": "No inventário da Horizonte, o Rafael aparece como responsável pela Hora. O que está errado?",
+         "opcoes": ["Nada: foi ele que configurou", "Ele mantém o agente funcionando, mas quem responde pelo resultado (desconto, cliente) é do negócio: a Patrícia", "O responsável deveria ser o fornecedor da ferramenta"],
+         "certa": 1, "ref": "passos",
+         "explica": "Quem mantém e quem responde são funções diferentes. A TI cuida de manter ligado; o negócio responde pela margem e pelo cliente."},
+        {"p": "Por que começar o mapa pelos objetos invisíveis?",
+         "opcoes": ["Porque são os mais caros", "Porque contexto, conhecimento, permissões e orçamento não aparecem em organograma e são os que mais ficam sem dono", "Porque são técnicos e a TI precisa preencher antes"],
+         "certa": 1, "ref": "passos",
+         "explica": "É neles que mora o risco que ninguém vê: dado de cliente saindo, ferramenta que apaga, custo sem dono. E quem decide sobre eles é o negócio, não só a TI."},
+        {"p": "A Deloitte (Tech Trends 2026) chama os agentes de força de trabalho \"de silício\". Como usar isso?",
+         "opcoes": ["Como prova medida de que agentes substituem pessoas", "Como visão de consultoria que reforça a lógica: agente precisa de integração, autonomia graduada e supervisores preparados", "Como norma que a empresa é obrigada a seguir"],
+         "certa": 1, "ref": "passos",
+         "explica": "É uma visão, não uma medição nem uma norma. Serve para mostrar à direção que integrar o agente e preparar quem supervisiona são tarefas de gestão."}
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumo",
+      "itens": [
+        {"t": "Nove objetos", "texto": "Pessoas, agentes, modelos, processos, ferramentas, permissões, contexto, conhecimento, orçamento."},
+        {"t": "Responde × mantém", "texto": "O negócio responde, a TI mantém. Dono é um nome."},
+        {"t": "Invisíveis primeiro", "texto": "Contexto, conhecimento, permissões e orçamento são os que ficam sem dono."},
+        {"t": "Um curso por eixo", "texto": "G1 pessoas, G2 processos, G3 agentes, G4 recursos, G5 governança e evidência."}
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir além",
+      "links": [
+        {"t": "Área Gestão de IA: o gerente de 2027 e os indicadores de um agente", "href": "https://eventos.inema.pro/gestao-ia/", "icone": "alvo"},
+        {"t": "Laboratório Horizonte: resumo de atendimento (F10, empresa fictícia de estudo)", "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/", "icone": "chat"},
+        {"t": "Laboratório Horizonte: assistente de e-mail com enviar e apagar (F9)", "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/", "icone": "enviar"}
+      ]
+    }
+  ]
+}
