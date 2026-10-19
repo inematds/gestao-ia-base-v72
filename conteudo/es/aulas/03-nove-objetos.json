@@ -1,0 +1,340 @@
+{
+  "slug": "nove-objetos",
+  "num": 3,
+  "menu": "Objetos",
+  "titulo": "Los 9 objetos de gestión",
+  "titulo_curto": "Los 9 objetos",
+  "minutos": 17,
+  "lead": "El gerente de 2027 no administra solo personas. Por su mesa pasan agentes, modelos, procesos, herramientas, permisos, contexto, conocimiento y presupuesto computacional. La mayoría de esos objetos ya existe en tu empresa y no tiene dueño. En esta clase armas el mapa de los nueve, con un nombre junto a cada uno, y descubres qué curso de la formación se ocupa de cuál.",
+  "objetivo": "listar los 9 objetos que pasan por la mesa del gestor de 2027 y dar un responsable con nombre a cada uno en tu área.",
+  "competencias": [
+    "mapear-objetos-de-gestao",
+    "nomear-dono-do-negocio",
+    "achar-objetos-sem-dono"
+  ],
+  "aprende": [
+    {
+      "t": "Los nueve objetos de gestión, agrupados en cuatro ejes y dos temas transversales"
+    },
+    {
+      "t": "La diferencia entre quien responde por el objeto y quien lo mantiene funcionando"
+    },
+    {
+      "t": "Los objetos invisibles: contexto, conocimiento, permisos y presupuesto"
+    },
+    {
+      "t": "Qué curso de la formación se ocupa de cada objeto"
+    }
+  ],
+  "hero_alt": "Una gerente señala una pizarra blanca con notas de colores en una cuadrícula de tres por tres, sin nada escrito; dos colegas la acompañan sentados.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Nueve objetos, cuatro ejes y dos temas transversales",
+      "sub": "Cada bloque es un eje; dentro, los objetos que reúne y el curso de la formación que se ocupa de ellos. Haz clic para ver el detalle.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Personas",
+          "sub": "curso G1",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "personas",
+              "sub": "y lo que queda con ellas"
+            }
+          ],
+          "detalhe": "Las personas del equipo y lo que sigue con ellas: decisión, relación, excepción, formación de quien llega. Es el primer objeto y el que más cambia de forma: el junior que supervisa agentes, la carga de excepciones, la conversación sobre el miedo."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Procesos",
+          "sub": "curso G2",
+          "itens": [
+            {
+              "icone": "fila",
+              "t": "procesos",
+              "sub": "rediseñados y versionados"
+            }
+          ],
+          "detalhe": "El proceso deja de ser papel en un cajón y pasa a tener versión, como el software. Antes de poner un agente, se desarma: lo que existe por costumbre, lo que existe por exigencia, lo que solo existía porque no había otra forma."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agentes",
+          "sub": "curso G3",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "robo",
+              "t": "agentes",
+              "sub": "roles y niveles de autorización"
+            },
+            {
+              "icone": "memoria",
+              "t": "contexto",
+              "sub": "lo que recibe cada uno"
+            }
+          ],
+          "detalhe": "Cada agente, con rol, objetivo y nivel de autorización, y el contexto que recibe para trabajar. El contexto mal cuidado es la causa más común de que un agente \"invente\": solo sabe lo que está escrito."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Recursos",
+          "sub": "curso G4",
+          "itens": [
+            {
+              "icone": "chip",
+              "t": "modelos",
+              "sub": "y cuándo cambiarlos"
+            },
+            {
+              "icone": "pasta",
+              "t": "herramientas",
+              "sub": "que llama cada agente"
+            },
+            {
+              "icone": "arquivo",
+              "t": "conocimiento",
+              "sub": "en una forma que el agente lee"
+            },
+            {
+              "icone": "grafico",
+              "t": "presupuesto",
+              "sub": "tokens, tiempo, infraestructura"
+            }
+          ],
+          "detalhe": "Los recursos que mueven a los agentes: el modelo, las herramientas, el conocimiento de la empresa escrito de una forma que el agente lee, y el presupuesto computacional. La pregunta de costo cambia de \"¿cuánto cuesta una llamada?\" a \"¿cuánto cuesta producir el resultado?\"."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Gobernanza",
+          "sub": "curso G5",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "permisos",
+              "sub": "identidad y credenciales"
+            }
+          ],
+          "detalhe": "Quién puede qué, con qué identidad y qué credencial, y dónde queda el registro. Atraviesa todos los ejes: una herramienta habilitada sin dueño se convierte en un permiso sin dueño."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Evidencia",
+          "sub": "curso G5",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "indicadores",
+              "sub": "calidad, tiempo, costo, fallas"
+            }
+          ],
+          "detalhe": "No es uno de los nueve objetos: es cómo el gestor sabe si cada uno va bien. Calidad, tiempo por tarea, costo por resultado, fallas y retrabajo, cuánto hizo el agente sin detenerse y cuánta intervención humana necesitó."
+        }
+      ],
+      "legenda": "Los nueve objetos vienen del área Gestión de IA de INEMA (sección \"O gerente de 2027\"); la agrupación en ejes es la de la Formación Gestión de IA 2027."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Del objeto al dueño",
+      "sub": "Cuatro ideas para armar el mapa sin caer en las trampas más comunes. Horizonte es la empresa ficticia de estudio.",
+      "passos": [
+        {
+          "titulo": "Nueve cosas sobre la mesa",
+          "sub": "la lista creció",
+          "texto": [
+            "La lista de lo que pasa por la mesa del gestor creció: personas, agentes, modelos, procesos, herramientas, permisos, contexto, conocimiento y presupuesto computacional. No necesitas dominar cada uno técnicamente. Necesitas saber quién responde por él.",
+            "Un objeto sin dueño no se queda quieto: alguien decide por él sin darse cuenta, casi siempre quien tiene acceso al sistema."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Nadie eligió el modelo que mueve a Hora: Rafael usó el que venía con la herramienta. Cuando el precio o el comportamiento cambien, nadie sabrá que le toca decidir."
+          }
+        },
+        {
+          "titulo": "Quien responde × quien mantiene",
+          "sub": "negocio y TI",
+          "texto": [
+            "Para cada objeto hay dos funciones: quien responde por el resultado y quien lo mantiene funcionando. TI mantiene; el negocio responde. Cuando las dos recaen en la misma persona técnica, el negocio pierde el control sin notarlo.",
+            "El dueño siempre es un nombre. \"El equipo\" o \"TI\" no cuentan: cuando todos responden, nadie responde."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "En el inventario oficial, Rafael es el responsable de 6 de las 8 herramientas, incluida Hora y el asistente de correo de ventas. Patrícia solo aparece como dueña de las hojas de cálculo."
+          }
+        },
+        {
+          "titulo": "Los objetos invisibles",
+          "sub": "contexto, permisos, presupuesto",
+          "texto": [
+            "Personas y agentes aparecen en cualquier organigrama. Contexto, conocimiento, permisos y presupuesto no aparecen, y es ahí donde vive el riesgo: el dato de cliente que sale de la empresa, la herramienta que puede borrar, el costo que nadie mira.",
+            "Al armar el mapa, empieza por los invisibles. Son los que más aparecen como \"sin dueño\"."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "El resumen de atención envía las conversaciones, con nombre, teléfono y CPF, a un servicio gratuito fuera de Brasil (falla F10 del laboratorio). Y el asistente de correo puede enviar y borrar sin aprobación (F9)."
+          }
+        },
+        {
+          "titulo": "Fuerza laboral \"de silicio\"",
+          "sub": "Deloitte, 2026",
+          "texto": [
+            "Deloitte, en Tech Trends 2026, trata a los agentes como fuerza laboral \"de silicio\": necesitan integración con los datos y la operación, autonomía graduada con disparadores de supervisión humana, y los supervisores humanos también necesitan capacitación.",
+            "Es la visión de una consultora, no una medición. Pero confirma la lógica del mapa: el agente es un objeto de gestión, con dueño, y quien lo supervisa también debe estar preparado."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Nadie integró a Hora: fue configurada. Y nadie preparó a Patrícia para supervisarla. El mapa muestra las dos brechas en la misma línea."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: el mapa de los 9 objetos",
+      "sub": "Una página por área. Completa lo que existe, el dueño de hoy y el dueño correcto. Donde no haya dueño, escribe \"sin dueño\": es la información más útil del mapa.",
+      "blocos": [
+        {
+          "rot": "Mapa de los 9 objetos de mi área",
+          "icone": "camadas",
+          "conteudo": "MAPA DE LOS 9 OBJETOS · <área> · <empresa> · <fecha>\n\nOBJETO          | QUÉ ES AQUÍ                    | DUEÑO HOY        | DUEÑO CORRECTO (responde) | QUIÉN MANTIENE | CURSO\n1 Personas      | <quiénes, qué queda con ellas> | <nombre/sin dueño> | <nombre>                | -           | G1\n2 Agentes       | <cada agente en uso>           | <nombre/sin dueño> | <nombre>                | <nombre>    | G3\n3 Modelos       | <qué mueve a cada agente>      | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n4 Procesos      | <proceso y versión>            | <nombre/sin dueño> | <nombre>                | -           | G2\n5 Herramientas  | <qué puede llamar cada agente> | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n6 Permisos      | <quién puede qué, credenciales>| <nombre/sin dueño> | <nombre>                | <nombre>    | G5\n7 Contexto      | <qué recibe cada agente>       | <nombre/sin dueño> | <nombre>                | <nombre>    | G3\n8 Conocimiento  | <tablas, políticas, manuales>  | <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n9 Presupuesto   | <costo por mes / por resultado>| <nombre/sin dueño> | <nombre>                | <nombre>    | G4\n\nSIN DUEÑO HOY: <lista>\nMAYOR RIESGO: <objeto> porque <motivo>\nPRIMERA DECISIÓN: <quién asume qué, hasta cuándo>"
+        },
+        {
+          "rot": "Prompt · encontrar brechas en el mapa",
+          "icone": "chat",
+          "conteudo": "Eres un gestor con experiencia que revisa el mapa de los 9 objetos de gestión de un\nárea que empezó a usar agentes de IA. No completes nada: señala brechas.\n\nMapa:\n\"\"\"<pega aquí>\"\"\"\n\nResponde, en este orden:\n1. ¿En qué líneas el \"dueño correcto\" es de TI cuando debería ser del negocio?\n2. ¿Algún dueño es \"el equipo\", \"todos\" o un cargo sin nombre?\n3. De los objetos invisibles (contexto, conocimiento, permisos, presupuesto),\n   ¿cuál parece completado sin que nadie lo haya mirado de verdad?\n4. ¿Qué pregunta le haría a cada dueño para saber si sabe que es dueño?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Mapa de Horizonte (ejemplo)",
+            "html": "<p><b>Comercial · Horizonte Distribuidora</b> · empresa ficticia de estudio</p><table><thead><tr><th>Objeto</th><th>Dueño hoy</th><th>Dueño correcto</th></tr></thead><tbody><tr><td>Personas</td><td>Patrícia</td><td>Patrícia</td></tr><tr><td>Agentes (Hora)</td><td>Rafael</td><td>Patrícia; Rafael mantiene</td></tr><tr><td>Modelos</td><td>sin dueño</td><td>Patrícia aprueba el cambio; Rafael prueba</td></tr><tr><td>Procesos (pedido)</td><td>sin dueño</td><td>Patrícia</td></tr><tr><td>Herramientas (correo)</td><td>Rafael</td><td>Patrícia decide; Rafael configura</td></tr><tr><td>Permisos</td><td>Rafael</td><td>Carlos aprueba; Rafael ejecuta</td></tr><tr><td>Contexto (resumen)</td><td>sin dueño</td><td>Juliana; Carlos decide sobre datos de clientes</td></tr><tr><td>Conocimiento (tabla, política)</td><td>Patrícia</td><td>Patrícia</td></tr><tr><td>Presupuesto</td><td>sin dueño</td><td>Carlos; Patrícia da seguimiento</td></tr></tbody></table><p><b>Sin dueño hoy:</b> 4. <b>Mayor riesgo:</b> contexto, porque datos de clientes salen de la empresa todos los días.</p>"
+          },
+          {
+            "rot": "Cómo revisar",
+            "html": "<ol><li>Las nueve líneas existen, incluso las que crees que no aplican.</li><li>Todo \"dueño correcto\" es un nombre.</li><li>Donde el dueño correcto es de TI, hay un motivo escrito.</li><li>Error común: poner \"TI\" en todo lo que parece técnico. Quien decide si el agente puede borrar correos es el negocio; TI configura.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "El mapa de Horizonte para practicar; el de tu área para valer.",
+      "fonte": "Piezas del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">inventario de TI</a>, <a href=\"https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/\">resumen de atención</a> y <a href=\"https://inematds.github.io/prof2030-lab/pecas/mcp-email/\">asistente de correo</a> (empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · El mapa de Horizonte",
+          "min": "25 min",
+          "texto": "Con el inventario y las dos piezas del laboratorio abiertos, completa el mapa de los 9 objetos del área comercial de Horizonte sin mirar el ejemplo. Para cada objeto, escribe el dueño de hoy (según el inventario) y el dueño correcto. Después compara y anota dónde discrepaste del ejemplo y por qué.",
+          "pronto": "las nueve líneas están completas, al menos tres objetos aparecen como \"sin dueño\" hoy, todo dueño correcto es un nombre, y hay una frase que dice cuál es el mayor riesgo y por qué."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · El mapa de tu área",
+          "min": "30 min",
+          "texto": "Haz el mapa de tu área. Para los objetos invisibles (contexto, conocimiento, permisos y presupuesto), pregunta a quien mantiene los sistemas antes de completar. Ejecuta el prompt y termina con la primera decisión: quién asume qué objeto, hasta cuándo.",
+          "pronto": "el mapa tiene nueve líneas con un nombre o un \"sin dueño\" asumido en cada una, al menos una conversación con quien mantiene los sistemas, y una primera decisión con nombre y fecha."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Cuál de estos NO está entre los nueve objetos de gestión?",
+          "opcoes": [
+            "Presupuesto computacional",
+            "El organigrama de la empresa",
+            "Contexto que recibe cada agente"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Los nueve son personas, agentes, modelos, procesos, herramientas, permisos, contexto, conocimiento y presupuesto computacional. El organigrama muestra personas; los objetos invisibles no aparecen en él."
+        },
+        {
+          "p": "En el inventario de Horizonte, Rafael aparece como responsable de Hora. ¿Qué está mal?",
+          "opcoes": [
+            "Nada: él fue quien lo configuró",
+            "Él mantiene el agente funcionando, pero quien responde por el resultado (descuento, cliente) es el negocio: Patrícia",
+            "El responsable debería ser el proveedor de la herramienta"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Quien mantiene y quien responde son funciones distintas. TI se ocupa de mantenerlo encendido; el negocio responde por el margen y por el cliente."
+        },
+        {
+          "p": "¿Por qué empezar el mapa por los objetos invisibles?",
+          "opcoes": [
+            "Porque son los más caros",
+            "Porque contexto, conocimiento, permisos y presupuesto no aparecen en un organigrama y son los que más se quedan sin dueño",
+            "Porque son técnicos y TI tiene que llenarlos antes"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Ahí vive el riesgo que nadie ve: datos de clientes que se filtran, una herramienta que borra, un costo sin dueño. Y quien decide sobre ellos es el negocio, no solo TI."
+        },
+        {
+          "p": "Deloitte (Tech Trends 2026) llama a los agentes fuerza laboral \"de silicio\". ¿Cómo usar eso?",
+          "opcoes": [
+            "Como prueba medida de que los agentes reemplazan a las personas",
+            "Como visión de consultoría que refuerza la lógica: un agente necesita integración, autonomía graduada y supervisores preparados",
+            "Como una norma que la empresa está obligada a seguir"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Es una visión, no una medición ni una norma. Sirve para mostrarle a la dirección que integrar al agente y preparar a quien supervisa son tareas de gestión."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Nueve objetos",
+          "texto": "Personas, agentes, modelos, procesos, herramientas, permisos, contexto, conocimiento, presupuesto."
+        },
+        {
+          "t": "Responde × mantiene",
+          "texto": "El negocio responde, TI mantiene. Dueño es un nombre."
+        },
+        {
+          "t": "Primero los invisibles",
+          "texto": "Contexto, conocimiento, permisos y presupuesto son los que se quedan sin dueño."
+        },
+        {
+          "t": "Un curso por eje",
+          "texto": "G1 personas, G2 procesos, G3 agentes, G4 recursos, G5 gobernanza y evidencia."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Área Gestión de IA: el gerente de 2027 y los indicadores de un agente",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Laboratorio Horizonte: resumen de atención (F10, empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "icone": "chat"
+        },
+        {
+          "t": "Laboratorio Horizonte: asistente de correo con enviar y borrar (F9)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "icone": "enviar"
+        }
+      ]
+    }
+  ]
+}

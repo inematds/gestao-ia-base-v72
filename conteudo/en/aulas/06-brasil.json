@@ -1,0 +1,284 @@
+{
+  "slug": "brasil",
+  "num": 6,
+  "menu": "Brazil",
+  "titulo": "Brazil: lots of adoption, little management",
+  "titulo_curto": "Brazil",
+  "minutos": 17,
+  "lead": "The 2026 surveys show Brazilian companies adopting AI and agents at a fast pace, and few with mature governance. The result shows up as loose projects, tools with no owner, and AI used on people's own initiative. In this lesson you read the Brazil numbers by checking the definition before the percentage, and you do the five-line diagnosis of your company.",
+  "objetivo": "explain why adoption without management becomes a disconnected project, and diagnose your company in five lines: what exists, owner and measure.",
+  "competencias": [
+    "read-brazil-numbers-with-definition",
+    "diagnose-adoption-without-management",
+    "inventory-ai-in-use"
+  ],
+  "aprende": [
+    {
+      "t": "What the 2026 surveys say about AI and agents in Brazil"
+    },
+    {
+      "t": "Why \"adopted,\" \"invest,\" \"integrate\" and \"in use\" can't be compared"
+    },
+    {
+      "t": "How adoption without management becomes a disconnected project and shadow AI"
+    },
+    {
+      "t": "The five-line diagnosis: what exists, who owns it, what is measured"
+    }
+  ],
+  "hero_alt": "In the distributor's warehouse, a supervisor with a tablet talks to an employee next to a pallet jack, among shelves of unlabeled jugs.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "How adoption without management spreads",
+      "sub": "Each step leads to the next when nobody decides anything. The arrow back is this lesson's diagnosis. Click each step.",
+      "volta": "The five-line diagnosis brings each tool back to an owner and a measure",
+      "nos": [
+        {
+          "icone": "carregar",
+          "titulo": "Tool comes in",
+          "sub": "through someone",
+          "detalhe": "AI comes in through the nearest door: the vendor who turns on a new feature, IT building an automation, the salesperson who installs an app on their phone. Nobody decides; someone just starts using it."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "No owner",
+          "sub": "nobody answers for it",
+          "detalhe": "Whoever installed it keeps it running, but nobody in the business answers for the result. When something goes wrong, the question \"who approved this?\" has no answer."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "No measure",
+          "sub": "nobody compares",
+          "detalhe": "With no owner, nobody defines what success is. With no starting point, there is no way to say whether things improved. The tool stays on the impression of whoever uses it."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Disconnected",
+          "sub": "loose projects",
+          "detalhe": "Each area has its own initiative, with its own vendor and its own data. Nothing adds up: support summarizes conversations in one service, sales sells with another, finance uses a third."
+        },
+        {
+          "icone": "x",
+          "titulo": "In the shadows",
+          "sub": "use nobody knows about",
+          "forte": true,
+          "detalhe": "In the end, part of the use doesn't even show up: personal accounts, browser extensions, apps that record meetings. This is shadow AI, where customer data leaves the company without anyone having decided that."
+        }
+      ],
+      "legenda": "This lesson's teaching chain, illustrated with the Horizonte lab. The Brazil numbers are in the steps below, each with a date and source."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What the 2026 numbers say",
+      "sub": "Four readings. Look at each study's definition: it tells you what the number counts.",
+      "passos": [
+        {
+          "titulo": "Lots of adoption",
+          "sub": "Deloitte and GFT",
+          "texto": [
+            "Deloitte (09/17/2026): 50% of Brazilian companies have adopted AI. GFT, in Tech Trends 2026 LATAM with BCG data: 18% of Brazilian companies integrate agents, versus 13% worldwide.",
+            "\"Adopting AI\" and \"integrating agents\" are different questions. A company that uses a text assistant has adopted AI; integrating an agent means putting it inside a process."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Horizonte (a fictional study company) \"adopted AI\" a while ago. It \"integrated an agent\" only in July 2026, with Hora."
+          }
+        },
+        {
+          "titulo": "Investment arriving",
+          "sub": "ABES and IDC",
+          "texto": [
+            "ABES and IDC (06/15/2026), with 103 executives: 40% already invest in agents and 33% plan to invest within 12 months. The obstacles cited: data, legacy systems, governance and a shortage of skilled professionals.",
+            "Notice the sample: 103 executives. It is a useful snapshot of what leadership says, not a census of Brazilian companies."
+          ],
+          "exemplo": {
+            "rot": "Reading",
+            "texto": "Two of the four obstacles (governance and a shortage of skilled professionals) are about management, not technology."
+          }
+        },
+        {
+          "titulo": "Little management",
+          "sub": "KPMG and Deloitte",
+          "texto": [
+            "KPMG, Global Tech Report 2026 (04/2026): 45% of Brazilian executives report several AI projects that are disconnected from one another. Deloitte (09/17/2026): only 27% of Brazilian companies have mature AI governance.",
+            "Together, the numbers tell the same story as the diagram: high adoption, scattered projects, and few people deciding who is accountable and how it is measured."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Customer service, sales, and finance each use AI in their own way. No project talks to the others, and only Hora has any number being tracked."
+          }
+        },
+        {
+          "titulo": "Compare the definition",
+          "sub": "before the number",
+          "texto": [
+            "\"Adopted\" (50%), \"invest\" (40%), \"integrate\" (18%), and \"in use\" (17%, Gartner, worldwide) measure different things, with different samples and dates. You can't add them, subtract them, or say that one contradicts another.",
+            "Before you cite a number in a meeting, state the definition along with it: \"18% integrate agents, according to GFT with data from BCG.\" The people listening understand what the number counts."
+          ],
+          "exemplo": {
+            "rot": "Common mistake",
+            "texto": "\"Half of companies already use agents.\" No: half have adopted AI of some kind (Deloitte). Integrated agents are 18% (GFT/BCG)."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: five-line diagnosis",
+      "sub": "It fits in a message to leadership. Count what exists before you give an opinion on what is missing.",
+      "blocos": [
+        {
+          "rot": "Five-line diagnosis",
+          "icone": "lupa",
+          "conteudo": "AI DIAGNOSIS · <company or area> · <date> · done by <name>\n\n1. IN USE: <N> AI agents and tools (<a> official, <b> built outside the list, <c> on people's own initiative)\n2. WITH A BUSINESS OWNER (name): <x> of <N> · no owner: <which>\n3. WITH A MEASURE (tracked number + starting point): <y> of <N>\n4. LINKED TO A PROCESS WITH AN OWNER (not a loose project): <z> of <N>\n5. FIRST ACTION: <what> · owner <name> · by <date>\n\nHow I counted: <IT inventory + questions to how many people>"
+        },
+        {
+          "rot": "Prompt · review the diagnosis",
+          "icone": "chat",
+          "conteudo": "You are an experienced manager reviewing a diagnosis of a company's\nAI use. Do not recommend tools: point out gaps in the count.\n\nDiagnosis:\n\"\"\"<paste here>\"\"\"\n\nAnswer, in this order:\n1. Does the count in line 1 seem to include use on people's own\n   initiative? What questions would bring out what is missing?\n2. Is any \"owner\" in line 2 from IT, or is it \"the team\"?\n3. In line 3, is there a \"measure\" without a starting point?\n4. Does the first action have an owner and a date, and does it tackle\n   the weakest line?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte's diagnosis (example)",
+            "html": "<p><b>Horizonte Distribuidora</b> · fictional study company · based on the inventory and the internal survey (22 of 40 people)</p><ol><li><b>In use:</b> 7 AI tools. 2 official (Hora, the sales team's email assistant), 1 built by IT outside the list (customer service summary) and 4 on people's own initiative (an extension that summarizes emails, an app that records visits, a free chatbot on a personal account, a spreadsheet add-on with access to all files).</li><li><b>With a business owner:</b> 0 of 7. The three from IT are with Rafael; the four on people's own initiative have no owner.</li><li><b>With a measure and starting point:</b> 0 of 7. Hora has a dashboard, but no starting point.</li><li><b>Linked to a process with an owner:</b> 0 of 7.</li><li><b>First action:</b> Patrícia takes over Hora and the email assistant; Juliana, the summary; Carlos decides by 10/31 on the four on people's own initiative.</li></ol>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>Line 1 separates official, built outside the list, and on people's own initiative.</li><li>Lines 2 to 4 are counts (\"x of N\"), not adjectives.</li><li>The first action has a name and a date.</li><li>Common mistake: counting only what is in IT's inventory. At Horizonte, that would show 2 AI tools, and there are 7.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Horizonte to practice counting; your own company for real.",
+      "fonte": "Lab materials: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">IT inventory and internal survey</a> and <a href=\"https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/\">customer service summary</a> (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Horizonte's diagnosis",
+          "min": "20 min",
+          "texto": "With the official inventory, the 22 answers from the internal survey, and the customer service summary open, count the AI tools in use at Horizonte and fill in the five lines without looking at the example. Then compare your count with the example's.",
+          "pronto": "the five lines are filled in with \"x of N\" counts, line 1 separates official, outside the list, and on people's own initiative (and reaches 7), and the first action has a name and a date."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your company's diagnosis",
+          "min": "30 min",
+          "texto": "Ask IT for the list of tools and ask at least three people from different areas which AI they use at work, including on their phones and personal accounts. Fill in the five lines, run the prompt, and send the diagnosis to whoever decides in your company.",
+          "pronto": "the diagnosis has the five lines, line 1 includes what you heard from at least three people, at least one tool is flagged as having no owner, and the message was sent to whoever decides."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "A colleague says: \"Half of Brazilian companies already use agents.\" What is wrong?",
+          "opcoes": [
+            "Nothing",
+            "The 50% (Deloitte) is for companies that adopted AI of some kind; integrated agents are 18% (GFT/BCG)",
+            "The right number is 40%"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Adopting AI and integrating agents are different questions. The classic mistake is to take the bigger number and swap the definition."
+        },
+        {
+          "p": "What did KPMG (04/2026) find among Brazilian executives?",
+          "opcoes": [
+            "45% report several AI projects that are disconnected from one another",
+            "45% turned off their agents",
+            "45% have mature governance"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "This is the central symptom of this lesson: high adoption, each area with its own initiative, nothing adds up. Mature governance is the Deloitte figure, and it is 27%."
+        },
+        {
+          "p": "Why does Horizonte's diagnosis find 7 AI tools if the official inventory shows only 2?",
+          "opcoes": [
+            "Because the inventory is out of date on purpose",
+            "Because one was built by IT outside the list and four are used on people's own initiative, and they only show up when you ask people",
+            "Because the diagnosis also counts antivirus software"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Counting only what IT has recorded hides the riskiest part. Shadow AI only shows up when you ask the people who use it."
+        },
+        {
+          "p": "In the ABES and IDC survey (06/2026), which obstacles cited are about management, not technology?",
+          "opcoes": [
+            "Data and legacy systems",
+            "Governance and lack of professionals",
+            "None"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Data and legacy systems are technical; governance and a lack of prepared people are management. That is the space this program fills."
+        },
+        {
+          "p": "What is the return arrow in the diagram?",
+          "opcoes": [
+            "Shut down all AI",
+            "The diagnosis: bring each tool to one owner and one measure",
+            "Hire a single vendor"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Banning pushes use further out of sight; a single vendor gives nothing an owner. The way back starts with counting what exists and naming who answers for it."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Lots of adoption",
+          "texto": "50% have adopted AI; 18% integrate agents; 40% invest."
+        },
+        {
+          "t": "Little management",
+          "texto": "45% have disconnected projects; 27% have mature governance."
+        },
+        {
+          "t": "Definition first",
+          "texto": "Adopt, invest, integrate and use count different things."
+        },
+        {
+          "t": "Five lines",
+          "texto": "What exists, owner, measure, process and the first action."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "GFT: Brazil leads adoption of agentic AI (Tech Trends 2026 LATAM)",
+          "href": "https://www.gft.com/br/pt/about-us/newsroom/press-and-news/2026/press-releases/brasil-lidera-adocao-de-ia-agentica",
+          "icone": "grafico"
+        },
+        {
+          "t": "KPMG: gains and challenges of the age of intelligence (04/2026)",
+          "href": "https://kpmg.com/br/pt/insights/2026/04/ganhos-desafios-era-inteligencia.html",
+          "icone": "arquivo"
+        },
+        {
+          "t": "Horizonte Lab: IT inventory and internal survey (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lista"
+        }
+      ]
+    }
+  ]
+}

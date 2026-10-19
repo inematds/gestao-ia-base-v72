@@ -1,0 +1,373 @@
+{
+  "slug": "mercado",
+  "num": 5,
+  "menu": "Market",
+  "titulo": "How the market is reorganizing",
+  "titulo_curto": "Reading the market",
+  "minutos": 20,
+  "lead": "McKinsey, Deloitte, Microsoft and Gartner publish about the agentic company almost every month, and those numbers reach your desk as a decision: cut, hire, promise. In this lesson you read what each one says and learn to separate research, self-reported experience and forecast. At the end, the owner of Horizonte shows up with a report, and you are the one who answers.",
+  "objetivo": "read a consulting or vendor report and separate what is research, what is self-reported experience and what is forecast.",
+  "competencias": [
+    "read-a-report-critically",
+    "separate-fact-from-forecast",
+    "propose-your-own-measure"
+  ],
+  "aprende": [
+    {
+      "t": "What McKinsey, Deloitte, Microsoft and Gartner say about managing with agents"
+    },
+    {
+      "t": "The four questions of critical reading: who publishes it, how they measured, is it a forecast, what applies to me"
+    },
+    {
+      "t": "Why taking management off the org chart does not take the work away"
+    },
+    {
+      "t": "Answering a \"McKinsey said that...\" without agreeing or fighting"
+    }
+  ],
+  "hero_alt": "A business owner and a manager talk at a table covered with printed reports with bar charts; she marks a page with a highlighter.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "The reading sheet in four questions",
+      "sub": "Before you use a number from a report in a decision, it goes through these four questions, in this order. Click each one.",
+      "nos": [
+        {
+          "icone": "megafone",
+          "titulo": "Who publishes it",
+          "sub": "and what they sell",
+          "detalhe": "A consultancy sells the transformation it describes; a technology vendor sells the solution to the problem it measures. That does not make the report false. It makes it necessary to ask what the report would have no interest in showing."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "How they measured",
+          "sub": "research or report?",
+          "detalhe": "Research with a sample (how many people, where, when) is different from self-reported experience (what the consultancy saw at its clients) and from a case study. If the report does not say how it measured, the number counts as opinion."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "Is it a forecast?",
+          "sub": "made when, for when",
+          "detalhe": "A forecast has a date for when it was made and a deadline for when it should happen. A 2024 forecast about the end of 2026 can already be checked. A forecast cited as if it were fact is the most common mistake in meetings."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "What applies to me",
+          "sub": "map, not proof",
+          "forte": true,
+          "detalhe": "The report is a map: it shows where to look. The proof is your own company's measurement. End every reading with one sentence: what I take away, and what I need to measure here before deciding."
+        }
+      ],
+      "legenda": "All the facts in this lesson come from the October 2026 market overview of the program, with date and source. Anything that only had a secondary source was left out."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Four frames, four kinds of claim",
+      "sub": "Each consultancy and vendor sells its own frame. See what each one says and what kind of claim it is.",
+      "passos": [
+        {
+          "titulo": "McKinsey",
+          "sub": "self-reported experience",
+          "texto": [
+            "McKinsey describes the \"agentic organization\" (2025–2026): small teams built around an outcome as the unit of the organization, with 2 to 5 people supervising 50 to 100 specialized agents, and accountability designed in from the start (accountability by design). It also says the span of control may narrow at first and widen later, with supervision tools.",
+            "Type: self-reported experience from the consultancy, not a measured study. It is what the firm observes and proposes to its clients."
+          ],
+          "exemplo": {
+            "rot": "Sheet",
+            "texto": "Who publishes it: a consultancy that sells reorganization. How they measured: reporting. Forecast: no. What I take away: the unit of management becomes the team built around an outcome."
+          }
+        },
+        {
+          "titulo": "Deloitte",
+          "sub": "consultancy view",
+          "texto": [
+            "In Tech Trends 2026, Deloitte treats agents as a \"silicon-based\" workforce: integration with data and operations, graduated autonomy with human supervision triggers, and training for supervisors. In Human Capital Trends 2025, it discusses the future of the middle manager.",
+            "Type: consultancy view, with trends and recommendations. It works as vocabulary and as a checklist, not as a number."
+          ],
+          "exemplo": {
+            "rot": "Sheet",
+            "texto": "Who publishes it: a consultancy. How they measured: trends and cases. Forecast: in part. What I take away: whoever supervises an agent also needs to be trained."
+          }
+        },
+        {
+          "titulo": "Microsoft",
+          "sub": "vendor survey",
+          "texto": [
+            "Work Trend Index 2026 (05/2026): 20 thousand people in 10 countries. 16% are \"Frontier Professionals\", who use agents in multi-step workflows; 58% do work they could not do a year ago (80% among the Frontier); when the manager uses AI in front of the team, perceived value goes up 17 points.",
+            "Type: survey with a sample, run by the company that sells the tool. An analysis by The Microsoft Cloud Blog (05/2026) reminds readers that these numbers should not carry a business case on their own."
+          ],
+          "exemplo": {
+            "rot": "Sheet",
+            "texto": "Who publishes it: an AI vendor. How they measured: opinion survey with a large sample. Forecast: no. What I take away: the manager setting the example matters; the 58% is not from my company."
+          }
+        },
+        {
+          "titulo": "Gartner",
+          "sub": "forecast",
+          "texto": [
+            "Forecast made in October 2024: by the end of 2026, 1 in 5 organizations will use AI to flatten the structure and cut more than half of middle management roles. In 2026, the same Gartner reported that only 17% of companies have agents in use.",
+            "Type: forecast, with a deadline that is coming due now. Critics point out that taking a layer off the org chart does not eliminate the work it did: coordinating, reviewing, training the people who join. That is where the agent manager comes in."
+          ],
+          "exemplo": {
+            "rot": "Sheet",
+            "texto": "Who publishes it: a research consultancy. How it measured: analyst forecast. Forecast: yes, for the end of 2026. What I take from it: list the management work before cutting the layer."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: critical reading sheet",
+      "sub": "One sheet for each report or news item that reaches your desk looking like a decision. It takes ten minutes and saves a whole meeting of opinion against opinion.",
+      "blocos": [
+        {
+          "rot": "Critical reading sheet",
+          "icone": "lupa",
+          "conteudo": "CRITICAL READING SHEET · <report title> · <who publishes it> · <date>\nArrived through: <who brought it and which decision it is meant to justify>\n\n1. WHO PUBLISHES IT AND WHAT THEY SELL\n   <consultancy / vendor / institute / press> · sells: <...>\n   What they would have no interest in showing: <...>\n\n2. HOW IT MEASURED\n   [ ] survey with a sample: <how many, where, when, which question>\n   [ ] self-reported experience (what they saw with clients)\n   [ ] case study   [ ] opinion / column   [ ] doesn't say\n\n3. IS IT A FORECAST?\n   [ ] no   [ ] yes: made on <date>, for <deadline>. Can we check it yet? <yes/no>\n\n4. THE NUMBER THAT WILL BE USED\n   \"<number and exact sentence>\" · type: <survey / account / forecast / opinion>\n   Definition used by the report: <what counts as \"uses\", \"integrates\", \"adopts\">\n\n5. WHAT APPLIES TO ME\n   What I take from it (1 sentence): <...>\n   What I need to measure here before deciding: <measure, for how long, who>"
+        },
+        {
+          "rot": "Prompt · separate fact from forecast",
+          "icone": "chat",
+          "conteudo": "You are a skeptical analyst. I will paste an excerpt from a market report.\nDo not summarize and do not give an opinion on the subject: classify the claims.\n\nExcerpt:\n\"\"\"<paste here>\"\"\"\n\nFor each claim with a number or trend:\n1. Say whether it is a survey with a sample, self-reported experience, case study,\n   forecast or opinion. If the excerpt doesn't make it clear, say \"not stated\".\n2. If it is a forecast, point out when it was made and for when.\n3. Point out the definition used (what counts as \"adopt\", \"use\", \"integrate\").\n4. List what I would need to measure in my company to get the\n   equivalent number.\nDo not invent data that is not in the excerpt."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "WTI 2026 sheet (example)",
+            "html": "<p><b>Work Trend Index 2026</b> · Microsoft · 05/2026 · brought by Carlos to expand Hora to collections (Horizonte, fictional study company)</p><ul><li><b>Who publishes it:</b> an AI vendor, which sells the tool whose usage it measures.</li><li><b>How it measured:</b> survey of 20 thousand people in 10 countries.</li><li><b>Forecast:</b> no.</li><li><b>Number to be used:</b> \"58% do work they couldn't do a year ago\" · opinion survey, self-reported by the respondents themselves.</li><li><b>What I take from it:</b> a manager who uses AI in front of the team changes the perception of value.</li><li><b>What to measure here:</b> two weeks of requests accepted without correction and time from request to invoicing, before expanding Hora; owner, Patrícia.</li></ul>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>All five parts are filled in; \"doesn't say\" is also an answer.</li><li>The number is in quotes, exactly as in the report, with the type next to it.</li><li>The last line has a measure, a deadline and a name.</li><li>Common mistake: reading only the headline. The headline almost never says how the number was measured.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulation: Carlos read a report over the weekend",
+      "sub": "Simulated conversation for practice. The owner of Horizonte arrives on Monday with numbers from a report and a decision almost made. You are Patrícia.",
+      "personagem": {
+        "nome": "Carlos · owner of Horizonte (simulation)",
+        "papel": "Horizonte Distribuidora, fictional study company"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Patrícia, I read this over the weekend. McKinsey says 2 to 5 people will supervise 50 to 100 agents. And Gartner says 1 in 5 companies will cut more than half of middle management by the end of 2026. Here's what I'm thinking: in January, sales supervision becomes Hora. Makes sense, right?",
+          "opcoes": [
+            {
+              "t": "Makes sense. They're the biggest consultancies in the world, they know what they're saying.",
+              "vai": "fim-corte",
+              "nota": 0,
+              "comenta": "The authority of whoever publishes something doesn't turn a forecast into a fact. You just agreed to a cut based on two numbers nobody measured at Horizonte."
+            },
+            {
+              "t": "I don't think that applies to a small company like ours.",
+              "vai": "trabalho",
+              "nota": 1,
+              "comenta": "It might even be true, but you swapped a number for an opinion. Stronger is to say what each number is and what it doesn't measure."
+            },
+            {
+              "t": "Before deciding, it's worth seeing what each number is. McKinsey's is the consultancy's self-reported experience, not a measured study. Gartner's is a forecast made in October 2024. Neither one measured Horizonte.",
+              "vai": "trabalho",
+              "nota": 2,
+              "comenta": "You didn't disagree with Carlos: you separated the type of each claim. That is the first step of critical reading, and it opens the way for the next conversation."
+            }
+          ]
+        },
+        "trabalho": {
+          "cliente": "OK, it's not measured. But if the big ones are heading that way, something is going to happen. Tell me: what does sales supervision do today that Hora wouldn't do?",
+          "opcoes": [
+            {
+              "t": "Honestly, nothing. But it's good to have someone keeping an eye on things.",
+              "vai": "numero",
+              "nota": 0,
+              "comenta": "If even you can't say what supervision does, the cut seems logical. Critics of the forecast remind us of exactly the opposite: taking the layer away doesn't eliminate its work."
+            },
+            {
+              "t": "Hora makes a lot of mistakes, we can't trust it.",
+              "vai": "numero",
+              "nota": 1,
+              "comenta": "Maybe, but without a measure it's opinion against opinion. The dashboard has no starting point to prove either that it makes mistakes or that it gets things right."
+            },
+            {
+              "t": "I decide the 5% to 10% discounts, I approve orders above R$ 5 thousand, I take care of the exception queue and I'm training Juliana to replace me. That work doesn't disappear if the layer leaves the org chart.",
+              "vai": "numero",
+              "nota": 2,
+              "comenta": "You listed the work that stays: authority limit, approval, exceptions and training people. It's the argument of the critics of flattening, now with an example from your own house."
+            }
+          ]
+        },
+        "numero": {
+          "cliente": "Makes sense. One last thing: the Microsoft report says 58% of people do work they couldn't do a year ago. Can I put in the plan that we'll gain that with Hora?",
+          "opcoes": [
+            {
+              "t": "You can, it's in the report.",
+              "vai": "fim-numero",
+              "nota": 0,
+              "comenta": "It's a survey by the AI vendor itself, with other companies and a different question. Putting the number in the plan is promising a result nobody measured here."
+            },
+            {
+              "t": "Let's put half, 29%, to be conservative.",
+              "vai": "fim-numero",
+              "nota": 1,
+              "comenta": "Cutting it in half seems prudent, but it's a made-up number on top of another that isn't Horizonte's. Conservative would be measuring."
+            },
+            {
+              "t": "It's the vendor's own survey, with 20 thousand people in 10 countries: it works as a map, not as proof. I propose we measure our own: two weeks of order baseline before deciding on collections.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "You used the report as a map and proposed the missing proof: the company's own measure before the next decision."
+            }
+          ]
+        },
+        "fim-corte": {
+          "fim": true,
+          "titulo": "Cut approved with other people's numbers",
+          "texto": "In January supervision goes away and the exception queue is left without an owner. Neither number measured Horizonte: one is self-reported experience, the other is a forecast. Start over and separate the type of each claim before agreeing."
+        },
+        "fim-numero": {
+          "fim": true,
+          "titulo": "Plan with a borrowed promise",
+          "texto": "The plan went out with a gain taken from a vendor survey, not from Horizonte. In November, no one will be able to say whether Hora delivered. The missing piece was proposing the company's own measure."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Map read, proof requested",
+          "texto": "Carlos agreed: two weeks of baseline before deciding on collections. You separated self-reported experience, forecast and vendor survey, defended the work that stays with supervision and asked for the missing measure."
+        }
+      },
+      "licao": "Consultancy and vendor reports are a map, not proof. Before using a number, say who published it, how it was measured and whether it is a forecast. Then measure it in your own company."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The conversation with Carlos for practice; a real report for keeps.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The conversation with Carlos",
+          "min": "10 min",
+          "texto": "Run the simulation above. If you don't reach the top score, read the comments, start over and choose again. For each number Carlos brought, write down the type of claim.",
+          "pronto": "you reached 6 out of 6 points and have noted the type of all three numbers: self-reported experience (McKinsey), forecast from Oct/2024 (Gartner) and vendor survey (Microsoft)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · A report's sheet",
+          "min": "25 min",
+          "texto": "Pick a report, news story or post that reached your company citing an AI number, or one of the four from this lesson. Fill in the critical reading sheet and run the prompt on the main excerpt. Compare what you classified with what the prompt flagged.",
+          "pronto": "the sheet has all five parts filled in, the number in quotes with the type beside it, the definition the report uses, and the last line with a measure, a deadline and a name."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "\"2 to 5 people supervising 50 to 100 agents\" (McKinsey) is what kind of claim?",
+          "opcoes": [
+            "Survey with a sample",
+            "Self-reported experience from the consultancy",
+            "Forecast with a deadline"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "It's what the consultancy observes and proposes based on its own clients, not a measured study. Use it to understand the direction, not to size your team."
+        },
+        {
+          "p": "When was Gartner's forecast about cutting more than half of middle management made, and for when?",
+          "opcoes": [
+            "In 2026, for 2030",
+            "In October 2024, for the end of 2026",
+            "It has no date"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "A forecast from Oct/2024 with a deadline at the end of 2026, which means you can already check it. And it says \"1 in 5 organizations,\" not all of them."
+        },
+        {
+          "p": "Why does a Work Trend Index number deserve extra care before going into a plan?",
+          "opcoes": [
+            "Because the sample is small",
+            "Because it's a survey run by the company that sells the tool, with other companies and a different question; it works as a map, not as proof for your case",
+            "Because Microsoft doesn't publish surveys"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The sample is large (20 thousand people), but the publisher sells the solution for what it measures, and the number isn't from your company. Even an analysis on The Microsoft Cloud Blog warns against using it alone in a business case."
+        },
+        {
+          "p": "What is the argument of the critics of \"flattening\" middle management?",
+          "opcoes": [
+            "AI doesn't work",
+            "Removing the layer from the org chart doesn't eliminate its work: coordinating, reviewing, training newcomers",
+            "The average manager is irreplaceable by law"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The work of coordinating, reviewing and training still exists. What changes is who does it and how; that's where the agent manager comes in."
+        },
+        {
+          "p": "What is the last question on the critical reading sheet?",
+          "opcoes": [
+            "Who the author is",
+            "What applies to me: what I take away and what I need to measure here before deciding",
+            "How many pages the report has"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The report is a map. The sheet ends by turning the map into a measure for your company, with a deadline and an owner."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Four questions",
+          "texto": "Who publishes it, how they measured, is it a forecast, what applies to me."
+        },
+        {
+          "t": "Different types",
+          "texto": "McKinsey reports, Deloitte proposes, Microsoft surveys what it sells, Gartner forecasts."
+        },
+        {
+          "t": "The work stays",
+          "texto": "Cutting the layer doesn't cut coordinating, reviewing and training."
+        },
+        {
+          "t": "Map, not proof",
+          "texto": "Every reading ends in a measure for your company."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Deloitte: Tech Trends 2026, agents as a workforce (in English)",
+          "href": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+          "icone": "arquivo"
+        },
+        {
+          "t": "The Microsoft Cloud Blog: fact-check of the Work Trend Index 2026 evidence (in English)",
+          "href": "https://themicrosoftcloudblog.com/2026/05/2026-work-trend-index-evidence-check/",
+          "icone": "lupa"
+        },
+        {
+          "t": "AI Management Area: the thesis and the 2027 manager",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

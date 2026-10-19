@@ -1,0 +1,296 @@
+{
+  "slug": "competencias",
+  "num": 4,
+  "menu": "Competencias",
+  "titulo": "Las 8 competencias del gestor de IA",
+  "titulo_curto": "Las 8 competencias",
+  "minutos": 18,
+  "lead": "Estrategia, arquitectura del trabajo, delegación, orquestación, gobernanza, economía, evaluación y evolución. Las cuatro primeras deciden qué va a hacer el agente; las cuatro últimas, si sigue haciéndolo. En esta clase te das una nota de 0 a 3 en cada una, con una evidencia por nota, y eliges qué curso de la formación seguir.",
+  "objetivo": "medirte de 0 a 3 en las 8 competencias del gestor de IA, con una evidencia para cada nota, y elegir el próximo curso de la formación.",
+  "competencias": [
+    "autoavaliar-competencias-com-evidencia",
+    "priorizar-por-risco",
+    "escolher-trilha-da-formacao"
+  ],
+  "aprende": [
+    {
+      "t": "Las 8 competencias, en el orden en que un gestor las usa"
+    },
+    {
+      "t": "La pregunta que responde cada competencia"
+    },
+    {
+      "t": "Dar una nota de 0 a 3 que se sostenga con evidencia"
+    },
+    {
+      "t": "Elegir el próximo curso por el riesgo, no por la curiosidad"
+    }
+  ],
+  "hero_alt": "Una gerente, sola en la mesa a primera hora de la mañana, llena a lapicero una cuadrícula de cuadros vacíos, con una taza de café al lado.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Ocho competencias, en dos mitades",
+      "sub": "Desplaza la página: cada competencia se enciende con la pregunta que responde. Las cuatro primeras deciden qué hace el agente; las cuatro últimas, si sigue haciéndolo.",
+      "estilo": "escada",
+      "rolagem": true,
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Estrategia",
+          "sub": "¿resultado?",
+          "detalhe": "Primero el resultado, después la herramienta. No empieces por el modelo ni por la plataforma. Es la competencia de este curso (G0): saber qué quieres antes de encender cualquier cosa."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Arquitectura",
+          "sub": "¿debe existir?",
+          "detalhe": "Arquitectura del trabajo: eliminar, simplificar, rediseñar y solo entonces automatizar. Paso a paso, decidir qué es persona, agente, automatización simple o nada. Es el curso G2."
+        },
+        {
+          "icone": "enviar",
+          "titulo": "Delegación",
+          "sub": "¿qué entrego?",
+          "detalhe": "Objetivo, responsabilidad, contexto, herramientas, plazo y evidencia de cierre. Delegar es entregarle al agente un trabajo que él puede terminar y tú puedes revisar. Es el curso G3."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Orquestación",
+          "sub": "¿uno o varios?",
+          "detalhe": "Un agente o varios, en serie o en paralelo, con una persona en el medio, un agente supervisor o revisor. Separar solo cuando hay una señal para hacerlo. También en el curso G3."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Gobernanza",
+          "sub": "¿puede solo?",
+          "detalhe": "Permisos, identidad, credenciales, registro y trazabilidad. Niveles de autorización antes que autonomía: lo que el agente hace solo, lo que confirma y lo que jamás ejecuta. Es el curso G5."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Economía",
+          "sub": "¿cuánto cuesta?",
+          "detalhe": "Modelo, tokens, tiempo, infraestructura: costo por ejecución, por tarea y por resultado. Un agente barato que se equivoca y necesita dos intentos costó el doble de lo que dice la tabla. Es el curso G4."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Evaluación",
+          "sub": "¿comparado con qué?",
+          "detalhe": "Calidad, tiempo, costo, fallas, retrabajo, autonomía, intervención humana y resultado comercial, siempre comparados con un punto de partida. El agente tiene evaluación de desempeño. Es el curso G5."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Evolución",
+          "sub": "¿qué aprendí?",
+          "detalhe": "La empresa deja de preguntar solo \"¿terminó la tarea?\" y pasa a preguntar qué aprendió con ella. La mejora probada se promueve; la que empeoró se revierte. Es el LOOP-R, en el curso G5."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "Las ocho juntas",
+        "texto": "Estrategia, arquitectura, delegación y orquestación deciden qué va a hacer el agente. Gobernanza, economía, evaluación y evolución deciden si sigue haciéndolo. Personas, que no aparece como competencia, tiene su propio curso: el G1.",
+        "curto": "Cuatro deciden qué hace; cuatro, si continúa."
+      },
+      "legenda": "Las 8 competencias son del área Gestión de IA de INEMA. La escala de 0 a 3 es un instrumento de este curso, para conversar y elegir una ruta, no un examen."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cómo ponerte una nota honesta",
+      "sub": "Cuatro pasos. Patrícia, de Horizonte (empresa ficticia de estudio), sirve de ejemplo antes de que te evalúes.",
+      "passos": [
+        {
+          "titulo": "La escala de 0 a 3",
+          "sub": "hacer, no saber",
+          "texto": [
+            "0: nunca lo hice y no sé por dónde empezar. 1: entiendo la pregunta, pero aún no la apliqué. 2: ya lo hice al menos una vez y tengo el archivo o el registro. 3: lo hago como rutina y puedo enseñárselo a alguien.",
+            "La escala mide lo que haces, no lo que leíste. Haber visto un video sobre gobernanza es 1; tener una lista de permisos revisada es 2."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia sabe que Hora debería tener un tope de descuento (nota 1 en gobernanza), pero el tope aún no existe en la herramienta."
+          }
+        },
+        {
+          "titulo": "Una evidencia por nota",
+          "sub": "sin ella, la nota baja",
+          "texto": [
+            "Para cada nota 2 o 3, escribe la evidencia: un archivo, un registro, una decisión con fecha. Si no hay evidencia, la nota es 1. Parece rígido, y lo es: la autoevaluación sin evidencia siempre sale más alta.",
+            "Para las notas 0 y 1, escribe qué falta. De esa frase sale tu ruta."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Evaluación: el panel de Hora existe, pero no tiene línea de base y la satisfacción viene de cerca del 6% de los clientes. Nota 1, no 2."
+          }
+        },
+        {
+          "titulo": "Las dos mitades",
+          "sub": "hace × continúa",
+          "texto": [
+            "Nota baja en las cuatro primeras significa que el agente hace lo equivocado o lo hace de la manera equivocada. Nota baja en las cuatro últimas significa que nadie sabe si le va bien, cuánto cuesta o cómo mejorarlo.",
+            "El gestor que solo invierte en la primera mitad arma agentes que nadie logra mantener. Quien solo invierte en la segunda mide con precisión un trabajo mal diseñado."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia tiene 1 en delegación y gobernanza (primera mitad) y 0 en economía y evolución (segunda). Las dos mitades están débiles."
+          }
+        },
+        {
+          "titulo": "Elegir por el riesgo",
+          "sub": "no por la curiosidad",
+          "texto": [
+            "El orden sugerido de la formación es G0, G2, G3, G4, G1, G5. Pero si una competencia con nota baja está causando daño ahora en tu proceso, empieza por su curso. El riesgo presente le gana al orden sugerido.",
+            "Escribe el motivo de la elección en una frase. Dentro de tres meses, repite la autoevaluación y compara."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia elige el G3: Hora da descuentos sin tope y hoy crea pedidos grandes sin aprobación. El G2 viene justo después, para rediseñar el pedido."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: autoevaluación en las 8 competencias",
+      "sub": "Una página. Guárdala con la fecha: es con ella que te comparas dentro de tres meses.",
+      "blocos": [
+        {
+          "rot": "Autoevaluación 0–3",
+          "icone": "lista",
+          "conteudo": "AUTOEVALUACIÓN · GESTOR DE IA · <nombre> · <área> · <fecha>\nEscala: 0 nunca lo hice · 1 lo entiendo, no lo apliqué · 2 lo hice al menos una vez (con evidencia)\n        3 lo hago como rutina y lo enseño\n\nCOMPETÊNCIA        | PERGUNTA                       | NOTA | EVIDÊNCIA (2-3) ou O QUE FALTA (0-1) | CURSO\n1 Estrategia      | ¿qué resultado queremos?       | <>   | <>                                   | G0\n2 Arquitectura     | ¿este proceso debería existir? | <>   | <>                                   | G2\n3 Delegación       | ¿qué entrego exactamente?      | <>   | <>                                   | G3\n4 Orquestación     | ¿un agente o varios?           | <>   | <>                                   | G3\n5 Gobernanza       | ¿hace, confirma o nunca?       | <>   | <>                                   | G5\n6 Economía         | ¿cuánto cuesta el resultado?   | <>   | <>                                   | G4\n7 Evaluación       | ¿está bien, comparado con qué? | <>   | <>                                   | G5\n8 Evolución        | ¿qué aprendimos?               | <>   | <>                                   | G5\n\nSUMA 1-4 (lo que hace): <>/12   ·   SUMA 5-8 (si continúa): <>/12\nCOMPETENCIA CON MAYOR RIESGO AHORA: <> porque <>\nPRÓXIMO CURSO: <G1..G5> · MOTIVO: <1 frase>\nREHACER EN: <fecha, dentro de 3 meses>"
+        },
+        {
+          "rot": "Prompt · desafiar las notas",
+          "icone": "chat",
+          "conteudo": "Eres un evaluador escéptico que revisa la autoevaluación de un gestor en las 8\ncompetencias de gestión de IA. No des notas: desafía las que yo di.\n\nAutoevaluación:\n\"\"\"<pega aquí>\"\"\"\n\nResponde, en este orden:\n1. ¿Qué notas 2 o 3 no tienen evidencia concreta (archivo, registro,\n   decisión con fecha)? Deben bajar a 1.\n2. ¿Alguna evidencia es \"leí\", \"vi\" o \"sé\"? Eso es nota 1.\n3. ¿La elección del próximo curso combina con la competencia de mayor riesgo?\n4. ¿Qué pregunta debería responder antes de confirmar la elección?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Patrícia (ejemplo)",
+            "html": "<p><b>Patrícia Lima · comercial</b> · Horizonte Distribuidora, empresa ficticia de estudio</p><table><thead><tr><th>Competencia</th><th>Nota</th><th>Evidencia o lo que falta</th></tr></thead><tbody><tr><td>Estrategia</td><td>1</td><td>Hora se activó con \"cerrar el máximo\", sin resultado definido</td></tr><tr><td>Arquitectura</td><td>0</td><td>el pedido sigue el camino de antes</td></tr><tr><td>Delegación</td><td>1</td><td>el prompt dice \"conceda el descuento que haga falta\"</td></tr><tr><td>Orquestación</td><td>0</td><td>el cobro por agente se está decidiendo sin diseño</td></tr><tr><td>Gobernanza</td><td>1</td><td>sabe que falta un tope; el tope no existe en la herramienta</td></tr><tr><td>Economía</td><td>0</td><td>nadie sabe el costo por pedido</td></tr><tr><td>Evaluación</td><td>1</td><td>panel sin punto de partida</td></tr><tr><td>Evolución</td><td>0</td><td>ningún cambio probado y registrado</td></tr></tbody></table><p><b>Sumas:</b> 2/12 y 2/12. <b>Próximo curso:</b> G3, porque el descuento sin tope causa daño ahora.</p>"
+          },
+          {
+            "rot": "Cómo revisar",
+            "html": "<ol><li>Toda nota 2 o 3 tiene una evidencia que otra persona puede abrir.</li><li>Toda nota 0 o 1 dice lo que falta, en una frase.</li><li>La elección del curso cita una competencia y un motivo.</li><li>Error común: poner 2 en todo para no parecer débil. La nota sirve para elegir la ruta, no para que alguien la vea.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Primero evalúa a Patrícia, para calibrar la regla. Después, a ti.",
+      "fonte": "Piezas del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">agente de WhatsApp</a> y <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">panel de Hora</a> (empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Evaluar a Patrícia",
+          "min": "15 min",
+          "texto": "Usando solo lo que está en el laboratorio (el prompt de Hora, la configuración, las conversaciones y el panel), dale a Patrícia una nota de 0 a 3 en cada competencia, con la evidencia o lo que falta. Solo después abre el ejemplo de al lado y anota dónde divergieron.",
+          "pronto": "las ocho notas están dadas, cada una con una frase de evidencia o de lo que falta tomada de una pieza del laboratorio, y anotaste al menos una divergencia con el ejemplo y el motivo."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Tu autoevaluación",
+          "min": "20 min",
+          "texto": "Completa el modelo para ti. Ejecuta el prompt escéptico y baja las notas que muestre sin evidencia. Elige el próximo curso de la formación por la competencia de mayor riesgo en tu proceso y marca en la agenda la fecha para rehacerlo dentro de tres meses.",
+          "pronto": "tienes ocho notas, ocho evidencias o \"lo que falta\", las dos sumas, un curso elegido (G1 a G5) con el motivo en una frase y la fecha de la reevaluación en la agenda."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "4 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Qué competencia responde a la pregunta \"¿este proceso todavía debería existir?\"",
+          "opcoes": [
+            "Estrategia",
+            "Arquitectura del trabajo",
+            "Evolución"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Arquitectura del trabajo es eliminar, simplificar y rediseñar antes de automatizar. Estrategia pregunta qué resultado; evolución pregunta qué aprendimos."
+        },
+        {
+          "p": "Viste un curso sobre costos de IA, pero nunca calculaste el costo por resultado de un agente. ¿Qué nota en economía?",
+          "opcoes": [
+            "3",
+            "2",
+            "1"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "La escala mide lo que haces. Entender la pregunta sin haberla aplicado es 1. Para 2, necesitarías al menos un cálculo registrado."
+        },
+        {
+          "p": "Las cuatro últimas competencias (gobernanza, economía, evaluación, evolución) deciden ¿qué?",
+          "opcoes": [
+            "Lo que el agente va a hacer",
+            "Si el agente continúa haciéndolo",
+            "Qué herramienta comprar"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Las cuatro primeras deciden lo que el agente hace; las cuatro últimas, si continúa: si es seguro, cuánto cuesta, si está bien y cómo mejora."
+        },
+        {
+          "p": "El orden sugerido empieza por G2, pero tu agente está dando descuentos sin tope hoy. ¿Por dónde seguir?",
+          "opcoes": [
+            "Por G2, porque ese es el orden sugerido",
+            "Por G3, porque el riesgo presente está en la delegación y en el nivel de autorización",
+            "Por ninguno, hasta terminar la autoevaluación de todo el equipo"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El riesgo presente vence al orden sugerido. El orden existe para quien no tiene urgencia; quien tiene un daño ocurriendo empieza por el curso que lo corrige."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Ocho competencias",
+          "texto": "Estrategia, arquitectura, delegación, orquestación, gobernanza, economía, evaluación, evolución."
+        },
+        {
+          "t": "Dos mitades",
+          "texto": "Cuatro deciden lo que el agente hace; cuatro, si continúa."
+        },
+        {
+          "t": "Nota con evidencia",
+          "texto": "Sin archivo ni registro, la nota es 1."
+        },
+        {
+          "t": "Riesgo primero",
+          "texto": "El daño de hoy decide el próximo curso."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Área Gestión de IA: las 8 competencias y dónde se enseña cada una",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Curso G3 · Agentes (delegación y orquestación), ya publicado",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Laboratorio Horizonte: panel de Hora (empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "grafico"
+        }
+      ]
+    }
+  ]
+}

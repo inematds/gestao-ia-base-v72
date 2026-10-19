@@ -1,0 +1,373 @@
+{
+  "slug": "mercado",
+  "num": 5,
+  "menu": "Mercado",
+  "titulo": "Cómo se está reorganizando el mercado",
+  "titulo_curto": "Leer el mercado",
+  "minutos": 20,
+  "lead": "McKinsey, Deloitte, Microsoft y Gartner publican sobre la empresa agéntica casi todos los meses, y esos números llegan a tu mesa en forma de decisión: recortar, contratar, prometer. En esta clase lees lo que dice cada uno y aprendes a separar investigación, experiencia declarada y pronóstico. Al final, el dueño de Horizonte llega con un informe, y eres tú quien responde.",
+  "objetivo": "leer un informe de consultoría o de proveedor y separar lo que es investigación, lo que es experiencia declarada y lo que es pronóstico.",
+  "competencias": [
+    "ler-relatorio-com-criterio",
+    "separar-fato-de-previsao",
+    "propor-medida-propria"
+  ],
+  "aprende": [
+    {
+      "t": "Qué dicen McKinsey, Deloitte, Microsoft y Gartner sobre la gestión con agentes"
+    },
+    {
+      "t": "Las cuatro preguntas de la lectura crítica: quién publica, cómo midió, si es pronóstico, qué vale para mí"
+    },
+    {
+      "t": "Por qué sacar la gerencia del organigrama no saca el trabajo que hace"
+    },
+    {
+      "t": "Responder a un \"McKinsey dijo que...\" sin darle la razón ni pelear"
+    }
+  ],
+  "hero_alt": "Un empresario y una gerente conversan en una mesa cubierta de informes impresos con gráficos de barras; ella marca una página con un resaltador.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "La ficha de lectura en cuatro preguntas",
+      "sub": "Antes de usar un número de un informe en una decisión, pasa por estas cuatro preguntas, en este orden. Toca cada una.",
+      "nos": [
+        {
+          "icone": "megafone",
+          "titulo": "Quién publica",
+          "sub": "y qué vende",
+          "detalhe": "Una consultoría vende la transformación que describe; un proveedor de tecnología vende la solución del problema que mide. Eso no vuelve falso el informe. Hace obligatorio preguntar qué no tendría interés en mostrar."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Cómo midió",
+          "sub": "¿investigación o relato?",
+          "detalhe": "Una investigación con muestra (cuántas personas, dónde, cuándo) es distinta de la experiencia declarada (lo que la consultoría vio en sus clientes) y de un estudio de caso. Si el informe no dice cómo midió, el número vale como opinión."
+        },
+        {
+          "icone": "calendario",
+          "titulo": "¿Es pronóstico?",
+          "sub": "hecho cuándo, para cuándo",
+          "detalhe": "Un pronóstico tiene fecha de cuándo se hizo y plazo para cumplirse. Un pronóstico de 2024 sobre fines de 2026 ya se puede comprobar. Citar un pronóstico como si fuera un hecho es el error más común en las reuniones."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Qué vale para mí",
+          "sub": "mapa, no prueba",
+          "forte": true,
+          "detalhe": "El informe es un mapa: muestra hacia dónde mirar. La prueba es la medición de tu empresa. Termina toda lectura con una frase: qué me llevo y qué necesito medir aquí antes de decidir."
+        }
+      ],
+      "legenda": "Todos los hechos de esta clase vienen del panorama de mercado de octubre de 2026 de la formación, con fecha y fuente. Lo que solo tenía fuente secundaria quedó fuera."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Cuatro marcos, cuatro tipos de afirmación",
+      "sub": "Cada consultoría y cada proveedor vende su propio marco. Mira qué dice cada uno y de qué tipo es la afirmación.",
+      "passos": [
+        {
+          "titulo": "McKinsey",
+          "sub": "experiencia declarada",
+          "texto": [
+            "McKinsey describe la \"agentic organization\" (2025–2026): equipos pequeños por resultado como unidad de la organización, de 2 a 5 personas supervisando de 50 a 100 agentes especializados, y responsabilidad diseñada desde el inicio (accountability by design). Dice también que el tramo de control puede estrecharse al comienzo y ampliarse después, con herramientas de supervisión.",
+            "Tipo: experiencia declarada de la consultoría, no un estudio medido. Es lo que ella observa y propone a sus clientes."
+          ],
+          "exemplo": {
+            "rot": "Ficha",
+            "texto": "Quién publica: consultoría que vende reorganización. Cómo midió: relato. Pronóstico: no. Qué me llevo: la unidad de gestión pasa a ser el equipo por resultado."
+          }
+        },
+        {
+          "titulo": "Deloitte",
+          "sub": "visión de consultoría",
+          "texto": [
+            "En el Tech Trends 2026, Deloitte trata a los agentes como fuerza laboral \"de silicio\": integración con los datos y la operación, autonomía graduada con disparadores de supervisión humana y capacitación de los supervisores. En el Human Capital Trends 2025, discute el futuro del gerente medio.",
+            "Tipo: visión de consultoría, con tendencias y recomendaciones. Sirve como vocabulario y lista de verificación, no como número."
+          ],
+          "exemplo": {
+            "rot": "Ficha",
+            "texto": "Quién publica: consultoría. Cómo midió: tendencias y casos. Pronóstico: en parte. Qué me llevo: quien supervisa agentes también necesita capacitación."
+          }
+        },
+        {
+          "titulo": "Microsoft",
+          "sub": "encuesta del proveedor",
+          "texto": [
+            "Work Trend Index 2026 (05/2026): 20 mil personas en 10 países. El 16% son \"Frontier Professionals\", que usan agentes en flujos de varias etapas; el 58% hace un trabajo que no podía hacer hace un año (80% entre los Frontier); cuando el gestor usa IA frente al equipo, el valor percibido sube 17 puntos.",
+            "Tipo: encuesta con muestra, hecha por quien vende la herramienta. Un análisis de The Microsoft Cloud Blog (05/2026) recuerda que estos números no deben sostener por sí solos un business case."
+          ],
+          "exemplo": {
+            "rot": "Ficha",
+            "texto": "Quién publica: proveedor de IA. Cómo midió: encuesta de opinión con muestra grande. Pronóstico: no. Qué me llevo: que el gestor dé el ejemplo pesa; el 58% no es de mi empresa."
+          }
+        },
+        {
+          "titulo": "Gartner",
+          "sub": "pronóstico",
+          "texto": [
+            "Pronóstico hecho en octubre de 2024: para fines de 2026, 1 de cada 5 organizaciones usará IA para aplanar la estructura y recortar más de la mitad de los puestos de gerencia media. En 2026, el mismo Gartner registró que solo el 17% de las empresas tiene agentes en uso.",
+            "Tipo: pronóstico, con un plazo que vence ahora. Los críticos recuerdan que sacar la capa del organigrama no elimina el trabajo que hacía: coordinar, revisar, formar a quien llega. Ahí es donde entra el gestor de agentes."
+          ],
+          "exemplo": {
+            "rot": "Ficha",
+            "texto": "Quién publica: consultora de investigación. Cómo lo midió: pronóstico de analistas. Pronóstico: sí, para fines de 2026. Lo que me llevo: listar el trabajo de la gerencia antes de recortar la capa."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: ficha de lectura crítica",
+      "sub": "Una ficha por cada informe o noticia que llega a tu escritorio con cara de decisión. Lleva diez minutos y evita una reunión entera de opinión contra opinión.",
+      "blocos": [
+        {
+          "rot": "Ficha de lectura crítica",
+          "icone": "lupa",
+          "conteudo": "FICHA DE LECTURA CRÍTICA · <título del informe> · <quién publica> · <fecha>\nLlegó por: <quién lo trajo y para justificar qué decisión>\n\n1. QUIÉN PUBLICA Y QUÉ VENDE\n   <consultora / proveedor / instituto / prensa> · vende: <...>\n   Lo que no le interesaría mostrar: <...>\n\n2. CÓMO MIDIÓ\n   [ ] encuesta con muestra: <cuántos, dónde, cuándo, qué pregunta>\n   [ ] experiencia declarada (lo que vio en los clientes)\n   [ ] estudio de caso   [ ] opinión / columna   [ ] no lo dice\n\n3. ¿ES UN PRONÓSTICO?\n   [ ] no   [ ] sí: hecho en <fecha>, para <plazo>. ¿Ya se puede comprobar? <sí/no>\n\n4. EL NÚMERO QUE SE VA A USAR\n   \"<número y frase exacta>\" · tipo: <encuesta / relato / pronóstico / opinión>\n   Definición usada por el informe: <qué cuenta como \"usa\", \"integra\", \"adopta\">\n\n5. LO QUE VALE PARA MÍ\n   Lo que me llevo (1 frase): <...>\n   Lo que necesito medir aquí antes de decidir: <medida, por cuánto tiempo, quién>"
+        },
+        {
+          "rot": "Prompt · separar hecho de pronóstico",
+          "icone": "chat",
+          "conteudo": "Eres un analista escéptico. Voy a pegar un fragmento de un informe de mercado.\nNo lo resumas ni opines sobre el tema: clasifica las afirmaciones.\n\nFragmento:\n\"\"\"<pega aquí>\"\"\"\n\nPara cada afirmación con número o tendencia:\n1. Di si es encuesta con muestra, experiencia declarada, estudio de caso,\n   pronóstico u opinión. Si el fragmento no lo deja claro, di \"no informado\".\n2. Si es un pronóstico, señala cuándo se hizo y para cuándo.\n3. Señala la definición usada (qué cuenta como \"adoptar\", \"usar\", \"integrar\").\n4. Lista lo que yo necesitaría medir en mi empresa para tener el número\n   equivalente.\nNo inventes datos que no estén en el fragmento."
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Ficha del WTI 2026 (ejemplo)",
+            "html": "<p><b>Work Trend Index 2026</b> · Microsoft · 05/2026 · traído por Carlos para ampliar la Hora a la cobranza (Horizonte, empresa ficticia de estudio)</p><ul><li><b>Quién publica:</b> proveedor de IA, que vende la herramienta cuyo uso mide.</li><li><b>Cómo lo midió:</b> encuesta a 20 mil personas en 10 países.</li><li><b>Pronóstico:</b> no.</li><li><b>Número a usar:</b> \"58% hace un trabajo que no podía hacer hace un año\" · encuesta de opinión, declarada por los propios encuestados.</li><li><b>Lo que me llevo:</b> el gestor que usa IA frente al equipo cambia la percepción de valor.</li><li><b>Qué medir aquí:</b> dos semanas de pedidos aceptados sin corrección y tiempo del pedido a la facturación, antes de ampliar la Hora; responsable, Patrícia.</li></ul>"
+          },
+          {
+            "rot": "Cómo revisar",
+            "html": "<ol><li>Las cinco partes están completas; \"no lo dice\" también es una respuesta.</li><li>El número está entre comillas, igual que en el informe, con el tipo al lado.</li><li>La última línea tiene una medida, un plazo y un nombre.</li><li>Error común: leer solo el titular. El titular casi nunca dice cómo se midió el número.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "simconversa",
+      "titulo": "Simulación: Carlos leyó un informe el fin de semana",
+      "sub": "Conversación simulada para practicar. El dueño de Horizonte llega el lunes con números de un informe y una decisión casi tomada. Tú eres Patrícia.",
+      "personagem": {
+        "nome": "Carlos · dueño de Horizonte (simulación)",
+        "papel": "Horizonte Distribuidora, empresa ficticia de estudio"
+      },
+      "inicio": "abre",
+      "falas": {
+        "abre": {
+          "cliente": "Patrícia, leí el fin de semana. McKinsey dice que de 2 a 5 personas van a supervisar de 50 a 100 agentes. Y Gartner dice que 1 de cada 5 empresas va a recortar más de la mitad de la gerencia para fines de 2026. Estoy pensando: en enero, la supervisión comercial pasa a ser la Hora. Tiene sentido, ¿no?",
+          "opcoes": [
+            {
+              "t": "Tiene sentido. Son las consultoras más grandes del mundo, saben lo que dicen.",
+              "vai": "fim-corte",
+              "nota": 0,
+              "comenta": "La autoridad de quien publica no convierte un pronóstico en hecho. Acabas de estar de acuerdo con un recorte basado en dos números que nadie midió en Horizonte."
+            },
+            {
+              "t": "Creo que eso no vale para una empresa pequeña como la nuestra.",
+              "vai": "trabalho",
+              "nota": 1,
+              "comenta": "Puede que sea cierto, pero cambiaste un número por una opinión. Es más fuerte decir qué es cada número y qué no mide."
+            },
+            {
+              "t": "Antes de decidir, conviene ver qué es cada número. El de McKinsey es experiencia declarada de la consultora, no un estudio medido. El de Gartner es un pronóstico hecho en octubre de 2024. Ninguno de los dos midió a Horizonte.",
+              "vai": "trabalho",
+              "nota": 2,
+              "comenta": "No le llevaste la contraria a Carlos: separaste el tipo de cada afirmación. Es el primer paso de la lectura crítica, y abre espacio para la conversación siguiente."
+            }
+          ]
+        },
+        "trabalho": {
+          "cliente": "Está bien, no es una medida. Pero si las grandes van para allá, algo va a pasar. Dime: ¿qué hace hoy la supervisión comercial que la Hora no haría?",
+          "opcoes": [
+            {
+              "t": "Sinceramente, nada. Pero es bueno tener a alguien vigilando.",
+              "vai": "numero",
+              "nota": 0,
+              "comenta": "Si ni tú puedes decir qué hace la supervisión, el recorte parece lógico. Los críticos del pronóstico recuerdan justamente lo contrario: sacar la capa no elimina su trabajo."
+            },
+            {
+              "t": "La Hora se equivoca mucho, no se puede confiar en ella.",
+              "vai": "numero",
+              "nota": 1,
+              "comenta": "Puede ser, pero sin medida es opinión contra opinión. El panel no tiene un punto de partida para probar ni que ella se equivoca, ni que acierta."
+            },
+            {
+              "t": "Yo decido los descuentos del 5% al 10%, apruebo los pedidos de más de R$ 5 mil, me ocupo de la cola de excepciones y estoy formando a Juliana para que me reemplace. Ese trabajo no desaparece si la capa sale del organigrama.",
+              "vai": "numero",
+              "nota": 2,
+              "comenta": "Listaste el trabajo que queda: nivel de autorización, aprobación, excepciones y formación de personas. Es el argumento de los críticos del aplanamiento, ahora con el ejemplo de la casa."
+            }
+          ]
+        },
+        "numero": {
+          "cliente": "Tiene sentido. Una última cosa: el informe de Microsoft dice que el 58% de las personas hace un trabajo que no podía hacer hace un año. ¿Puedo poner en el plan que vamos a ganar eso con la Hora?",
+          "opcoes": [
+            {
+              "t": "Puedes, está en el informe.",
+              "vai": "fim-numero",
+              "nota": 0,
+              "comenta": "Es una encuesta del propio proveedor de IA, con otras empresas y otra pregunta. Poner el número en el plan es prometer un resultado que nadie midió aquí."
+            },
+            {
+              "t": "Pongamos la mitad, 29%, para ser conservadores.",
+              "vai": "fim-numero",
+              "nota": 1,
+              "comenta": "Cortar por la mitad parece prudente, pero es un número inventado sobre otro que no es de Horizonte. Lo conservador sería medir."
+            },
+            {
+              "t": "Es una encuesta del propio proveedor, con 20 mil personas en 10 países: sirve de mapa, no de prueba. Propongo medir lo nuestro: dos semanas de línea de base del pedido antes de decidir sobre la cobranza.",
+              "vai": "fim-bom",
+              "nota": 2,
+              "comenta": "Usaste el informe como mapa y propusiste la prueba que falta: la medida de la propia empresa antes de la próxima decisión."
+            }
+          ]
+        },
+        "fim-corte": {
+          "fim": true,
+          "titulo": "Recorte aprobado con el número de otros",
+          "texto": "En enero la supervisión sale y la cola de excepciones se queda sin dueño. Ninguno de los dos números midió a Horizonte: uno es experiencia declarada, el otro es un pronóstico. Empieza de nuevo y separa el tipo de cada afirmación antes de estar de acuerdo."
+        },
+        "fim-numero": {
+          "fim": true,
+          "titulo": "Plan con promesa prestada",
+          "texto": "El plan salió con una ganancia sacada de una encuesta de proveedor, no de Horizonte. En noviembre, nadie podrá decir si la Hora cumplió. Faltó proponer la medida de la casa."
+        },
+        "fim-bom": {
+          "fim": true,
+          "titulo": "Mapa leído, prueba pedida",
+          "texto": "Carlos aceptó: dos semanas de línea de base antes de decidir sobre la cobranza. Separaste experiencia declarada, pronóstico y encuesta de proveedor, defendiste el trabajo que queda con la supervisión y pediste la medida que faltaba."
+        }
+      },
+      "licao": "Un informe de consultora o de proveedor es un mapa, no una prueba. Antes de usar un número, di quién lo publicó, cómo lo midió y si es un pronóstico. Después, mide en tu empresa."
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "La conversación con Carlos para practicar; un informe de verdad, en serio.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · La conversación con Carlos",
+          "min": "10 min",
+          "texto": "Haz la simulación de arriba. Si no llegas al puntaje máximo, lee los comentarios, vuelve a empezar y elige de nuevo. Anota, para cada número que trajo Carlos, el tipo de afirmación.",
+          "pronto": "llegaste a 6 de 6 puntos y tienes anotado el tipo de los tres números: experiencia declarada (McKinsey), pronóstico de oct/2024 (Gartner) y encuesta del proveedor (Microsoft)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · La ficha de un informe",
+          "min": "25 min",
+          "texto": "Elige un informe, noticia o post que haya llegado a tu empresa citando un número de IA, o uno de los cuatro de esta clase. Completa la ficha de lectura crítica y ejecuta el prompt sobre el pasaje principal. Compara lo que tú clasificaste con lo que señaló el prompt.",
+          "pronto": "la ficha tiene las cinco partes completas, el número entre comillas con el tipo al lado, la definición usada por el informe y la última línea con una medida, un plazo y un nombre."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "\"De 2 a 5 personas supervisando de 50 a 100 agentes\" (McKinsey) es qué tipo de afirmación?",
+          "opcoes": [
+            "Encuesta con muestra",
+            "Experiencia declarada de la consultora",
+            "Pronóstico con plazo"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Es lo que la consultora observa y propone a partir de sus clientes, no un estudio medido. Sirve para entender la dirección, no para dimensionar tu equipo."
+        },
+        {
+          "p": "El pronóstico de Gartner sobre recortar más de la mitad de la gerencia media se hizo cuándo, y para cuándo?",
+          "opcoes": [
+            "En 2026, para 2030",
+            "En octubre de 2024, para fines de 2026",
+            "No tiene fecha"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Pronóstico de oct/2024 con plazo a fines de 2026, es decir, ya se puede comprobar. Y dice \"1 de cada 5 organizaciones\", no todas."
+        },
+        {
+          "p": "Por qué un número del Work Trend Index merece un cuidado extra antes de entrar en un plan?",
+          "opcoes": [
+            "Porque la muestra es pequeña",
+            "Porque es una encuesta hecha por quien vende la herramienta, con otras empresas y otra pregunta; sirve de mapa, no de prueba de tu caso",
+            "Porque Microsoft no publica encuestas"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La muestra es grande (20 mil personas), pero quien publica vende la solución de lo que mide y el número no es de tu empresa. Incluso un análisis del blog The Microsoft Cloud Blog advierte que no se use solo en un business case."
+        },
+        {
+          "p": "Cuál es el argumento de los críticos del \"aplanamiento\" de la gerencia?",
+          "opcoes": [
+            "La IA no funciona",
+            "Quitar la capa del organigrama no elimina su trabajo: coordinar, revisar, formar a quien llega",
+            "El gerente medio es insustituible por ley"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "El trabajo de coordinación, revisión y formación sigue existiendo. Cambia quién lo hace y cómo; ahí es donde entra el gestor de agentes."
+        },
+        {
+          "p": "Cuál es la última pregunta de la ficha de lectura crítica?",
+          "opcoes": [
+            "Quién es el autor",
+            "Qué vale para mí: qué me llevo y qué necesito medir aquí antes de decidir",
+            "Cuántas páginas tiene el informe"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "El informe es un mapa. La ficha termina convirtiendo el mapa en una medida de tu empresa, con plazo y responsable."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Cuatro preguntas",
+          "texto": "Quién publica, cómo midió, es un pronóstico, qué vale para mí."
+        },
+        {
+          "t": "Tipos diferentes",
+          "texto": "McKinsey relata, Deloitte propone, Microsoft encuesta sobre lo que vende, Gartner pronostica."
+        },
+        {
+          "t": "El trabajo se queda",
+          "texto": "Quitar la capa no quita coordinar, revisar y formar."
+        },
+        {
+          "t": "Mapa, no prueba",
+          "texto": "Toda lectura termina en una medida de tu empresa."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Deloitte: Tech Trends 2026, agentes como fuerza laboral (en inglés)",
+          "href": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+          "icone": "arquivo"
+        },
+        {
+          "t": "The Microsoft Cloud Blog: verificación de las evidencias del Work Trend Index 2026 (en inglés)",
+          "href": "https://themicrosoftcloudblog.com/2026/05/2026-work-trend-index-evidence-check/",
+          "icone": "lupa"
+        },
+        {
+          "t": "Área Gestión de IA: la tesis y el gerente de 2027",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "slug": "como-gente",
+  "num": 2,
+  "menu": "Tesis",
+  "titulo": "Gestionar un agente se parece a gestionar personas",
+  "titulo_curto": "El agente se parece a una persona",
+  "minutos": 17,
+  "lead": "Lo que una empresa hacía con un empleado nuevo, tiene que hacerlo con cada agente: darle el rol, el objetivo, las herramientas, los límites y la evaluación. Cambian las palabras, no la lógica. En esta clase armas la traducción de un puesto a un agente, ves los dos ítems que las personas no tenían y aprendes dónde se detiene la comparación.",
+  "objetivo": "traducir puesto, responsabilidad, herramientas, límites y evaluación de una persona a un agente, y decir dónde se detiene la comparación.",
+  "competencias": [
+    "traduzir-gestao-de-pessoas-para-agentes",
+    "separar-preparar-de-decidir",
+    "reconhecer-limites-da-analogia"
+  ],
+  "aprende": [
+    {
+      "t": "Los seis pares que llevan la gestión de personas a la de agentes"
+    },
+    {
+      "t": "Los dos ítems que las personas no tenían: contexto explícito y autonomía graduada"
+    },
+    {
+      "t": "Quien registra no aprueba: el agente prepara, la persona decide"
+    },
+    {
+      "t": "Dónde se detiene la comparación, y el error de tratar a las personas como máquinas"
+    }
+  ],
+  "hero_alt": "En una sala de reuniones luminosa, una gerente y un empleado revisan una hoja impresa; al lado, un notebook muestra un panel de chat con globos de colores.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Antes y ahora, ítem por ítem",
+      "sub": "Cada bloque muestra lo que se hacía con una persona y lo que se hace con el agente. Haz clic para ver el ejemplo.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Rol",
+          "sub": "antes: puesto",
+          "detalhe": "El puesto decía para qué estaba ahí la persona. Para el agente, el rol es una frase con proceso y resultado, escrita, porque él no aprende el puesto en el pasillo. En el G3 esto se convierte en la ficha de puesto digital."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Objetivo",
+          "sub": "antes: responsabilidad",
+          "detalhe": "La responsabilidad de la persona se convierte en el objetivo del agente: el resultado que se verifica. Con una diferencia que no cambia: la responsabilidad por el resultado sigue siendo de una persona, con nombre."
+        },
+        {
+          "icone": "memoria",
+          "titulo": "Contexto",
+          "sub": "nuevo",
+          "forte": true,
+          "detalhe": "La persona aprende el contexto conviviendo: sabe que ese cliente paga tarde, que la tabla cambió ayer. El agente solo sabe lo que recibe por escrito. El contexto explícito es uno de los dos ítems que la gestión de personas no tenía."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Herramientas",
+          "sub": "antes: herramientas",
+          "detalhe": "La persona recibía acceso al sistema, al teléfono, a la planilla. El agente recibe herramientas que ejecutan: consultar, crear, enviar, borrar. Cada una es una decisión de gestión, no solo de TI."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "Autonomía",
+          "sub": "antes: límites",
+          "forte": true,
+          "detalhe": "El límite de una persona se acordaba y crecía con la confianza de los años. En el agente, la autonomía es graduada y se escribe acción por acción: lo que hace solo, lo que prepara para aprobación, lo que nunca hace. Es el segundo elemento nuevo."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Evaluación",
+          "sub": "antes: evaluación",
+          "detalhe": "La evaluación de desempeño continúa, solo que con más medición: el agente puede medirse en casi todo (aciertos, tiempo, costo, retrabajo, cuántas veces necesitó a una persona). El error se vuelve una instrucción corregida y un caso de prueba."
+        }
+      ],
+      "legenda": "Fuente de la tesis: área Gestión de IA de INEMA. Cómo escribir cada pieza para un agente de verdad es el curso G3 (Agentes)."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "La misma lógica en cuatro situaciones",
+      "sub": "Tres profesiones en las que la regla ya existía para las personas, y el punto en que la comparación se detiene. Los ejemplos de Horizonte son de la empresa ficticia de estudio.",
+      "passos": [
+        {
+          "titulo": "El mismo trabajo",
+          "sub": "con otras palabras",
+          "texto": [
+            "Piensa en lo que un buen gestor sabe sobre su equipo: cuál es el objetivo, quién hace cada cosa, qué información necesita cada uno, cuánta autonomía tiene, cómo medir y cuándo intervenir. Ahora cambia \"persona\" por \"agente\". Es prácticamente la misma lista.",
+            "Microsoft le puso nombre a esto en el Work Trend Index 2025: el agent boss, el gestor humano de uno o más agentes, y la medida human-agent ratio, el equilibrio entre la supervisión humana y la eficiencia de los agentes. Es el marco del proveedor, útil como vocabulario."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia se volvió jefa de Hora sin que nadie le avisara. Ya sabía gestionar a Juliana; solo no había escrito para Hora lo que le diría a una vendedora nueva."
+          }
+        },
+        {
+          "titulo": "Quien registra no aprueba",
+          "sub": "contable",
+          "texto": [
+            "En la contabilidad, la separación de funciones, el nivel de autorización y la revisión humana siempre valieron para el auxiliar. Valen igual para el agente: llega hasta la puerta de la firma, nunca más allá.",
+            "Esto no es desconfianza hacia el agente. Es la misma regla que protege a la empresa de cualquier error, humano o no."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Hora registra el pedido. Un pedido de más de R$ 5 mil solo pasa a la separación con la aprobación de Patrícia (política ficticia de estudio)."
+          }
+        },
+        {
+          "titulo": "Prepara, no decide",
+          "sub": "jurídico y salud",
+          "texto": [
+            "En lo jurídico, el agente hace la primera lectura y el abogado decide y firma: la responsabilidad no se delega, se organiza. En la salud, lo administrativo puede pasar a la IA, pero algunas decisiones quedan fuera del nivel de autorización del agente.",
+            "En los dos casos el límite es una decisión de gestión, tomada antes de encender el agente y no después del primer susto."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Descuento de hasta 5 % Hora lo da sola a un cliente registrado. De 5 % a 10 %, ella prepara y Patrícia decide. Por encima de eso, ni lo ofrece."
+          }
+        },
+        {
+          "titulo": "Donde la comparación se detiene",
+          "sub": "las personas no son máquinas",
+          "texto": [
+            "Una persona tiene necesidades, derechos y relaciones; con ella se conversa, se cuida su carga y su futuro. Un agente se gestiona por desempeño, confiabilidad y seguridad. Del agente quieres saber cuántas entregas salieron bien.",
+            "El error también cambia: con la persona, se vuelve conversación y aprendizaje; con el agente, se vuelve una instrucción corregida y un nuevo caso de prueba. El error grave es confundir los dos."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Desde que llegó Hora, Juliana responde solo lo que Hora no sabe. Patrícia mide a Hora por los aciertos; con Juliana, conversa sobre lo que cambió en su trabajo."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: la tabla antes × ahora",
+      "sub": "Una página por puesto. Empieza por lo que le dirías a una persona nueva en ese puesto y tradúcelo línea por línea.",
+      "blocos": [
+        {
+          "rot": "Tabla antes × ahora",
+          "icone": "lista",
+          "conteudo": "TABLA ANTES × AHORA · puesto: <ej.: vendedor que recibe pedidos> · agente: <nombre> · <fecha>\n\nÍTEM          | PARA LA PERSONA (antes)          | PARA EL AGENTE (ahora)             | CÓMO LO VERIFICO\nPuesto        | <cargo>                          | <proceso + resultado, 1 frase>     | <¿alguien de fuera lo entiende?>\nObjetivo      | <responsabilidad>                | <resultado que se verifica>        | <dónde queda registrado>\nContexto      | (aprendía conviviendo)           | <lo que recibe por escrito>        | <quién lo mantiene actualizado>\nHerramientas  | <sistemas, teléfono, planilla>   | <consultar / crear / enviar ...>   | <¿cuál puede cambiar datos?>\nAutonomía     | <límite acordado>                | <hace solo / prepara / nunca>      | <tope en número>\nEvaluación    | <evaluación de desempeño>        | <indicador + meta + cuándo reviso> | <número de la semana>\n\nRESPONSABLE DEL RESULTADO DEL AGENTE: <nombre, del negocio>\nLO QUE QUEDA CON LA PERSONA (y por qué): <decisión, relación, excepción ...>\nDONDE SE DETIENE LA COMPARACIÓN: <lo que cuido en la persona y no en el agente>"
+        },
+        {
+          "rot": "Prompt · revisar la tabla",
+          "icone": "chat",
+          "conteudo": "Eres un gestor experimentado que revisa la traducción de un puesto humano a un\nagente de IA. No reescribas la tabla: señala las lagunas.\n\nTabla:\n\"\"\"<pega aquí>\"\"\"\n\nResponde, en este orden:\n1. ¿Alguna línea del agente es una intención (\"ayudar\", \"ser ágil\") en lugar de\n   algo que se pueda verificar?\n2. ¿El contexto enumera lo que el agente necesita saber y que una persona sabía sin\n   que nadie lo escribiera?\n3. ¿La autonomía tiene un tope en número donde hay dinero de por medio?\n4. ¿El responsable es una persona del negocio, con nombre?\n5. ¿Lo que queda con la persona está justificado, o es solo lo que sobró?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Tabla de Hora (ejemplo)",
+            "html": "<p><b>Vendedora de reposición → Hora</b> · Horizonte Distribuidora, empresa ficticia de estudio</p><table><thead><tr><th>Ítem</th><th>Persona</th><th>Hora</th></tr></thead><tbody><tr><td>Puesto</td><td>vendedora de reposición</td><td>registrar pedidos de reposición de clientes registrados que llegan por WhatsApp</td></tr><tr><td>Objetivo</td><td>cumplir la meta del mes</td><td>pedido en la app que la separación no necesita corregir</td></tr><tr><td>Contexto</td><td>sabía quién paga con atraso</td><td>registro de clientes, tabla vigente, política de descuento por escrito</td></tr><tr><td>Herramientas</td><td>teléfono, app, planilla</td><td>leer registro y tabla; crear pedido; nunca marcar como pagado</td></tr><tr><td>Autonomía</td><td>descuento \"hasta donde Carlos deja\"</td><td>hasta 5 % sola; 5–10 % prepara; pedido de más de R$ 5 mil espera a Patrícia</td></tr><tr><td>Evaluación</td><td>conversación a fin de mes</td><td>% de pedidos aceptados sin corrección, revisado cada viernes</td></tr></tbody></table><p><b>Responsable:</b> Patrícia Lima. <b>Queda con la persona:</b> negociación por encima de 10 % y cliente nuevo.</p>"
+          },
+          {
+            "rot": "Cómo revisar",
+            "html": "<ol><li>Cada línea del agente puede ser verificada por alguien de otra área.</li><li>La línea del contexto tiene al menos una cosa que la persona sabía sin que estuviera escrita.</li><li>La autonomía tiene número donde hay dinero de por medio (descuento, valor del pedido).</li><li>Error común: copiar la descripción de puesto de la persona al agente. El agente no entiende de \"sentido común\"; entiende regla y ejemplo.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "En Horizonte, para practicar. Después, con un puesto de tu equipo.",
+      "fonte": "Pieza del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">agente de WhatsApp de Horizonte</a> (prompt, configuración y conversaciones; empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · La tabla de Hora",
+          "min": "20 min",
+          "texto": "Lee el prompt y la configuración de Hora en el laboratorio. Copia el modelo y completa la tabla antes × ahora tomando como \"antes\" a una vendedora de reposición. Usa la política ficticia de esta clase (5 %, 10 %, R$ 5 mil). Solo después compara con el ejemplo.",
+          "pronto": "las seis líneas están completas, cada línea de la columna del agente tiene algo que otra persona puede verificar (un registro, un número o una regla), la autonomía cita los tres números de la política y el responsable es Patrícia."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Un puesto de tu equipo",
+          "min": "25 min",
+          "texto": "Elige una tarea repetitiva que hoy hace una persona de tu equipo y que un agente podría asumir en parte. Completa la tabla, ejecuta el prompt de revisión y escribe las dos líneas finales: qué se queda con la persona y dónde se detiene la comparación.",
+          "pronto": "la tabla tiene las seis filas, un responsable con nombre, al menos una cosa que se queda con la persona con el motivo, y una frase que diga qué cuidas en la persona y no en el agente."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Cuáles son los dos elementos que la gestión de agentes tiene y la de personas no tenía?",
+          "opcoes": [
+            "Salario y vacaciones",
+            "Contexto explícito y autonomía graduada",
+            "Herramientas y evaluación"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "La persona aprende el contexto conviviendo y gana autonomía con los años. El agente solo sabe lo que está escrito y solo puede lo que se le liberó acción por acción. Herramientas y evaluación ya existían para las personas."
+        },
+        {
+          "p": "El agente de registros de la contabilidad preparó 40 pagos. ¿Quién aprueba?",
+          "opcoes": [
+            "El propio agente, si el valor es bajo",
+            "Una persona con nivel de autorización para eso: quien registra no aprueba",
+            "Nadie, si el agente acertó el mes pasado"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La separación de funciones vale para el agente como valía para el auxiliar. El agente llega hasta la puerta de la firma, nunca más allá."
+        },
+        {
+          "p": "El agente se equivocó en el precio de tres pedidos en la semana. ¿Qué respuesta combina con gestionar un agente?",
+          "opcoes": [
+            "Conversar con él sobre motivación",
+            "Corregir la instrucción, crear un caso de prueba con el error y revisar de nuevo",
+            "Apagarlo y cambiar de herramienta"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "En el agente, el error se vuelve instrucción corregida y caso de prueba. Conversar sobre motivación es con las personas. Cambiar de herramienta sin entender el error solo lleva el problema contigo."
+        },
+        {
+          "p": "¿Qué es agent boss, en el marco del Work Trend Index 2025 de Microsoft?",
+          "opcoes": [
+            "Un agente que dirige a personas",
+            "El gestor humano de uno o más agentes",
+            "Un puesto regulado"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Es el nombre que Microsoft le dio al gestor humano que tiene agentes en el equipo. Es vocabulario de proveedor, útil para conversar, no una norma ni un puesto oficial."
+        },
+        {
+          "p": "¿Cuál de estas frases trata a las personas como máquinas?",
+          "opcoes": [
+            "Medir a Hora por el porcentaje de pedidos aceptados sin corrección",
+            "Evaluar a Juliana solo por la cantidad de conversaciones que cerró, sin conversar sobre lo que cambió en su trabajo",
+            "Conversar con Juliana sobre la carga de excepciones"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Medir al agente con números es lo correcto. Reducir a la persona a un número, sin conversar sobre carga y futuro, es el error inverso. La comparación ayuda hasta aquí."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Misma lógica",
+          "texto": "Rol, objetivo, herramientas, autonomía y evaluación, como con las personas."
+        },
+        {
+          "t": "Dos elementos nuevos",
+          "texto": "Contexto explícito y autonomía graduada, por escrito."
+        },
+        {
+          "t": "Prepara, no decide",
+          "texto": "El agente llega hasta la puerta de la firma; quien registra no aprueba."
+        },
+        {
+          "t": "Dónde se detiene",
+          "texto": "La persona tiene carga y futuro; el agente tiene aciertos, tiempo y costo."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Curso G3 · Agentes: la ficha de puesto, la delegación y el nivel de autorización de verdad",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Curso Empresas de 2027: personas y agentes, lado a lado",
+          "href": "https://inematds.github.io/empresas-2027-v62/",
+          "icone": "camadas"
+        },
+        {
+          "t": "Área Gestión de IA: la tesis y los casos contable, jurídico y salud",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "slug": "competencias",
+  "num": 4,
+  "menu": "Skills",
+  "titulo": "The 8 skills of the AI manager",
+  "titulo_curto": "The 8 skills",
+  "minutos": 18,
+  "lead": "Strategy, work architecture, delegation, orchestration, governance, economics, evaluation and evolution. The first four decide what the agent will do; the last four, whether it keeps doing it. In this lesson you give yourself a score from 0 to 3 on each one, with one piece of evidence per score, and choose which course in the program to take next.",
+  "objetivo": "score yourself from 0 to 3 on the 8 skills of the AI manager, with one piece of evidence for each score, and choose the next course in the program.",
+  "competencias": [
+    "self-assess-skills-with-evidence",
+    "prioritize-by-risk",
+    "choose-program-track"
+  ],
+  "aprende": [
+    {
+      "t": "The 8 skills, in the order a manager uses them"
+    },
+    {
+      "t": "The question each skill answers"
+    },
+    {
+      "t": "Give a score from 0 to 3 that evidence can back up"
+    },
+    {
+      "t": "Choose the next course by risk, not by curiosity"
+    }
+  ],
+  "hero_alt": "A manager, alone at her desk early in the morning, fills in a grid of empty squares with a pen, a coffee mug beside her.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Eight skills, in two halves",
+      "sub": "Scroll the page: each skill lights up with the question it answers. The first four decide what the agent does; the last four, whether it keeps doing it.",
+      "estilo": "escada",
+      "rolagem": true,
+      "nos": [
+        {
+          "icone": "alvo",
+          "titulo": "Strategy",
+          "sub": "result?",
+          "detalhe": "Result first, tool second. Don't start with the model or the platform. This is the skill for this course (G0): knowing what you want before you turn anything on."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Architecture",
+          "sub": "should it exist?",
+          "detalhe": "Work architecture: eliminate, simplify, redesign, and only then automate. Step by step, decide what is a person, an agent, a simple automation, or nothing. This is the G2 course."
+        },
+        {
+          "icone": "enviar",
+          "titulo": "Delegation",
+          "sub": "what do I hand over?",
+          "detalhe": "Objective, responsibility, context, tools, deadline, and evidence of completion. Delegating means handing the agent work it can finish and you can check. This is the G3 course."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Orchestration",
+          "sub": "one or several?",
+          "detalhe": "One agent or several, in series or in parallel, with a person in the middle, a supervisor agent, or a reviewer. Split only when there is a signal for it. Also in the G3 course."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Governance",
+          "sub": "can it act alone?",
+          "detalhe": "Permissions, identity, credentials, records, and traceability. Authority limits before autonomy: what the agent does alone, what it confirms, and what it never executes. This is the G5 course."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Economics",
+          "sub": "how much does it cost?",
+          "detalhe": "Model, tokens, time, infrastructure: cost per run, per task, and per result. A cheap agent that makes mistakes and needs two tries cost double the price list. This is the G4 course."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Evaluation",
+          "sub": "compared to what?",
+          "detalhe": "Quality, time, cost, failures, rework, autonomy, human intervention, and business results, always compared to a starting point. An agent gets a performance review. This is the G5 course."
+        },
+        {
+          "icone": "relogio",
+          "titulo": "Evolution",
+          "sub": "what did I learn?",
+          "detalhe": "The company stops asking only \"did the task finish?\" and starts asking what it learned from it. A tested improvement is promoted; one that made things worse is reverted. This is LOOP-R, in the G5 course."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "All eight together",
+        "texto": "Strategy, architecture, delegation, and orchestration decide what the agent will do. Governance, economics, evaluation, and evolution decide whether it keeps doing it. People, which doesn't show up as a competency, has its own course: G1.",
+        "curto": "Four decide what it does; four, whether it continues."
+      },
+      "legenda": "The 8 competencies belong to INEMA's AI Management area. The 0-to-3 scale is a tool for this course, for conversation and for choosing a track, not an exam."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "How to give yourself an honest score",
+      "sub": "Four steps. Patrícia, from Horizonte (a fictional study company), is the example before you rate yourself.",
+      "passos": [
+        {
+          "titulo": "The 0-to-3 scale",
+          "sub": "doing, not knowing",
+          "texto": [
+            "0: I've never done it and don't know where to start. 1: I understand the question, but haven't applied it yet. 2: I've done it at least once, and I have the file or record. 3: I do it as a routine and can teach someone else.",
+            "The scale measures what you do, not what you've read. Having watched a video about governance is a 1; having a reviewed list of permissions is a 2."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia knows Hora should have a discount cap (a 1 in governance), but the cap doesn't exist in the tool yet."
+          }
+        },
+        {
+          "titulo": "One piece of evidence per score",
+          "sub": "without it, the score drops",
+          "texto": [
+            "For every 2 or 3, write down the evidence: a file, a record, a dated decision. If there is no evidence, the score is a 1. It sounds strict, and it is: self-assessment without evidence always comes out higher.",
+            "For scores of 0 and 1, write down what is missing. Your track comes from that sentence."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Evaluation: Hora's dashboard exists, but it has no baseline and satisfaction comes from about 6% of customers. A 1, not a 2."
+          }
+        },
+        {
+          "titulo": "The two halves",
+          "sub": "does × continues",
+          "texto": [
+            "A low score in the first four means the agent does the wrong thing or does it the wrong way. A low score in the last four means nobody knows whether it is doing well, what it costs, or how to improve it.",
+            "A manager who only invests in the first half builds agents that nobody can maintain. One who only invests in the second precisely measures work that was badly designed."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia has a 1 in delegation and governance (first half) and a 0 in economics and evolution (second). Both halves are weak."
+          }
+        },
+        {
+          "titulo": "Choose by risk",
+          "sub": "not by curiosity",
+          "texto": [
+            "The program's suggested order is G0, G2, G3, G4, G1, G5. But if a low-scoring competency is causing harm right now in your process, start with its course. Present risk beats suggested order.",
+            "Write the reason for your choice in one sentence. Three months from now, redo the self-assessment and compare."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia chooses G3: Hora gives discounts with no cap and creates large orders with no approval today. G2 comes right after, to redesign the order."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: self-assessment across the 8 competencies",
+      "sub": "One page. Save it with the date: you will compare against it three months from now.",
+      "blocos": [
+        {
+          "rot": "Self-assessment 0–3",
+          "icone": "lista",
+          "conteudo": "SELF-ASSESSMENT · AI MANAGER · <name> · <area> · <date>\nScale: 0 never done it · 1 I understand it, haven't applied it · 2 did it at least once (with evidence)\n       3 do it as a routine and teach it\n\nCOMPETENCY         | QUESTION                       | SCORE | EVIDENCE (2-3) or WHAT IS MISSING (0-1) | COURSE\n1 Strategy         | what result do we want?        | <>    | <>                                      | G0\n2 Architecture     | should this process exist?     | <>    | <>                                      | G2\n3 Delegation       | what exactly do I hand over?   | <>    | <>                                      | G3\n4 Orchestration    | one agent or several?          | <>    | <>                                      | G3\n5 Governance       | does it do, confirm or never?  | <>    | <>                                      | G5\n6 Economics        | how much does the result cost? | <>    | <>                                      | G4\n7 Evaluation       | is it good, compared to what?  | <>    | <>                                      | G5\n8 Evolution        | what did we learn?             | <>    | <>                                      | G5\n\nSUM 1-4 (what it does): <>/12   ·   SUM 5-8 (whether it continues): <>/12\nCOMPETENCY AT HIGHEST RISK NOW: <> because <>\nNEXT COURSE: <G1..G5> · REASON: <1 sentence>\nREDO ON: <date, 3 months from now>"
+        },
+        {
+          "rot": "Prompt · challenge the scores",
+          "icone": "chat",
+          "conteudo": "You are a skeptical evaluator reviewing a manager's self-assessment on the 8\nAI management competencies. Do not give scores: challenge the ones I gave.\n\nSelf-assessment:\n\"\"\"<paste here>\"\"\"\n\nAnswer, in this order:\n1. Which 2 or 3 scores have no concrete evidence (file, record,\n   dated decision)? They should drop to 1.\n2. Is any evidence \"I read\", \"I watched\" or \"I know\"? That is a score of 1.\n3. Does the choice of next course match the competency at highest risk?\n4. What question should I answer before confirming the choice?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Patrícia (example)",
+            "html": "<p><b>Patrícia Lima · sales</b> · Horizonte Distribuidora, fictional study company</p><table><thead><tr><th>Competency</th><th>Score</th><th>Evidence or what is missing</th></tr></thead><tbody><tr><td>Strategy</td><td>1</td><td>Hora was turned on with \"close as many as possible\", with no defined result</td></tr><tr><td>Architecture</td><td>0</td><td>the order follows the same path as before</td></tr><tr><td>Delegation</td><td>1</td><td>the prompt says \"grant whatever discount is needed\"</td></tr><tr><td>Orchestration</td><td>0</td><td>collections by agent are being decided without a design</td></tr><tr><td>Governance</td><td>1</td><td>knows a cap is missing; the cap does not exist in the tool</td></tr><tr><td>Economics</td><td>0</td><td>nobody knows the cost per order</td></tr><tr><td>Evaluation</td><td>1</td><td>dashboard with no starting point</td></tr><tr><td>Evolution</td><td>0</td><td>no change tested and recorded</td></tr></tbody></table><p><b>Sums:</b> 2/12 and 2/12. <b>Next course:</b> G3, because a discount with no cap causes harm now.</p>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>Every score of 2 or 3 has evidence that someone else can open.</li><li>Every score of 0 or 1 says what is missing, in one sentence.</li><li>The course choice names one competency and one reason.</li><li>Common mistake: giving 2 on everything so you don't look weak. The score is for choosing your path, not for anyone to see.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "First assess Patrícia, to calibrate the ruler. Then assess yourself.",
+      "fonte": "Lab pieces: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">WhatsApp agent</a> and <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">Hora dashboard</a> (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Assess Patrícia",
+          "min": "15 min",
+          "texto": "Using only what is in the lab (Hora's prompt, the configuration, the conversations and the dashboard), give Patrícia a score from 0 to 3 on each competency, with the evidence or what is missing. Only then open the example next to it and note where you differed.",
+          "pronto": "all eight scores are given, each with one sentence of evidence or of what is missing taken from a lab piece, and you noted at least one difference from the example and the reason."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your self-assessment",
+          "min": "20 min",
+          "texto": "Fill in the template for yourself. Run the skeptical prompt and lower the scores it shows have no evidence. Choose the next course in the program based on the competency at highest risk in your process, and put the date to redo this in three months on your calendar.",
+          "pronto": "you have eight scores, eight pieces of evidence or \"what is missing\", the two sums, one chosen course (G1 to G5) with the reason in one sentence, and the reassessment date on your calendar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Which competency answers the question \"should this process still exist?\"",
+          "opcoes": [
+            "Strategy",
+            "Work architecture",
+            "Evolution"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Work architecture means eliminating, simplifying and redesigning before automating. Strategy asks which result; evolution asks what we learned."
+        },
+        {
+          "p": "You took a course on AI costs, but never calculated the cost per result of an agent. What score in economics?",
+          "opcoes": [
+            "3",
+            "2",
+            "1"
+          ],
+          "certa": 2,
+          "ref": "passos",
+          "explica": "The scale measures what you do. Understanding the question without having applied it is a 1. For a 2, you would need at least one recorded calculation."
+        },
+        {
+          "p": "The last four competencies (governance, economics, evaluation, evolution) decide what?",
+          "opcoes": [
+            "What the agent will do",
+            "Whether the agent keeps doing it",
+            "Which tool to buy"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The first four decide what the agent does; the last four, whether it continues: whether it is safe, how much it costs, whether it is good and how it improves."
+        },
+        {
+          "p": "The suggested order starts with G2, but your agent is giving discounts with no cap today. Where do you go next?",
+          "opcoes": [
+            "G2, because it is the suggested order",
+            "G3, because the present risk is in delegation and authority limits",
+            "None, until the whole team finishes the self-assessment"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Present risk beats suggested order. The order is for people with no urgency; whoever has harm happening starts with the course that fixes it."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Eight competencies",
+          "texto": "Strategy, architecture, delegation, orchestration, governance, economics, evaluation, evolution."
+        },
+        {
+          "t": "Two halves",
+          "texto": "Four decide what the agent does; four, whether it continues."
+        },
+        {
+          "t": "Score with evidence",
+          "texto": "Without a file or record, the score is 1."
+        },
+        {
+          "t": "Risk first",
+          "texto": "Today's harm decides the next course."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "AI Management Area: the 8 competencies and where each one is taught",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Course G3 · Agents (delegation and orchestration), already published",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Horizonte Lab: Hora dashboard (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/painel/",
+          "icone": "grafico"
+        }
+      ]
+    }
+  ]
+}

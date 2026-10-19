@@ -9,6 +9,7 @@ When I correct you, or you catch yourself making a mistake: before continuing, a
 
 ## Lessons
 
+- Diagrama com 8 nós (escada ou fluxo) no desktop dá uns 85 px por coluna: `sub` com mais de duas palavras quebra palavra por palavra e o diagrama fica ilegível. Use subs de 1–2 palavras curtas e ponha a explicação no `detalhe`; e não escreva "de cima/de baixo" no `sub` da seção, porque no desktop os nós ficam lado a lado (G0 gestao-ia-base-v72, 19/10/2026).
 - Vídeo que tem versão EN/ES publicada: declare `videos.<chave>.idiomas.<lang>` (mp4, vtt, duracao, pagina) no curso.json PT antes de traduzir; sem isso o `en/`/`es/` toca o vídeo PT com legenda PT (motor 7.6.7). E antes do portão de tela, recopie `assets/` e `gerar.py` do motor: o curso base da Formação LOOP-R transbordou em 390 px por um `v71.css` de horas antes (19/10/2026).
 - Curso técnico: saída de terminal vai num `<pre>` dentro de `saida.abas[].html` (motor 7.5.7 estiliza e rola) e `selo: "real"` só para saída capturada de verdade, com a data na aba ("Saída capturada (DD/MM/AAAA)"); "<" e ">" da saída viram &amp;lt; &amp;gt;. One-liner longo em `<code>` no "pronto quando" transbordava o celular antes do 7.5.7 (19/10/2026).
 - Validador acusando "sobra TODO" em link ou palavra (METODO.md): é falso positivo corrigido no 7.5.6 (TODO só como palavra inteira); recopie o motor em vez de mudar o texto (19/10/2026).

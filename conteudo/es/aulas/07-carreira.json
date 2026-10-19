@@ -1,0 +1,303 @@
+{
+  "slug": "carreira",
+  "num": 7,
+  "menu": "Carrera",
+  "titulo": "Carrera: quién se está ajustando y cómo",
+  "titulo_curto": "Carrera",
+  "minutos": 20,
+  "lead": "Cuando el agente hace el traspaso de información y el informe, el trabajo de quien coordina cambia de forma. Gerentes, júniores, RR. HH. y TI se están ajustando de maneras distintas, y el mercado ya ofrece certificaciones de gobernanza, de seguridad y de proveedor. En esta clase eliges tu movimiento, aprendes a evaluar una certificación y sales con un plan de 90 días.",
+  "objetivo": "elegir tu movimiento de carrera y evaluar una certificación externa por lo que cubre y exige, antes de decidir hacerla.",
+  "competencias": [
+    "escolher-movimento-de-carreira",
+    "avaliar-certificacao-externa",
+    "planejar-90-dias"
+  ],
+  "aprende": [
+    {
+      "t": "Los cuatro movimientos: gerente, júnior, RR. HH. y TI"
+    },
+    {
+      "t": "Qué cubren AIGP, AAISM, ISO/IEC 42001 y las credenciales de proveedor"
+    },
+    {
+      "t": "Por qué ninguna de ellas enseña a gestionar un agente en el día a día"
+    },
+    {
+      "t": "Un plan de 90 días con hitos fechados y una certificación evaluada"
+    }
+  ],
+  "hero_alt": "En una sala luminosa, una profesional con experiencia les explica algo a dos colegas más jóvenes y a un hombre mayor, alrededor de una mesa con laptops.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Cuatro movimientos de carrera",
+      "sub": "Cada bloque es un punto de partida común y hacia dónde va. Haz clic para ver qué sale, qué se queda y qué entra.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Gerente",
+          "sub": "→ gestor de equipo híbrido",
+          "forte": true,
+          "detalhe": "Sale el traspaso de información y el informe, que la IA hace. Se queda y crece: coordinar, decidir el nivel de autorización, revisar resultados y formar gente. Es la lectura que aparece en Gartner, Deloitte y McKinsey."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Júnior",
+          "sub": "→ supervisor de agentes",
+          "detalhe": "Quien entra pasa a revisar lo que hizo el agente, en vez de hacerlo desde cero. El riesgo que señalan los críticos: se pierde el camino en el que el júnior aprendía haciendo. El gestor necesita diseñar ese camino de nuevo."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "RR. HH.",
+          "sub": "→ personas y agentes",
+          "detalhe": "La integración, la evaluación e incluso el apagado de agentes empiezan a parecerse al trabajo de RR. HH. Forrester prevé que las grandes plataformas de RR. HH. incluirán la gestión de \"empleado digital\" (Predictions 2026)."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "TI",
+          "sub": "→ identidad y permisos",
+          "detalhe": "TI y seguridad pasan a cuidar la identidad y los permisos de cada agente, como cuidan los de cada persona. Okta mostró que muchas empresas todavía controlan a los agentes con menos rigor que a las personas."
+        }
+      ],
+      "legenda": "Los movimientos resumen el panorama de mercado de octubre de 2026 de la formación. No hay datos confiables del conteo de vacantes por título nuevo, y por eso no aparece aquí."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Qué pide cada movimiento",
+      "sub": "Cuatro lecturas, con la fuente de cada dato. Los ejemplos son de Horizonte, empresa ficticia de estudio.",
+      "passos": [
+        {
+          "titulo": "Gerente",
+          "sub": "el trabajo que se queda",
+          "texto": [
+            "El pronóstico de Gartner de oct/2024 habla de recortar capas de gerencia media hasta fines de 2026. Deloitte y McKinsey describen al mismo gerente de otra forma: menos traspaso, más coordinación, revisión y formación.",
+            "El cambio es dejar de ser el canal por donde pasa la información y pasar a ser quien decide límites, revisa excepciones y forma al equipo, de personas y de agentes."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Patrícia deja de armar el informe semanal a mano y pasa a decidir los descuentos de 5% a 10%, aprobar pedidos superiores a R$ 5 mil y formar a Juliana."
+          }
+        },
+        {
+          "titulo": "Júnior",
+          "sub": "entrada más estrecha",
+          "texto": [
+            "El Stanford Digital Economy Lab (08/2026) registró una caída relativa de cerca de 19% en el empleo de jóvenes de 22 a 25 años en las ocupaciones más expuestas a la IA, sin afirmar que la IA sea la causa.",
+            "Quien entra pasa a revisar lo que hizo el agente. El gestor que quiere formar gente debe asegurarse de que el junior también lo haga, y no solo lo verifique."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Hoy Juliana responde lo que Hora no sabe. Para crecer, necesita decidir casos, no solo reenviarlos."
+          }
+        },
+        {
+          "titulo": "RR. HH.",
+          "sub": "personas y agentes",
+          "texto": [
+            "Forrester (Predictions 2026) prevé que las plataformas de RR. HH. incluirán la gestión de \"empleado digital\". Es una previsión, no un producto lanzado.",
+            "Para quien trabaja en RR. HH., el cambio empieza antes de la herramienta: integrar al agente, decir quién lo evalúa y qué pasa con el trabajo de las personas que convivían con esa tarea."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "No hay un RR. HH. dedicado. Hoy nadie registró que Hora \"entró\" al equipo comercial, ni quién la evalúa."
+          }
+        },
+        {
+          "titulo": "TI",
+          "sub": "identidad de agente",
+          "texto": [
+            "Okta, AI Agents at Work 2026: casi dos tercios de las organizaciones aplican controles de seguridad más débiles a los agentes que a los empleados. Microsoft anunció Agent 365 en Build (06/2026), orientado a gestionar agentes en la empresa.",
+            "El cambio en TI es tratar a cada agente como una identidad: con credencial propia, permisos mínimos y registro de lo que hizo."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "El asistente de correo usa la cuenta compartida comercial@ con permiso para leer, enviar y borrar, y Hora no guarda registro de las acciones. Ninguno de los dos tiene identidad propia."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "El panorama de las certificaciones y cómo evaluar una",
+      "sub": "Lo que existía en octubre de 2026, según el panorama de mercado de la formación. No se encontró ninguna certificación independiente de \"gestión de agentes\". Antes de decidir, confirma precio y reglas en la página oficial.",
+      "blocos": [
+        {
+          "rot": "Ficha · evaluar una certificación antes de hacerla",
+          "icone": "lista",
+          "conteudo": "EVALUAR CERTIFICACIÓN · <nombre> · <quién la emite> · consultado el <fecha>\n\n1. QUÉ CUBRE (página oficial): <gobernanza / seguridad / riesgo / sistema de gestión / construir agente>\n2. REQUISITO PREVIO: <ninguno / otra certificación / experiencia>\n3. ¿ES DE LA PERSONA O DE LA EMPRESA? <...>\n4. ¿MI PUESTO O MI CLIENTE LA EXIGE? [ ] sí, dónde: <licitación, cuestionario, vacante>  [ ] no\n5. ¿ENSEÑA A GESTIONAR UN AGENTE EN EL DÍA A DÍA? [ ] sí [ ] no, cubre: <...>\n6. COSTO Y TIEMPO (página oficial): <...>\n\nDECISIÓN: [ ] hacerla en <plazo>  [ ] no ahora, porque <motivo>  [ ] nunca, porque <motivo>"
+        },
+        {
+          "rot": "Prompt · revisar la página oficial",
+          "icone": "chat",
+          "conteudo": "Voy a pegar el texto de la página oficial de una certificación. Responde solo con\nlo que está en el texto; lo que no esté, di \"no informado\".\n\nTexto:\n\"\"\"<pega aquí>\"\"\"\n\n1. ¿Quién la emite y desde cuándo existe?\n2. ¿Qué cubre, en hasta 5 ítems?\n3. ¿Cuál es el requisito previo para presentar el examen?\n4. ¿Cuánto cuesta y cuánto tiempo lleva?\n5. ¿Certifica a la persona o a la empresa?\n6. ¿Trata de gestionar agentes de IA en el día a día (delegar, dar nivel de autorización,\n   supervisar)? Cita el fragmento, si lo hay."
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Cuadro (oct/2026)",
+            "html": "<table><thead><tr><th>Credencial</th><th>Qué cubre</th><th>Requisito previo</th><th>¿Gestionar agente?</th></tr></thead><tbody><tr><td><b>AIGP</b> · IAPP, desde 04/2024</td><td>gobernanza e IA responsable; fuerte en privacidad y área jurídica</td><td>ninguno</td><td>gobierna; no enseña a operar el agente en el día a día</td></tr><tr><td><b>AAISM</b> · ISACA, 08/2025</td><td>gobernanza y programa de IA, riesgo y controles, desde el lado de la seguridad</td><td>exige CISM o CISSP</td><td>para quien ya es de seguridad</td></tr><tr><td><b>AAIR</b> · ISACA</td><td>riesgo de IA para profesionales de riesgo de TI</td><td>solo hay fuente secundaria; confirmar en isaca.org</td><td>no confirmado</td></tr><tr><td><b>ISO/IEC 42001</b> · lead auditor o lead implementer</td><td>auditar o implantar el sistema de gestión de IA; la norma certifica a la empresa, el curso forma a la persona</td><td>varía según el organismo</td><td>aparece en cuestionarios de proveedores; no es rutina de agente</td></tr><tr><td><b>Credenciales de proveedor</b> · NVIDIA, GitHub, Google, Oracle, IBM</td><td>construir e implantar agentes en la herramienta de cada proveedor</td><td>variado</td><td>son de construir, no de gestionar</td></tr><tr><td><b>Cursos brasileños</b> · ESPM, PUC-Rio, Anhembi Morumbi, Vanzolini, CBEXS, MIT Professional (en portugués)</td><td>gestión y liderazgo con IA, algunos con agentes</td><td>de pago; de 4 horas a 10 meses</td><td>son cursos, no una certificación independiente</td></tr><tr><td><b>INEMA \"Gestor de IA\"</b> · próximamente en cert.inema.pro</td><td>los 6 cursos de esta formación</td><td>examen de cualificación</td><td>sí, es el foco; pero es una cualificación, no regulada</td></tr></tbody></table><p>La certificación INEMA es de cualificación, no una certificación profesional regulada, y no sustituye a AIGP ni a ISO/IEC 42001 cuando el puesto o el cliente exige una de ellas.</p>"
+          },
+          {
+            "rot": "Cómo revisar",
+            "html": "<ol><li>Toda la información de precio y plazo viene de la página oficial, con la fecha en que la consultaste.</li><li>La línea 4 de la ficha cita dónde aparece la exigencia (vacante, licitación, cuestionario de cliente) o dice \"no\".</li><li>La decisión tiene plazo o motivo.</li><li>Error común: elegir por la fama de la sigla. Una certificación de gobernanza no enseña a delegar en un agente, y una credencial de proveedor enseña a construir en su herramienta.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: plan de 90 días",
+      "sub": "Una página. Tres hitos, uno por mes, y una certificación evaluada, aunque la decisión sea no hacerla ahora.",
+      "blocos": [
+        {
+          "rot": "Plan de 90 días de mi carrera",
+          "icone": "calendario",
+          "conteudo": "PLAN DE 90 DÍAS · <nombre> · inicio <fecha>\n\nHOY: <puesto> · CAMBIO: <gerente → gestor híbrido / junior → supervisor / RR. HH. → personas y agentes / TI → identidad y permiso / otro>\nQUÉ SALE DE MI TRABAJO: <...>\nQUÉ QUEDA Y CRECE: <...>\n\nHITO 1 (hasta <fecha>): <entrega que se pueda mostrar, ej.: mapa de los 9 objetos del área aprobado>\nHITO 2 (hasta <fecha>): <ej.: primer proceso con línea de base medida>\nHITO 3 (hasta <fecha>): <ej.: un agente con dueño, nivel de autorización y revisión semanal>\n\nCURSOS DE LA FORMACIÓN: <G2, G3...> en el orden <...>\nCERTIFICACIÓN EXTERNA EVALUADA: <nombre> · decisión: <hacerla en X / no ahora porque Y>\nQUIÉN ACOMPAÑA: <nombre> · conversación el <fecha>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Plan de Patrícia (ejemplo)",
+            "html": "<p><b>Patrícia Lima</b> · Horizonte Distribuidora, empresa ficticia de estudio · inicio 03/11/2026</p><ul><li><b>Cambio:</b> gerente → gestora de equipo híbrido.</li><li><b>Sale:</b> informe semanal armado a mano. <b>Crece:</b> nivel de autorización, cola de excepciones, formación de Juliana.</li><li><b>Hito 1 (30/11):</b> mapa de los 9 objetos del área comercial con 9 dueños.</li><li><b>Hito 2 (31/12):</b> dos semanas de línea de base del pedido medidas.</li><li><b>Hito 3 (31/01):</b> expediente de Hora aprobado por Carlos (curso G3).</li><li><b>Certificación evaluada:</b> AIGP. Decisión: no ahora; ningún cliente de Horizonte la pide, y cubre gobernanza, no la rutina con Hora.</li><li><b>Acompaña:</b> Carlos, conversación a fin de cada mes.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Tres personas de Horizonte para formar; tu carrera, en serio.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Tres cambios en Horizonte",
+          "min": "20 min",
+          "texto": "Para Patrícia, Juliana y Rafael, escribe el cambio de cada uno (de los cuatro del diagrama), qué sale y qué crece en su trabajo. Después, para cada uno, di si alguna certificación del cuadro tendría sentido y por qué, usando la ficha de evaluación.",
+          "pronto": "los tres tienen un cambio, una línea de lo que sale y una de lo que crece, y una decisión sobre certificación con motivo (\"no la necesita\" también vale, siempre que diga por qué)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Tu plan de 90 días",
+          "min": "30 min",
+          "texto": "Completa el plan de 90 días. Elige una certificación del cuadro que tenga alguna relación con tu puesto, abre la página oficial, ejecuta el prompt sobre su texto y completa la ficha de evaluación. Agenda la primera conversación con quien va a acompañar el plan.",
+          "pronto": "el plan tiene el cambio, tres hitos con fecha, los cursos de la formación en el orden elegido, una certificación externa evaluada con la ficha con decisión y motivo, y la primera conversación agendada."
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: del técnico al gestor de agentes",
+      "sub": "Nei explica por qué la parte técnica se vuelve más accesible cada mes y el valor sube hacia la decisión: qué construir, qué se queda con la persona, qué pasa al agente. Y por qué el repertorio no aparece en ningún certificado.",
+      "chave": "gestor-de-agentes"
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Qué sale y qué crece en el trabajo del gerente que pasa a ser gestor de equipo híbrido?",
+          "opcoes": [
+            "Sale coordinar; crece hacer informes",
+            "Sale el traspaso de información y el informe; crecen coordinar, decidir el nivel de autorización, revisar resultados y formar gente",
+            "Sale todo; el agente asume la gerencia"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "La IA hace bien el traspaso y el informe. Coordinar, decidir límites, revisar y formar siguen siendo trabajo de personas."
+        },
+        {
+          "p": "Eres gerente comercial y quieres aprender a gestionar agentes en el día a día. ¿La AIGP lo resuelve?",
+          "opcoes": [
+            "Sí, es la certificación de gestión de agentes",
+            "No exactamente: cubre gobernanza e IA responsable, con fuerza en privacidad y temas jurídicos; no enseña a delegar ni a supervisar un agente",
+            "Sí, siempre que tengas CISSP"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "No se encontró ninguna certificación independiente de gestión de agentes en oct/2026. La AIGP es de gobernanza y no tiene prerrequisito; el CISSP es exigencia de la AAISM."
+        },
+        {
+          "p": "¿Para qué sirven las credenciales de NVIDIA, GitHub, Google y Oracle sobre agentes?",
+          "opcoes": [
+            "Para gestionar agentes de cualquier proveedor",
+            "Para construir e implementar agentes en la herramienta de cada proveedor",
+            "Para auditar el sistema de gestión de IA de la empresa"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Son de construir, no de gestionar. Auditar el sistema de gestión es el campo de la ISO/IEC 42001."
+        },
+        {
+          "p": "Un cliente grande le envía a Horizonte un cuestionario preguntando sobre el sistema de gestión de IA. ¿Qué referencia aparece en ese tipo de cuestionario?",
+          "opcoes": [
+            "ISO/IEC 42001",
+            "La certificación INEMA \"Gestor de IA\"",
+            "La credencial de NVIDIA"
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "La ISO/IEC 42001 es la norma de sistema de gestión de IA y aparece en los cuestionarios de proveedores. La norma certifica a la empresa; los cursos de lead auditor y lead implementer forman a la persona."
+        },
+        {
+          "p": "¿Qué es la certificación INEMA \"Gestor de IA\" y qué no es?",
+          "opcoes": [
+            "Es una certificación profesional regulada y reemplaza a la AIGP y a la ISO/IEC 42001",
+            "Es de cualificación, sobre los 6 cursos de la formación; no es regulada y no reemplaza a la AIGP ni a la ISO/IEC 42001 cuando el puesto lo exige",
+            "Es una credencial de proveedor"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "Te cualifica para la gestión de agentes que se enseña aquí. Quien necesita la AIGP o la ISO/IEC 42001 para el puesto o para el cliente sigue necesitándolas."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Cuatro movimientos",
+          "texto": "Gerente, júnior, RR. HH. y TI cambian de forma distinta."
+        },
+        {
+          "t": "Lo que existe",
+          "texto": "Gobernanza (AIGP), seguridad (AAISM), sistema de gestión (ISO/IEC 42001), proveedor (construir)."
+        },
+        {
+          "t": "La brecha",
+          "texto": "Ninguna certificación independiente enseña a gestionar un agente en el día a día."
+        },
+        {
+          "t": "90 días",
+          "texto": "Tres hitos con fecha y una certificación evaluada, con decisión."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Video: del técnico al gestor de agentes, con guion",
+          "href": "https://inematds.github.io/gestor-de-agentes/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "Curso G1 · Personas: liderar el equipo híbrido",
+          "href": "https://inematds.github.io/gestao-ia-pessoas-v72/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Área Gestión de IA: la formación y la certificación Gestor de IA",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

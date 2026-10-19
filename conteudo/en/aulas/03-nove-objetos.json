@@ -1,0 +1,340 @@
+{
+  "slug": "nove-objetos",
+  "num": 3,
+  "menu": "Objects",
+  "titulo": "The 9 management objects",
+  "titulo_curto": "The 9 objects",
+  "minutos": 17,
+  "lead": "The 2027 manager does not manage only people. Agents, models, processes, tools, permissions, context, knowledge and compute budget all pass across their desk. Most of these objects already exist in your company and have no owner. In this lesson you build the map of the nine, with a name next to each one, and find out which course in the program looks after which.",
+  "objetivo": "list the 9 management objects that pass across the 2027 manager's desk and give each one an owner with a name in your area.",
+  "competencias": [
+    "mapear-objetos-de-gestao",
+    "nomear-dono-do-negocio",
+    "find-ownerless-objects"
+  ],
+  "aprende": [
+    {
+      "t": "The nine management objects, grouped into four axes and two cross-cutting themes"
+    },
+    {
+      "t": "The difference between who answers for the object and who keeps it running"
+    },
+    {
+      "t": "The invisible objects: context, knowledge, permissions and budget"
+    },
+    {
+      "t": "Which course in the program takes care of each object"
+    }
+  ],
+  "hero_alt": "A manager points to a whiteboard with colored sticky notes in a three-by-three grid, with nothing written on them; two colleagues watch from their seats.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Nine objects, four axes and two cross-cutting themes",
+      "sub": "Each block is an axis; inside it are the objects it brings together and the course in the program that takes care of them. Tap to see the details.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "People",
+          "sub": "course G1",
+          "itens": [
+            {
+              "icone": "usuario",
+              "t": "people",
+              "sub": "and what stays with them"
+            }
+          ],
+          "detalhe": "The people on the team and what stays with them: decisions, relationships, exceptions, training for new hires. This is the first object and the one that changes shape the most: the junior who supervises agents, the load of exceptions, the conversation about fear."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Processes",
+          "sub": "course G2",
+          "itens": [
+            {
+              "icone": "fila",
+              "t": "processes",
+              "sub": "redesigned and versioned"
+            }
+          ],
+          "detalhe": "The process stops being paper in a drawer and gets a version, like software. Before you put an agent on it, you take it apart: what exists out of habit, what exists because it is required, what only existed because there was no other way."
+        },
+        {
+          "icone": "robo",
+          "titulo": "Agents",
+          "sub": "course G3",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "robo",
+              "t": "agents",
+              "sub": "roles and authority limits"
+            },
+            {
+              "icone": "memoria",
+              "t": "context",
+              "sub": "what each one receives"
+            }
+          ],
+          "detalhe": "Each agent, with a role, a goal and authority limits, and the context it receives to do its work. Poorly kept context is the most common cause of an agent that \"makes things up\": it only knows what is written down."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Resources",
+          "sub": "course G4",
+          "itens": [
+            {
+              "icone": "chip",
+              "t": "models",
+              "sub": "and when to switch"
+            },
+            {
+              "icone": "pasta",
+              "t": "tools",
+              "sub": "that each agent calls"
+            },
+            {
+              "icone": "arquivo",
+              "t": "knowledge",
+              "sub": "in a form the agent reads"
+            },
+            {
+              "icone": "grafico",
+              "t": "budget",
+              "sub": "tokens, time, infrastructure"
+            }
+          ],
+          "detalhe": "The resources that drive the agents: the model, the tools, the company's knowledge written in a way the agent can read, and the compute budget. The cost question changes from \"how much does one call cost?\" to \"how much does it cost to produce the result?\"."
+        },
+        {
+          "icone": "escudo",
+          "titulo": "Governance",
+          "sub": "course G5",
+          "itens": [
+            {
+              "icone": "cadeado",
+              "t": "permissions",
+              "sub": "identity and credentials"
+            }
+          ],
+          "detalhe": "Who can do what, with which identity and which credential, and where the record is kept. It cuts across all the axes: a tool released with no owner becomes a permission with no owner."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Evidence",
+          "sub": "course G5",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "indicators",
+              "sub": "quality, time, cost, failures"
+            }
+          ],
+          "detalhe": "It is not one of the nine objects: it is how the manager knows whether each one is doing well. Quality, time per task, cost per result, failures and rework, how much the agent did without stopping and how much human intervention it needed."
+        }
+      ],
+      "legenda": "The nine objects come from the AI Management area of INEMA (section \"The 2027 Manager\"); the grouping into axes is the one from the AI Management Program 2027."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "From object to owner",
+      "sub": "Four ideas for building the map without falling into the most common traps. Horizonte is the fictional study company.",
+      "passos": [
+        {
+          "titulo": "Nine things on the desk",
+          "sub": "the list has grown",
+          "texto": [
+            "The list of what crosses the manager's desk has grown: people, agents, models, processes, tools, permissions, context, knowledge and compute budget. You don't need to master each one technically. You need to know who answers for it.",
+            "An object with no owner doesn't sit still: someone decides for it without realizing it, almost always whoever has access to the system."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Nobody chose the model that powers Hora: Rafael used what came with the tool. When the price or the behavior changes, nobody will know they need to decide."
+          }
+        },
+        {
+          "titulo": "Who answers × who maintains",
+          "sub": "business and IT",
+          "texto": [
+            "Each object has two roles: who answers for the result and who keeps it running. IT maintains; the business answers. When both land on the same technical person, the business loses control without noticing.",
+            "The owner is always a name. \"The team\" or \"IT\" don't count: when everyone answers, no one answers."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "In the official inventory, Rafael is responsible for 6 of the 8 tools, including Hora and the sales email assistant. Patrícia only appears as the owner of the spreadsheets."
+          }
+        },
+        {
+          "titulo": "The invisible objects",
+          "sub": "context, permissions, budget",
+          "texto": [
+            "People and agents show up on any org chart. Context, knowledge, permissions and budget don't, and that's where the risk lives: customer data leaving the company, the tool that can delete, the cost nobody watches.",
+            "When you build the map, start with the invisible ones. They are the ones that most often show up as \"no owner.\""
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "The service summary sends the conversations, with name, phone and CPF, to a free service outside Brazil (lab failure F10). And the email assistant can send and delete without approval (F9)."
+          }
+        },
+        {
+          "titulo": "A \"silicon-based\" workforce",
+          "sub": "Deloitte, 2026",
+          "texto": [
+            "Deloitte, in Tech Trends 2026, treats agents as a \"silicon-based\" workforce: they need integration with data and operations, graduated autonomy with human supervision triggers, and the human supervisors need training too.",
+            "This is one consultancy's view, not a measurement. But it confirms the logic of the map: an agent is a management object, with an owner, and whoever supervises it also needs to be prepared."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Nobody integrated Hora: it was just configured. And nobody prepared Patrícia to supervise it. The map shows both gaps on the same line."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: the map of the 9 objects",
+      "sub": "One page per area. Fill in what exists, today's owner and the right owner. Where there is no owner, write \"no owner\": it's the most useful information on the map.",
+      "blocos": [
+        {
+          "rot": "Map of the 9 objects in my area",
+          "icone": "camadas",
+          "conteudo": "MAP OF THE 9 OBJECTS · <area> · <company> · <date>\n\nOBJECT          | WHAT IT IS HERE                | OWNER TODAY      | RIGHT OWNER (answers) | WHO MAINTAINS | COURSE\n1 People        | <who, what stays with them>    | <name/no owner>  | <name>                | -             | G1\n2 Agents        | <each agent in use>            | <name/no owner>  | <name>                | <name>        | G3\n3 Models        | <what powers each agent>       | <name/no owner>  | <name>                | <name>        | G4\n4 Processes     | <process and version>          | <name/no owner>  | <name>                | -             | G2\n5 Tools         | <what each agent can call>     | <name/no owner>  | <name>                | <name>        | G4\n6 Permissions   | <who can do what, credentials> | <name/no owner>  | <name>                | <name>        | G5\n7 Context       | <what each agent receives>     | <name/no owner>  | <name>                | <name>        | G3\n8 Knowledge     | <tables, policies, manuals>    | <name/no owner>  | <name>                | <name>        | G4\n9 Budget        | <cost per month / per result>  | <name/no owner>  | <name>                | <name>        | G4\n\nNO OWNER TODAY: <list>\nBIGGEST RISK: <object> because <reason>\nFIRST DECISION: <who takes what, by when>"
+        },
+        {
+          "rot": "Prompt · find gaps in the map",
+          "icone": "chat",
+          "conteudo": "You are an experienced manager reviewing the map of the 9 management objects of an\narea that has started using AI agents. Don't fill anything in: point out gaps.\n\nMap:\n\"\"\"<paste here>\"\"\"\n\nAnswer, in this order:\n1. On which lines is the \"right owner\" IT when it should be the business?\n2. Is any owner \"the team,\" \"everyone\" or a role with no name?\n3. Of the invisible objects (context, knowledge, permissions, budget),\n   which looks filled in without anyone really having looked?\n4. What question would I ask each owner to find out whether they know they are the owner?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte's map (example)",
+            "html": "<p><b>Sales · Horizonte Distribuidora</b> · fictional study company</p><table><thead><tr><th>Object</th><th>Owner today</th><th>Right owner</th></tr></thead><tbody><tr><td>People</td><td>Patrícia</td><td>Patrícia</td></tr><tr><td>Agents (Hora)</td><td>Rafael</td><td>Patrícia; Rafael maintains</td></tr><tr><td>Models</td><td>no owner</td><td>Patrícia approves the change; Rafael tests</td></tr><tr><td>Processes (orders)</td><td>no owner</td><td>Patrícia</td></tr><tr><td>Tools (email)</td><td>Rafael</td><td>Patrícia decides; Rafael configures</td></tr><tr><td>Permissions</td><td>Rafael</td><td>Carlos approves; Rafael executes</td></tr><tr><td>Context (summary)</td><td>no owner</td><td>Juliana; Carlos decides on customer data</td></tr><tr><td>Knowledge (table, policy)</td><td>Patrícia</td><td>Patrícia</td></tr><tr><td>Budget</td><td>no owner</td><td>Carlos; Patrícia follows up</td></tr></tbody></table><p><b>No owner today:</b> 4. <b>Biggest risk:</b> context, because customer data leaves the company every day.</p>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>All nine lines exist, even the ones you think don't apply.</li><li>Every \"right owner\" is a name.</li><li>Where the right owner is IT, there is a written reason.</li><li>Common mistake: filling in \"IT\" for everything that looks technical. The business decides whether the agent can delete email; IT configures it.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Horizonte's map is for practice; your area's map is for real.",
+      "fonte": "Lab materials: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">IT inventory</a>, <a href=\"https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/\">service summary</a> and <a href=\"https://inematds.github.io/prof2030-lab/pecas/mcp-email/\">email assistant</a> (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Horizonte's map",
+          "min": "25 min",
+          "texto": "With the inventory and the two lab pieces open, fill in the map of the 9 objects for Horizonte's sales area without looking at the example. For each object, write today's owner (from the inventory) and the right owner. Then compare and note where you disagreed with the example and why.",
+          "pronto": "all nine lines are filled in, at least three objects show up as \"no owner\" today, every right owner is a name, and there is one sentence saying what the biggest risk is and why."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The map of your area",
+          "min": "30 min",
+          "texto": "Make the map of your area. For the invisible objects (context, knowledge, permissions and budget), ask whoever maintains the systems before filling them in. Run the prompt and finish with the first decision: who takes which object, by when.",
+          "pronto": "the map has nine lines with a name or an acknowledged \"no owner\" on each one, at least one conversation with whoever maintains the systems, and a first decision with a name and a date."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Which of these is NOT among the nine management objects?",
+          "opcoes": [
+            "Compute budget",
+            "The company org chart",
+            "Context each agent receives"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "The nine are people, agents, models, processes, tools, permissions, context, knowledge and compute budget. The org chart shows people; the invisible objects don't appear on it."
+        },
+        {
+          "p": "In Horizonte's inventory, Rafael appears as the person responsible for Hora. What is wrong?",
+          "opcoes": [
+            "Nothing: he's the one who set it up",
+            "He keeps the agent running, but the person who answers for the result (discount, customer) is on the business side: Patrícia",
+            "The person responsible should be the tool vendor"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Who keeps it running and who answers for it are different roles. IT takes care of keeping it on; the business answers for the margin and the customer."
+        },
+        {
+          "p": "Why start the map with the invisible objects?",
+          "opcoes": [
+            "Because they are the most expensive",
+            "Because context, knowledge, permissions and budget don't show up on an org chart, and they are the ones most likely to have no owner",
+            "Because they are technical and IT has to fill them in first"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "That's where the risk nobody sees lives: customer data leaking out, a tool that deletes things, a cost with no owner. And the business decides about them, not just IT."
+        },
+        {
+          "p": "Deloitte (Tech Trends 2026) calls agents a \"silicon-based\" workforce. How should you use that?",
+          "opcoes": [
+            "As measured proof that agents replace people",
+            "As a consulting view that supports the logic: an agent needs integration, graduated autonomy and prepared supervisors",
+            "As a standard the company is required to follow"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "It's a view, not a measurement or a standard. Use it to show leadership that integrating the agent and preparing the people who supervise it are management tasks."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Nine objects",
+          "texto": "People, agents, models, processes, tools, permissions, context, knowledge, budget."
+        },
+        {
+          "t": "Answers for × keeps running",
+          "texto": "The business answers for it, IT keeps it running. An owner is a name."
+        },
+        {
+          "t": "Invisible first",
+          "texto": "Context, knowledge, permissions and budget are the ones that end up with no owner."
+        },
+        {
+          "t": "One course per axis",
+          "texto": "G1 people, G2 processes, G3 agents, G4 resources, G5 governance and evidence."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "AI Management Area: the 2027 manager and the indicators of an agent",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Horizonte Lab: customer service summary (F10, fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/",
+          "icone": "chat"
+        },
+        {
+          "t": "Horizonte Lab: email assistant with send and delete (F9)",
+          "href": "https://inematds.github.io/prof2030-lab/pecas/mcp-email/",
+          "icone": "enviar"
+        }
+      ]
+    }
+  ]
+}

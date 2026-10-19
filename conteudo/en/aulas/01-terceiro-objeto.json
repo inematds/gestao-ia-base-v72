@@ -1,0 +1,331 @@
+{
+  "slug": "terceiro-objeto",
+  "num": 1,
+  "menu": "Eras",
+  "titulo": "The third object of management",
+  "titulo_curto": "The third object",
+  "minutos": 16,
+  "lead": "For forty years, management coordinated two things: people and processes. Now a third has arrived, and it works alongside your team. In this lesson you walk through the five eras of management, see what each one added, and find out why 2027 is not about creating agents, but about answering for them.",
+  "objetivo": "explain why management in 2027 coordinates people, processes and agents, with an example of your own in each of the five eras.",
+  "competencias": [
+    "situar-as-eras-da-gestao",
+    "reconhecer-o-agente-como-objeto-de-gestao",
+    "achar-perguntas-sem-dono"
+  ],
+  "aprende": [
+    {
+      "t": "What each era of management added and what still holds"
+    },
+    {
+      "t": "The three changes that make the agent a management object"
+    },
+    {
+      "t": "Why speeding up the old process only delivers the error faster"
+    },
+    {
+      "t": "Find, in your company, the management questions that still have no owner"
+    }
+  ],
+  "hero_alt": "A manager and a colleague line up five blank cards on a table, like a timeline, next to an old binder and a tablet.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Five eras of management",
+      "sub": "Scroll the page: each era lights up its part of the staircase. None erases the one before; each adds an object to coordinate.",
+      "estilo": "escada",
+      "rolagem": true,
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "People",
+          "sub": "1980–2000",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "job and limits",
+              "sub": "responsibility, evaluation"
+            }
+          ],
+          "detalhe": "People management organized work into roles: each with responsibility, tools, limits and evaluation. Who gives a discount, up to how much, who double-checks. That logic hasn't gone away: almost everything you will do with agents comes from it."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Processes",
+          "sub": "2000–2020",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "design and train",
+              "sub": "the process as an asset"
+            }
+          ],
+          "detalhe": "Then companies learned to design, document, train for and run processes. The process became an asset: you can teach it to newcomers and hold the people who run it accountable. The risk of this era is treating the process as something that can't be touched."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Digital",
+          "sub": "2020–2025",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "automate",
+              "sub": "and monitor"
+            }
+          ],
+          "detalhe": "Digital transformation automated what was already designed: design, automate, monitor. Systems carry out fixed steps; when something falls outside the rule, they stop and wait for a person."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Build",
+          "sub": "2025–2026",
+          "itens": [
+            {
+              "icone": "caneta",
+              "t": "prompts and tools",
+              "sub": "context, memory"
+            }
+          ],
+          "detalhe": "In 2025 and 2026 the question was how to create agents: prompts, skills, context, tools, memory. Many companies learned to build an agent in an afternoon. Few learned what to do with it the next day."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Manage",
+          "sub": "2027",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "humans + agents",
+              "sub": "+ processes, models, budget"
+            }
+          ],
+          "detalhe": "In 2027 the company coordinates humans, agents, models, processes and compute budget all at once. The question changes from \"how do I build it?\" to \"who answers for it, what does it do on its own, how do I know it's good and how much does each result cost?\"."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "The whole ladder",
+        "texto": "People, processes, digital, building and management. The last era uses all the earlier ones: the role comes from people management, the design comes from process management, the measure comes from digital. What it adds is a new worker, who needs a boss.",
+        "curto": "Five eras; the last one coordinates them all."
+      },
+      "legenda": "The dates of the eras are approximate and come from the INEMA AI Management Area; they are meant to give you a sense of place, not to set a calendar."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Three changes and one question",
+      "sub": "Horizonte Distribuidora (fictional study company) went through all five eras. See where it got stuck in the fifth.",
+      "passos": [
+        {
+          "titulo": "Building got easy",
+          "sub": "managing didn't",
+          "texto": [
+            "Any team can build an agent in an afternoon. What holds the company back is what comes after: who answers for it, what it can do on its own, how you measure whether it's good and how much each result costs.",
+            "These four questions aren't technical. They're the same ones a manager asks when a new employee arrives, and nobody expects IT to answer for them."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Rafael, from the outsourced IT, switched Hora on on July 1st. Three months later nobody can say who approved the 35% discount she gave a customer."
+          }
+        },
+        {
+          "titulo": "Don't speed up the old process",
+          "sub": "redesign it first",
+          "texto": [
+            "Putting an agent into a flow designed for people fifteen years ago only delivers the error faster. The question that changes everything: if I had humans, agents and automations today, would this process still exist this way?",
+            "Taking the process apart before automating is the subject of the G2 course. Here it's enough to know the question exists."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Hora went down the same path as before: it notes the order, sends it to the warehouse and someone checks it later, if there's time. Only now it's hundreds of conversations a week."
+          }
+        },
+        {
+          "titulo": "The process stops being frozen",
+          "sub": "it learns",
+          "texto": [
+            "With agents measuring their own execution, the process becomes a living system: it runs, observes, proposes an improvement, tests, validates and promotes. INEMA calls this cycle LOOP-R, and it is the subject of the G5 course.",
+            "For this to work, someone needs to have measured how things were before. Without a starting point, there's no way to say it improved."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Hora's dashboard shows the volume rising every week, but the collection began on the day she was switched on. There's no way to compare with the time before."
+          }
+        },
+        {
+          "titulo": "The third object",
+          "sub": "and what comes with it",
+          "texto": [
+            "People and processes stay on the manager's desk. The agent is the third object, and it brings others along: the model that drives it, the context it reads, the permissions it receives and the cost of each run.",
+            "An IT Forum column (2026, opinion) summed up the moment this way: this is the year companies stop building agents and start operating them. It's opinion, not measurement, but it describes the shift in the question well."
+          ],
+          "exemplo": {
+            "rot": "Three questions with no owner at Horizonte",
+            "texto": "Who is accountable for Hora's discount? Who decides, in November, whether she starts charging customers? Who knew about the four AI tools the team uses that IT doesn't know about?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: your area's timeline",
+      "sub": "One page. Use it to talk with your team and with leadership about where you stand, and to find the questions that don't have an owner yet.",
+      "blocos": [
+        {
+          "rot": "Management timeline in my area",
+          "icone": "calendario",
+          "conteudo": "MANAGEMENT TIMELINE · <area> · <company> · <date>\n\nERA 1 · PEOPLE (role, responsibility, limits, evaluation)\n- Example from here: <a role with a written limit, e.g.: who can give a discount and up to how much>\n\nERA 2 · PROCESSES (design, document, train, execute)\n- Example from here: <a documented process or a management system>\n\nERA 3 · DIGITAL (automate, monitor)\n- Example from here: <an automation or an app that runs fixed steps>\n\nERA 4 · BUILDING AGENTS (prompts, tools, context, memory)\n- Example from here: <an agent, assistant or AI tool in use, official or not>\n\nERA 5 · MANAGING (humans + agents + processes + models + budget)\n- Question with no owner 1: <who is accountable for ...?>\n- Question with no owner 2: <what can ... do on its own?>\n- Question with no owner 3: <how do we know if ... got better? Compared to what?>\n\nNEXT STEP: <who will answer question 1, by when>"
+        },
+        {
+          "rot": "Prompt · review the timeline",
+          "icone": "chat",
+          "conteudo": "You are an experienced manager reviewing the management timeline of an area.\nDo not rewrite it: point out the gaps.\n\nTimeline:\n\"\"\"<paste here>\"\"\"\n\nAnswer, in this order:\n1. Is any example in the wrong era? (e.g.: an automation with fixed steps\n   called an \"agent\")\n2. In era 4, is there any AI tool that people use on their own that is missing?\n   What questions would I ask the team to find out?\n3. Can the era 5 questions be answered (a name, a number, a\n   rule) or are they vague?\n4. Which of the questions with no owner carries the greatest risk if it stays this way for another\n   month? Why?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte timeline (example)",
+            "html": "<p><b>Sales · Horizonte Distribuidora</b> · fictional study company</p><ul><li><b>People:</b> salespeople with a price list and a discount limit agreed with Carlos.</li><li><b>Processes:</b> the GestorPlus ERP (inventory, invoices, accounts) and the step-by-step for an order.</li><li><b>Digital:</b> the Horizonte Pedidos app, WhatsApp Business and the cloud spreadsheets.</li><li><b>Building agents:</b> Hora (since 07/01/2026), the sales team's email assistant and the automatic customer-service summary at 6 p.m. Plus four AI tools used on people's own initiative.</li><li><b>Managing:</b> who is accountable for Hora's discount? who decides whether she moves into collections? how do we know if orders got better, if nobody measured before July?</li></ul>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>Each era has an example <b>from your area</b>, not from the market.</li><li>Era 4 includes what people use without IT knowing. If the list came only from IT, ask the team.</li><li>Each era 5 question can be answered with a name, a number or a rule.</li><li>Common mistake: calling every automation an \"agent.\" An automation follows fixed steps; an agent chooses the path within limits.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "First at Horizonte, to practice. Then in your area, for real.",
+      "fonte": "Lab pieces: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">IT inventory and internal survey</a> and <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">Hora dashboard</a> (fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The Horizonte timeline",
+          "min": "20 min",
+          "texto": "Open the lab's IT inventory and also read the 22 answers from the internal survey. Copy the template and build the timeline for Horizonte's sales team without looking at the example next to it. In era 5, write three questions that nobody answers today. Then compare with the example.",
+          "pronto": "the timeline has all five eras, each one with a system or fact taken from the lab, era 4 mentions at least one tool that IT doesn't know about, and era 5 has three questions that can be answered with a name, a number or a rule."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · The timeline for your area",
+          "min": "25 min",
+          "texto": "Do the same with your area. For era 4, ask two people on the team which AI tools they use at work, including on their phones. Run the review prompt and fix what it points out. Finish with the next step: who answers the first question, by when.",
+          "pronto": "your timeline has an example of your own in each of the five eras, era 4 includes what you heard from at least two people, and the first question with no owner has a name and a date for being answered."
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: the AI Management area in 9 minutes",
+      "sub": "The five eras, the thesis and the three rules of the process, told by Nei. Come back to it at the end of the course to see the map of the whole program.",
+      "chave": "gestao-ia-caminhos"
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "What does the 2027 era add to the earlier ones?",
+          "opcoes": [
+            "It replaces people management with agent management",
+            "It coordinates humans, agents, processes, models and compute budget at the same time",
+            "It swaps process design for agents that decide everything"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Each era adds, none erases. The role still comes from people management and the design from process management. The agent is the third object, and it brings the model, context and cost along with it."
+        },
+        {
+          "p": "Horizonte wants to put an agent in place to speed up order checking, which today goes through three people. What is the first question?",
+          "opcoes": [
+            "Which AI model is the fastest",
+            "If I had humans, agents and automations today, would this checking still exist in this form?",
+            "How much time the agent will save"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Speeding up an old process delivers the error faster. First you ask whether the step needs to exist this way; the model and the time come later. That's the subject of G2."
+        },
+        {
+          "p": "Hora's dashboard shows customer-service volume going up every week since July. What is missing before you can say she improved the process?",
+          "opcoes": [
+            "More weeks of data",
+            "Knowing how the process was before she came in: a starting measure",
+            "A nicer chart"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Data collection began on the day Hora was turned on. Without a starting point, rising volume doesn't prove improvement: it may just be more conversation. This is lab failure F11."
+        },
+        {
+          "p": "Which of these are management questions, not technical ones?",
+          "opcoes": [
+            "What programming language the agent uses",
+            "Who is accountable for the agent, what it does on its own, how it is measured and how much each result costs",
+            "Which server the agent runs on"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "The four questions are the same ones you ask about a new employee. IT can answer where the agent runs; the business answers for what it does."
+        },
+        {
+          "p": "How should you treat the sentence \"2026 is the year companies stop building agents and start operating them\"?",
+          "opcoes": [
+            "As survey data",
+            "As the opinion of a column, useful for describing the shift, with no number behind it",
+            "As an official market forecast"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "It is an IT Forum column. Opinion can help you understand the moment, but it does not support a decision on its own. In lesson 5 you learn to tell opinion, survey and forecast apart."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Five eras",
+          "texto": "People, processes, digital, agent building and management. Each one adds to the last."
+        },
+        {
+          "t": "Third object",
+          "texto": "The agent joins people and processes, and brings a model, context and cost."
+        },
+        {
+          "t": "Don't speed up the old",
+          "texto": "First ask whether the process should still exist this way."
+        },
+        {
+          "t": "Questions with no owner",
+          "texto": "Who answers for it, what it does on its own, how it is measured, how much it costs."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "AI Management Area: what is changing (the five eras)",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Video: the area in 9 minutes, with script",
+          "href": "https://inematds.github.io/gestao-ia-caminhos/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "Horizonte Lab: IT inventory and internal survey (fictional study company)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lista"
+        }
+      ]
+    }
+  ]
+}

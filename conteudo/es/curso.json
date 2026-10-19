@@ -1,0 +1,285 @@
+{
+  "id": "gestao-ia-base-v72",
+  "lang": "es",
+  "url": "https://inematds.github.io/gestao-ia-base-v72/es/",
+  "nome": "La empresa agéntica y el gestor de 2027",
+  "sub": "Formación Gestión de IA 2027 · G0",
+  "volta": {
+    "t": "Área Gestión de IA",
+    "href": "https://eventos.inema.pro/gestao-ia/"
+  },
+  "lado_card": {
+    "rot": "Formación Gestión de IA 2027 · G0",
+    "t": "Ya publicado: el curso de los agentes",
+    "texto": "El G3 enseña a contratar, delegar y supervisar a un agente, con la misma empresa de estudio de este curso.",
+    "link": "Ir al G3",
+    "href": "https://inematds.github.io/gestao-ia-agentes-v72/"
+  },
+  "rodape": "INEMA.CLUB · contenido abierto y gratuito · formato INEMA Learning v7.2 · <a href=\"https://eventos.inema.pro/gestao-ia/\">eventos.inema.pro/gestao-ia</a> · <a href=\"https://inematds.github.io/prof2030-lab/\">laboratorio Horizonte (empresa ficticia de estudio)</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "videos": {
+    "gestao-ia-caminhos": {
+      "titulo": "Gestión de IA: el área en 9 minutos",
+      "duracao": "8 min 46 s",
+      "mp4": "https://github.com/inematds/gestao-ia-caminhos/releases/download/video-v2.0.0/gestao-ia-caminhos-completo-16x9.mp4",
+      "vtt": "assets/vtt/gestao-ia-caminhos.vtt",
+      "poster": "assets/img/gestao-ia-caminhos.jpg",
+      "pagina": "https://inematds.github.io/gestao-ia-caminhos/videos/",
+      "idiomas": {
+        "en": {
+          "mp4": "https://github.com/inematds/gestao-ia-caminhos/releases/download/video-v2.0.0/gestao-ia-caminhos-completo-16x9-en.mp4",
+          "vtt": "assets/vtt/gestao-ia-caminhos-en.vtt",
+          "duracao": "6 min 43 s",
+          "pagina": "https://inematds.github.io/gestao-ia-caminhos/videos/en/"
+        },
+        "es": {
+          "mp4": "https://github.com/inematds/gestao-ia-caminhos/releases/download/video-v2.0.0/gestao-ia-caminhos-completo-16x9-es.mp4",
+          "vtt": "assets/vtt/gestao-ia-caminhos-es.vtt",
+          "duracao": "7 min 40 s",
+          "pagina": "https://inematds.github.io/gestao-ia-caminhos/videos/es/"
+        }
+      }
+    },
+    "gestor-de-agentes": {
+      "titulo": "Del técnico al gestor de agentes",
+      "duracao": "13 min 16 s",
+      "mp4": "https://github.com/inematds/gestor-de-agentes/releases/download/video-v2.0.0/gestor-de-agentes-completo-16x9.mp4",
+      "vtt": "assets/vtt/gestor-de-agentes.vtt",
+      "poster": "assets/img/gestor-de-agentes.jpg",
+      "pagina": "https://inematds.github.io/gestor-de-agentes/videos/",
+      "idiomas": {
+        "en": {
+          "mp4": "https://github.com/inematds/gestor-de-agentes/releases/download/video-v2.0.0/gestor-de-agentes-completo-16x9-en.mp4",
+          "vtt": "assets/vtt/gestor-de-agentes-en.vtt",
+          "duracao": "9 min 33 s",
+          "pagina": "https://inematds.github.io/gestor-de-agentes/videos/en/"
+        },
+        "es": {
+          "mp4": "https://github.com/inematds/gestor-de-agentes/releases/download/video-v2.0.0/gestor-de-agentes-completo-16x9-es.mp4",
+          "vtt": "assets/vtt/gestor-de-agentes-es.vtt",
+          "duracao": "10 min 52 s",
+          "pagina": "https://inematds.github.io/gestor-de-agentes/videos/es/"
+        }
+      }
+    }
+  },
+  "inicio": {
+    "kicker": "Formación Gestión de IA 2027 · G0 · puerta de entrada · 8 clases",
+    "titulo": "La empresa agéntica y el gestor de 2027",
+    "lead": "En 2026 las empresas aprendieron a crear agentes. En 2027 el desafío es gestionarlos junto con personas y procesos. En ocho clases entiendes qué cambió en la gestión, lees el mercado sin caer en números de vitrina, te mides en las 8 competencias del gestor de IA, eliges tu movimiento de carrera y sales con el primer proceso para gestionar.",
+    "cta": "Empezar por la clase 1",
+    "cta2": {
+      "t": "Ver el área Gestión de IA",
+      "href": "https://eventos.inema.pro/gestao-ia/"
+    },
+    "capa_alt": "Una gerente señala un panel de bloques de colores en una reunión rápida con el equipo; a través del vidrio, el almacén de la distribuidora y una montacargas.",
+    "numeros": [
+      {
+        "v": "8",
+        "t": "clases de 15 a 20 minutos"
+      },
+      {
+        "v": "17",
+        "t": "ejercicios con \"listo cuando\""
+      },
+      {
+        "v": "18",
+        "t": "modelos para copiar"
+      },
+      {
+        "v": "6",
+        "t": "cursos en la formación"
+      }
+    ],
+    "cursos": {
+      "titulo": "Los 6 cursos de la formación",
+      "sub": "Orden sugerido: G0 → G2 → G3 → G4 → G1 → G5. El G1 (personas) puede avanzar en paralelo, y quien es de RR. HH. puede empezar por él. Los cursos aún no publicados se abren a medida que están listos.",
+      "abrir": "Abrir el curso",
+      "itens": [
+        {
+          "rot": "G0 · puerta de entrada · estás aquí",
+          "t": "La empresa agéntica y el gestor de 2027",
+          "l": "Qué cambió en la gestión, qué dicen las consultoras, Brasil, la carrera y tu primer proceso.",
+          "href": "https://inematds.github.io/gestao-ia-base-v72/",
+          "href_idioma": true,
+          "img": "assets/img/cursos/g0.jpg"
+        },
+        {
+          "rot": "G2 · procesos",
+          "t": "Procesos: el proceso no es sagrado",
+          "l": "Desarmar el proceso antes de automatizar: eliminar, simplificar, rediseñar y decidir quién hace cada etapa.",
+          "href": "https://inematds.github.io/gestao-ia-processos-v72/",
+          "href_idioma": true,
+          "img": "assets/img/cursos/g2.jpg"
+        },
+        {
+          "rot": "G3 · agentes · publicado",
+          "t": "Agentes: contratar, delegar y supervisar",
+          "l": "Puesto, delegación, constitución, nivel de autorización, confianza progresiva, equipo de agentes y cola de excepciones.",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "href_idioma": true,
+          "img": "assets/img/cursos/g3.jpg"
+        },
+        {
+          "rot": "G4 · recursos",
+          "t": "Recursos: modelos, datos y presupuesto",
+          "l": "Elegir modelo por caso, cuidar el contexto y el conocimiento de la empresa y medir el costo por resultado.",
+          "href": "https://inematds.github.io/gestao-ia-recursos-v72/",
+          "href_idioma": true,
+          "img": "assets/img/cursos/g4.jpg"
+        },
+        {
+          "rot": "G1 · personas",
+          "t": "Personas: liderar el equipo híbrido",
+          "l": "Qué queda con las personas, la conversación sobre el cambio, el júnior que supervisa agentes y la formación del equipo.",
+          "href": "https://inematds.github.io/gestao-ia-pessoas-v72/",
+          "href_idioma": true,
+          "img": "assets/img/cursos/g1.jpg"
+        },
+        {
+          "rot": "G5 · cierre + proyecto final",
+          "t": "Gobernar, medir y evolucionar",
+          "l": "Responsables, permisos y registro; evaluación con indicadores; un ciclo LOOP-R y el proyecto final de la formación.",
+          "href": "https://inematds.github.io/gestao-ia-governanca-v72/",
+          "href_idioma": true,
+          "img": "assets/img/cursos/g5.jpg"
+        }
+      ]
+    },
+    "aulas_titulo": "Las clases",
+    "aulas_sub": "Primero, qué cambió y qué es gestionar agentes (clases 1 a 4). Después, el mercado, leído con criterio: consultoras, Brasil y carrera (clases 5 a 7). La clase 8 elige tu primer proceso y el curso siguiente.",
+    "blocos": [
+      {
+        "t": "Para quién es",
+        "itens": [
+          "Gestor de área, dueño de una pequeña o mediana empresa, líder de operaciones o de RR. HH. que tiene, o va a tener, agentes de IA trabajando en el equipo.",
+          "Para quien no programa y no quiere programar: aquí aprendes a administrar. Construir agentes es otro curso.",
+          "Para quien recibe cada mes un informe que dice que \"la IA lo va a cambiar todo\" y quiere saber qué es un hecho, qué es un pronóstico y qué hacer el lunes."
+        ]
+      },
+      {
+        "t": "Qué sales haciendo",
+        "itens": [
+          "Explicar por qué la gestión ganó un tercer objeto y traducir la gestión de personas a la de agentes.",
+          "Poner un dueño con nombre en cada uno de los 9 objetos de gestión de tu área y medirte en las 8 competencias.",
+          "Leer un informe de McKinsey, Deloitte, Microsoft o Gartner separando encuesta, experiencia declarada y pronóstico.",
+          "Elegir tu movimiento de carrera, evaluar una certificación externa y tu primer proceso para gestionar con agentes."
+        ]
+      },
+      {
+        "t": "El caso que atraviesa la formación",
+        "itens": [
+          "La <b>Horizonte Distribuidora</b>, <a href=\"https://inematds.github.io/prof2030-lab/\">empresa ficticia de estudio</a> de 40 personas que distribuye productos de limpieza en el interior de São Paulo.",
+          "Tú haces el papel de <b>Patrícia Lima, gerente comercial</b>, que recibió a <b>Hora</b>, un agente que vende por WhatsApp. El proceso es el pedido que llega por WhatsApp y llega hasta la facturación.",
+          "Cada clase tiene una práctica en Horizonte, para entrenar, y otra en tu empresa o en tu carrera, para valer."
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "pular": "Saltar al contenido",
+    "aulas": "Clases",
+    "concluido": "completado",
+    "aula": "Clase",
+    "nesta_aula": "En esta clase vas a aprender:",
+    "objetivo": "Objetivo:",
+    "proxima_aula": "Siguiente clase",
+    "aula_anterior": "Clase anterior",
+    "voltar_inicio": "Volver al inicio del curso",
+    "marcar_concluida": "Marcar clase como completada",
+    "dg_dica": "Haz clic en cada bloque del diagrama para ver qué hace.",
+    "copiar": "Copiar",
+    "copiado": "Copiado",
+    "selo_simulacao": "Simulación: ejemplo ilustrativo",
+    "selo_real": "Ejemplo del repositorio",
+    "pronto_quando": "Listo cuando:",
+    "fiz": "Hice este ejercicio",
+    "video_pagina": "Página del video con guion",
+    "pergunta": "Pregunta",
+    "de": "de",
+    "cert_tag": "competencia",
+    "correto": "Correcto",
+    "errado": "No es esa",
+    "quiz_aguarda": "Elige una alternativa. La explicación aparece después de tu intento.",
+    "proxima_pergunta": "Siguiente pregunta",
+    "quiz_ver": "Ver resultado",
+    "quiz_fim": "Prueba completada",
+    "quiz_total": "Acertaste {a} de {n}. Si aciertas todas, la clase se marca como completada.",
+    "aparencia": "Apariencia",
+    "tamanho_texto": "Tamaño del texto",
+    "tema": "Tema",
+    "tema_escuro": "Oscuro",
+    "tema_papel": "Papel claro",
+    "role_dica": "Desplaza la página: cada etapa de abajo enciende su parte del diagrama.",
+    "pre_requisito": "requiere",
+    "ver_aula": "Ver la clase",
+    "mapa_dica": "Haz clic en un ejercicio para ver qué hacer y el \"listo cuando\".",
+    "etapas": "Etapas",
+    "exercicios": "ejercicios",
+    "rever": "Repasar:",
+    "revisar_erradas": "Revisar las incorrectas",
+    "refazer": "Rehacer la prueba",
+    "h_semana": "h por semana",
+    "data_inicio": "Fecha de inicio",
+    "ritmo": "Tiempo disponible",
+    "gerar_plano": "Generar mi plan",
+    "baixar_md": "Descargar plan.md",
+    "baixar_ics": "Descargar para el calendario (.ics)",
+    "ind_estudo": "Estudio (clases)",
+    "ind_pratica": "Práctica declarada",
+    "ind_nota": "Práctica = ejercicios que marcaste como hechos. La comprobación viene en el examen de la certificación.",
+    "estudo": {
+      "titulo": "Tu estudio",
+      "continuar": "Continuar donde lo dejé",
+      "comecar": "Empezar por la clase 1",
+      "cta_continuar": "Continuar la clase {n}",
+      "hoje": "hoy",
+      "ontem": "ayer",
+      "ha_dias": "hace {n} días",
+      "desempenho": "Desempeño en las pruebas",
+      "notas": "Mis anotaciones",
+      "dados": "Copiar mis datos",
+      "sem_testes": "Aún no has hecho ninguna prueba. La prueba está al final de cada clase.",
+      "nao_fez": "prueba aún no hecha",
+      "ultimo": "Último",
+      "melhor": "Mejor",
+      "tentativas": "intentos",
+      "tentativa": "intento",
+      "tudo_certo": "Acertaste todo en la última prueba.",
+      "rever": "Para repasar",
+      "resposta": "Respuesta correcta:",
+      "ir_teste": "Rehacer la prueba",
+      "sem_notas": "Aún no hay anotaciones. En la clase, selecciona un fragmento del texto y toca Marcar o Anotar.",
+      "so_marcado": "(solo marcado)",
+      "marcar": "Marcar",
+      "anotar": "Anotar",
+      "salvar": "Guardar",
+      "apagar": "Borrar marca",
+      "fechar": "Cerrar",
+      "nota_ph": "Escribe tu anotación sobre este fragmento…",
+      "um_bloco": "Marca dentro de un solo párrafo.",
+      "nao_marca": "Este fragmento no se puede marcar.",
+      "dados_exp": "Tu progreso, tus anotaciones y las notas de los tests se guardan solo en este navegador. Descarga una copia (.json) para guardarla o para continuar en otra computadora u otro navegador; allí, carga la copia. Cargar se suma a lo que ya existe y no borra nada.",
+      "exportar": "Descargar copia",
+      "importar": "Cargar copia",
+      "import_ok": "Copia cargada ({n} elementos). Actualizando la página…",
+      "import_erro": "Archivo no reconocido. No se cambió nada.",
+      "import_outro": "Esta copia es de otro curso. No se cambió nada.",
+      "export_ok": "Copia descargada."
+    },
+    "conv_dica": "Elige tu respuesta. El comentario aparece enseguida y la conversación sigue según tu elección.",
+    "conv_voce": "Tú",
+    "conv_escolha": "Tu respuesta",
+    "conv_boa": "Buena elección",
+    "conv_meio": "Se puede mejorar",
+    "conv_ruim": "Elección débil",
+    "conv_fim": "Fin de la conversación",
+    "conv_placar": "Hiciste {p} de {m} puntos posibles.",
+    "conv_licao": "Lección:",
+    "conv_recomecar": "Reiniciar la conversación",
+    "conv_feita": "Tu mejor puntaje: {p} de {m} puntos.",
+    "comecar": "Empezar la clase",
+    "nesta_vai": "En esta clase vas a",
+    "trocar_tema": "Cambiar tema claro/oscuro"
+  },
+  "icone": "camadas"
+}

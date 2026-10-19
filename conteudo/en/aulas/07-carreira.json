@@ -1,0 +1,303 @@
+{
+  "slug": "carreira",
+  "num": 7,
+  "menu": "Career",
+  "titulo": "Career: who is adjusting and how",
+  "titulo_curto": "Career",
+  "minutos": 20,
+  "lead": "When the agent handles the information handoff and the report, the work of whoever coordinates changes shape. Managers, juniors, HR and IT are adjusting in different ways, and the market already offers governance, security and vendor certifications. In this lesson you choose your own move, learn how to evaluate a certification, and leave with a 90-day plan.",
+  "objetivo": "choose your career move and evaluate an external certification by what it covers and requires, before deciding to take it.",
+  "competencias": [
+    "choose-career-move",
+    "evaluate-external-certification",
+    "plan-90-days"
+  ],
+  "aprende": [
+    {
+      "t": "The four moves: manager, junior, HR and IT"
+    },
+    {
+      "t": "What AIGP, AAISM, ISO/IEC 42001 and vendor credentials cover"
+    },
+    {
+      "t": "Why none of them teaches you to manage an agent day to day"
+    },
+    {
+      "t": "A 90-day plan with dated milestones and one certification evaluated"
+    }
+  ],
+  "hero_alt": "In a bright room, an experienced professional explains something to two younger colleagues and an older man, around a table with laptops.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Four career moves",
+      "sub": "Each block is a common starting point and where it is heading. Click to see what goes, what stays and what comes in.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Manager",
+          "sub": "→ hybrid team manager",
+          "forte": true,
+          "detalhe": "Out goes the information handoff and the report, which AI does. What stays and grows: coordinating, deciding the authority limit, reviewing results and training people. This is the reading that appears in Gartner, Deloitte and McKinsey."
+        },
+        {
+          "icone": "lupa",
+          "titulo": "Junior",
+          "sub": "→ agent supervisor",
+          "detalhe": "Newcomers now review what the agent did, instead of doing it from scratch. The risk the critics point to: the path where juniors learned by doing is lost. The manager needs to design that path again."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "HR",
+          "sub": "→ people and agents",
+          "detalhe": "Onboarding, evaluation and even the shutdown of agents begin to look like HR work. Forrester forecasts that the large HR platforms will include \"digital employee\" management (Predictions 2026)."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "IT",
+          "sub": "→ identity and permission",
+          "detalhe": "IT and security start to look after the identity and permissions of each agent, the way they do for each person. Okta showed that many companies still control agents with less rigor than people."
+        }
+      ],
+      "legenda": "These moves summarize the program's October 2026 market overview. There is no reliable data counting job openings by new title, so it does not appear here."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What each move asks of you",
+      "sub": "Four readings, with the source for each fact. The examples are from Horizonte, a fictional study company.",
+      "passos": [
+        {
+          "titulo": "Manager",
+          "sub": "the work that stays",
+          "texto": [
+            "Gartner's October 2024 forecast speaks of cutting layers of middle management by the end of 2026. Deloitte and McKinsey describe the same manager differently: less handoff, more coordination, review and training.",
+            "The move is to stop being the channel that information passes through and become the person who sets limits, reviews exceptions and develops the team, both people and agents."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia stops building the weekly report by hand and starts deciding the 5% to 10% discounts, approving orders above R$ 5 mil and developing Juliana."
+          }
+        },
+        {
+          "titulo": "Junior",
+          "sub": "narrower entry point",
+          "texto": [
+            "The Stanford Digital Economy Lab (08/2026) recorded a relative drop of about 19% in employment for young people aged 22 to 25 in the occupations most exposed to AI, without claiming that AI is the cause.",
+            "Whoever comes in starts reviewing what the agent did. A manager who wants to develop people has to make sure the junior also does the work, not just checks it."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Today Juliana answers what Hora doesn't know. To grow, she needs to decide cases, not just pass them along."
+          }
+        },
+        {
+          "titulo": "HR",
+          "sub": "people and agents",
+          "texto": [
+            "Forrester (Predictions 2026) forecasts that HR platforms will include management of the \"digital employee.\" It is a forecast, not a released product.",
+            "For people in HR, the move starts before the tool: onboard the agent, say who evaluates it, and what happens to the work of the people who used to handle that task."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "There is no dedicated HR. Today nobody has recorded that Hora \"joined\" the sales team, or who evaluates it."
+          }
+        },
+        {
+          "titulo": "IT",
+          "sub": "agent identity",
+          "texto": [
+            "Okta, AI Agents at Work 2026: almost two thirds of organizations apply weaker security controls to agents than to employees. Microsoft announced Agent 365 at Build (06/2026), aimed at managing agents in the company.",
+            "The move for IT is to treat each agent as an identity: with its own credential, minimum permissions and a record of what it did."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "The email assistant uses the shared commercial@ account with permission to read, send and delete, and Hora keeps no record of its actions. Neither of them has its own identity."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "The certification landscape and how to evaluate one",
+      "sub": "What existed in October 2026, according to the training program's market overview. No independent \"agent management\" certification was found. Before deciding, check the price and rules on the official page.",
+      "blocos": [
+        {
+          "rot": "Sheet · evaluate a certification before taking it",
+          "icone": "lista",
+          "conteudo": "EVALUATE CERTIFICATION · <name> · <issuer> · consulted on <date>\n\n1. WHAT IT COVERS (official page): <governance / security / risk / management system / building agents>\n2. PREREQUISITE: <none / another certification / experience>\n3. IS IT FOR THE PERSON OR THE COMPANY? <...>\n4. DOES MY ROLE OR MY CLIENT REQUIRE IT? [ ] yes, where: <tender, questionnaire, job posting>  [ ] no\n5. DOES IT TEACH HOW TO MANAGE AN AGENT DAY TO DAY? [ ] yes [ ] no, it covers: <...>\n6. COST AND TIME (official page): <...>\n\nDECISION: [ ] take it by <deadline>  [ ] not now, because <reason>  [ ] never, because <reason>"
+        },
+        {
+          "rot": "Prompt · check the official page",
+          "icone": "chat",
+          "conteudo": "I will paste the text from the official page of a certification. Answer only with\nwhat is in the text; whatever is not there, say \"not informed\".\n\nText:\n\"\"\"<paste here>\"\"\"\n\n1. Who issues it and since when has it existed?\n2. What does it cover, in up to 5 items?\n3. What is the prerequisite to take the exam?\n4. How much does it cost and how long does it take?\n5. Does it certify the person or the company?\n6. Does it address managing AI agents day to day (delegating, giving authority limits,\n   supervising)? Quote the passage, if there is one."
+        }
+      ],
+      "saida": {
+        "selo": "real",
+        "abas": [
+          {
+            "rot": "Overview (Oct/2026)",
+            "html": "<table><thead><tr><th>Credential</th><th>What it covers</th><th>Prerequisite</th><th>Manage an agent?</th></tr></thead><tbody><tr><td><b>AIGP</b> · IAPP, since 04/2024</td><td>governance and responsible AI; strong on privacy and legal</td><td>none</td><td>governs; doesn't teach how to run the agent day to day</td></tr><tr><td><b>AAISM</b> · ISACA, 08/2025</td><td>AI governance and program, risk and controls, from the security side</td><td>requires CISM or CISSP</td><td>for those already in security</td></tr><tr><td><b>AAIR</b> · ISACA</td><td>AI risk for IT risk professionals</td><td>only a secondary source exists; check at isaca.org</td><td>not confirmed</td></tr><tr><td><b>ISO/IEC 42001</b> · lead auditor or lead implementer</td><td>audit or implement the AI management system; the standard certifies the company, the course trains the person</td><td>varies by body</td><td>shows up in vendor questionnaires; it is not an agent routine</td></tr><tr><td><b>Vendor credentials</b> · NVIDIA, GitHub, Google, Oracle, IBM</td><td>build and deploy agents in each vendor's tool</td><td>varied</td><td>they are about building, not managing</td></tr><tr><td><b>Brazilian courses</b> · ESPM, PUC-Rio, Anhembi Morumbi, Vanzolini, CBEXS, MIT Professional (in Portuguese)</td><td>management and leadership with AI, some with agents</td><td>paid; from 4 hours to 10 months</td><td>they are courses, not an independent certification</td></tr><tr><td><b>INEMA \"AI Manager\"</b> · coming soon at cert.inema.pro</td><td>the 6 courses in this program</td><td>qualification exam</td><td>yes, it is the focus; but it is a qualification, not regulated</td></tr></tbody></table><p>The INEMA certificate is a qualification, not a regulated professional certification, and does not replace AIGP or ISO/IEC 42001 when your role or your client requires one of them.</p>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>All price and timing information comes from the official page, with the date you consulted it.</li><li>Line 4 of the sheet cites where the requirement appears (job posting, tender, client questionnaire) or says \"no.\"</li><li>The decision has a deadline or a reason.</li><li>Common mistake: choosing by the fame of the acronym. A governance certification doesn't teach you how to delegate to an agent, and a vendor credential teaches you to build in that vendor's tool.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: 90-day plan",
+      "sub": "One page. Three milestones, one per month, and one certification evaluated, even if the decision is not to take it now.",
+      "blocos": [
+        {
+          "rot": "My career's 90-day plan",
+          "icone": "calendario",
+          "conteudo": "90-DAY PLAN · <name> · start <date>\n\nTODAY: <role> · MOVE: <manager → hybrid manager / junior → supervisor / HR → people and agents / IT → identity and permission / other>\nWHAT LEAVES MY WORK: <...>\nWHAT STAYS AND GROWS: <...>\n\nMILESTONE 1 (by <date>): <deliverable you can show, e.g.: map of the 9 objects of the area approved>\nMILESTONE 2 (by <date>): <e.g.: first process with a measured baseline>\nMILESTONE 3 (by <date>): <e.g.: one agent with an owner, authority limit and weekly review>\n\nPROGRAM COURSES: <G2, G3...> in the order <...>\nEXTERNAL CERTIFICATION EVALUATED: <name> · decision: <take it by X / not now because Y>\nWHO FOLLOWS UP: <name> · conversation on <date>"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Patrícia's plan (example)",
+            "html": "<p><b>Patrícia Lima</b> · Horizonte Distribuidora, fictional study company · start 11/03/2026</p><ul><li><b>Move:</b> manager → hybrid team manager.</li><li><b>Leaves:</b> weekly report built by hand. <b>Grows:</b> authority limit, exception queue, developing Juliana.</li><li><b>Milestone 1 (11/30):</b> map of the 9 objects of the sales area with 9 owners.</li><li><b>Milestone 2 (12/31):</b> two weeks of order baseline measured.</li><li><b>Milestone 3 (01/31):</b> Hora's hiring dossier approved by Carlos (course G3).</li><li><b>Certification evaluated:</b> AIGP. Decision: not now; no Horizonte client asks for it, and it covers governance, not the day-to-day routine with Hora.</li><li><b>Follows up:</b> Carlos, conversation at the end of each month.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "Three Horizonte people to develop; your own career for real.",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Three moves at Horizonte",
+          "min": "20 min",
+          "texto": "For Patrícia, Juliana and Rafael, write each person's move (from the four in the diagram), what leaves and what grows in their work. Then, for each one, say whether any certification in the overview would make sense and why, using the evaluation sheet.",
+          "pronto": "all three have a move, one line for what leaves and one for what grows, and a decision about certification with a reason (\"not needed\" also counts, as long as it says why)."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your 90-day plan",
+          "min": "30 min",
+          "texto": "Fill in the 90-day plan. Choose one certification from the overview that has some connection to your role, open the official page, run the prompt on its text and fill in the evaluation sheet. Schedule the first conversation with whoever will follow up on the plan.",
+          "pronto": "the plan has the move, three dated milestones, the program courses in the chosen order, one external certification evaluated with the sheet with a decision and reason, and the first conversation scheduled on the calendar."
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: from technician to agent manager",
+      "sub": "Nei explains why the technical part gets more accessible every month and the value moves to the decision: what to build, what stays with the person, what goes to the agent. And why your know-how doesn't show up in any certificate.",
+      "chave": "gestor-de-agentes"
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "What leaves and what grows in the work of a manager who becomes a hybrid team manager?",
+          "opcoes": [
+            "Coordinating leaves; making reports grows",
+            "Passing along information and the report leave; coordinating, deciding authority limits, reviewing results and developing people grow",
+            "Everything leaves; the agent takes over management"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "AI does the handoff and the report well. Coordinating, setting limits, reviewing and developing people remain work for people."
+        },
+        {
+          "p": "You are a sales manager and want to learn to manage agents day to day. Does AIGP solve that?",
+          "opcoes": [
+            "Yes, it is the agent management certification",
+            "Not exactly: it covers governance and responsible AI, with strength in privacy and legal; it does not teach you how to delegate to and supervise an agent",
+            "Yes, as long as you have the CISSP"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "No independent agent-management certification was found as of Oct 2026. The AIGP is about governance and has no prerequisite; the CISSP is a requirement for the AAISM."
+        },
+        {
+          "p": "What are the NVIDIA, GitHub, Google and Oracle credentials about agents for?",
+          "opcoes": [
+            "To manage agents from any vendor",
+            "To build and deploy agents on each vendor's own tool",
+            "To audit the company's AI management system"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "They are about building, not managing. Auditing the management system is the field of ISO/IEC 42001."
+        },
+        {
+          "p": "A large client sends Horizonte a questionnaire asking about its AI management system. Which reference shows up in this kind of questionnaire?",
+          "opcoes": [
+            "ISO/IEC 42001",
+            "The INEMA \"AI Manager\" certificate",
+            "The NVIDIA credential"
+          ],
+          "certa": 0,
+          "ref": "codigo",
+          "explica": "ISO/IEC 42001 is the standard for AI management systems, and it shows up in vendor questionnaires. The standard certifies the company; the lead auditor and lead implementer courses train the person."
+        },
+        {
+          "p": "What is the INEMA \"AI Manager\" certificate, and what is it not?",
+          "opcoes": [
+            "It is a regulated professional certification and replaces AIGP and ISO/IEC 42001",
+            "It is a qualification certificate, covering the 6 courses of the program; it is not regulated and does not replace AIGP or ISO/IEC 42001 when the role requires them",
+            "It is a vendor credential"
+          ],
+          "certa": 1,
+          "ref": "codigo",
+          "explica": "It qualifies you for the agent management taught here. Anyone who needs AIGP or ISO/IEC 42001 for the role or for a client still needs them."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Four moves",
+          "texto": "Manager, junior, HR and IT each change in a different way."
+        },
+        {
+          "t": "What exists",
+          "texto": "Governance (AIGP), security (AAISM), management system (ISO/IEC 42001), vendor (building)."
+        },
+        {
+          "t": "The gap",
+          "texto": "No independent certification teaches you how to manage an agent day to day."
+        },
+        {
+          "t": "90 days",
+          "texto": "Three dated milestones and one certification assessed, with a decision."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Video: from technical to agent manager, with script",
+          "href": "https://inematds.github.io/gestor-de-agentes/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "Course G1 · People: leading the hybrid team",
+          "href": "https://inematds.github.io/gestao-ia-pessoas-v72/",
+          "icone": "usuario"
+        },
+        {
+          "t": "AI Management Area: the program and the AI Manager certificate",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

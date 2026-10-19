@@ -1,0 +1,290 @@
+{
+  "slug": "como-gente",
+  "num": 2,
+  "menu": "Thesis",
+  "titulo": "Managing an agent looks like managing people",
+  "titulo_curto": "An agent looks like a person",
+  "minutos": 17,
+  "lead": "What a company did with a new employee, it needs to do with each agent: give the role, the goal, the tools, the limits and the evaluation. The words change, not the logic. In this lesson you build the translation of a job into an agent, see the two items that people did not have, and learn where the comparison stops.",
+  "objetivo": "translate a person's job, responsibility, tools, limits and evaluation into an agent, and say where the comparison stops.",
+  "competencias": [
+    "traduzir-gestao-de-pessoas-para-agentes",
+    "separar-preparar-de-decidir",
+    "reconhecer-limites-da-analogia"
+  ],
+  "aprende": [
+    {
+      "t": "The six pairs that carry people management over to agent management"
+    },
+    {
+      "t": "The two items that people did not have: explicit context and graduated autonomy"
+    },
+    {
+      "t": "Whoever posts does not approve: the agent prepares, the person decides"
+    },
+    {
+      "t": "Where the comparison stops, and the mistake of treating people like machines"
+    }
+  ],
+  "hero_alt": "In a bright meeting room, a manager and an employee review a printed sheet; beside them, a laptop shows a chat panel with colorful bubbles.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Before and now, item by item",
+      "sub": "Each block shows what was done with a person and what is done with the agent. Click to see the example.",
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Role",
+          "sub": "before: job",
+          "detalhe": "The job told you what the person was there for. For the agent, the role is a sentence with process and result, written down, because it does not pick up the job in the hallway. In G3 this becomes the digital role job sheet."
+        },
+        {
+          "icone": "alvo",
+          "titulo": "Goal",
+          "sub": "before: responsibility",
+          "detalhe": "The person's responsibility becomes the agent's goal: the result you check. With one difference that does not change: responsibility for the result stays with a person, by name."
+        },
+        {
+          "icone": "memoria",
+          "titulo": "Context",
+          "sub": "new",
+          "forte": true,
+          "detalhe": "A person learns context by being around: they know that client pays late, that the price list changed yesterday. The agent only knows what it receives in writing. Explicit context is one of the two items that people management did not have."
+        },
+        {
+          "icone": "pasta",
+          "titulo": "Tools",
+          "sub": "before: tools",
+          "detalhe": "A person got access to the system, the phone, the spreadsheet. An agent gets tools that act: look up, create, send, delete. Each one is a management decision, not just an IT one."
+        },
+        {
+          "icone": "cadeado",
+          "titulo": "Autonomy",
+          "sub": "before: limits",
+          "forte": true,
+          "detalhe": "A person's limit was agreed on and grew with trust over the years. For an agent, autonomy is graduated and written action by action: what it does on its own, what it prepares for approval, what it never does. This is the second new item."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Evaluation",
+          "sub": "before: evaluation",
+          "detalhe": "Performance review continues, only with more measurement: an agent can be measured on almost everything (accuracy, time, cost, rework, how many times it needed a person). An error becomes a corrected instruction and a test case."
+        }
+      ],
+      "legenda": "Source of the thesis: INEMA's AI Management area. How to write each piece for a real agent is the G3 course (Agents)."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "The same logic in four situations",
+      "sub": "Three professions where the rule already existed for people, and the point where the comparison stops. The Horizonte examples come from the fictional study company.",
+      "passos": [
+        {
+          "titulo": "The same work",
+          "sub": "other words",
+          "texto": [
+            "Think about what a good manager knows about the team: what the goal is, who does what, what information each person needs, how much autonomy they have, how to measure, and when to step in. Now swap \"person\" for \"agent\". It's practically the same list.",
+            "Microsoft gave this a name in the 2025 Work Trend Index: the agent boss, a human manager of one or more agents, and the human-agent ratio, the balance between human oversight and agent efficiency. It's the vendor's framing, useful as vocabulary."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia became Hora's boss without anyone telling her. She already knew how to manage Juliana; she just hadn't written down for Hora what she would say to a new saleswoman."
+          }
+        },
+        {
+          "titulo": "Whoever posts does not approve",
+          "sub": "accounting",
+          "texto": [
+            "In accounting, separation of duties, authority limits and human review have always applied to the assistant. They apply the same way to the agent: it goes up to the door of the signature, never past it.",
+            "This isn't distrust of the agent. It's the same rule that protects the company from any error, human or not."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Hora records the order. An order above R$ 5 thousand only goes to picking with Patrícia's approval (fictional study policy)."
+          }
+        },
+        {
+          "titulo": "Prepares, doesn't decide",
+          "sub": "legal and health",
+          "texto": [
+            "In legal work, the agent does the first read and the lawyer decides and signs: responsibility isn't delegated, it's organized. In health care, the administrative side can go to AI, but some decisions stay outside the agent's authority limit.",
+            "In both cases the limit is a management decision, made before turning the agent on, not after the first scare."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Hora gives a discount of up to 5% on its own to a registered customer. From 5% to 10%, it prepares and Patrícia decides. Above that, it doesn't even offer."
+          }
+        },
+        {
+          "titulo": "Where the comparison stops",
+          "sub": "people are not machines",
+          "texto": [
+            "A person has needs, rights and relationships; you talk with them, and you look after their workload and their future. An agent is managed by performance, reliability and security. With an agent, you want to know how many deliveries came out right.",
+            "Error changes too: with a person, it becomes a conversation and learning; with an agent, it becomes a corrected instruction and a new test case. The serious mistake is mixing the two up."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Since Hora arrived, Juliana answers only what Hora doesn't know. Patrícia measures Hora by accuracy; with Juliana, she talks about what changed in her work."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Template to copy: the before × now table",
+      "sub": "One page per role. Start with what you would tell a new person in that role and translate it line by line.",
+      "blocos": [
+        {
+          "rot": "Before × now table",
+          "icone": "lista",
+          "conteudo": "BEFORE × NOW TABLE · role: <e.g., salesperson who takes orders> · agent: <name> · <date>\n\nITEM          | FOR THE PERSON (before)          | FOR THE AGENT (now)                | HOW I CHECK\nRole          | <job title>                      | <process + result, 1 sentence>     | <does an outsider understand?>\nGoal          | <responsibility>                 | <result you can check>             | <where it is recorded>\nContext       | (learned by being around)        | <what it gets in writing>          | <who keeps it up to date>\nTools         | <systems, phone, spreadsheet>    | <look up / create / send ...>      | <which one can change data?>\nAutonomy      | <agreed limit>                   | <does alone / prepares / never>    | <ceiling as a number>\nEvaluation    | <performance review>             | <indicator + target + when I look> | <this week's number>\n\nPERSON RESPONSIBLE FOR THE AGENT'S RESULT: <name, from the business>\nWHAT STAYS WITH THE PERSON (and why): <decision, relationship, exception ...>\nWHERE THE COMPARISON STOPS: <what I look after in the person and not in the agent>"
+        },
+        {
+          "rot": "Prompt · review the table",
+          "icone": "chat",
+          "conteudo": "You are an experienced manager reviewing the translation of a human role into\nan AI agent. Don't rewrite the table: point out gaps.\n\nTable:\n\"\"\"<paste here>\"\"\"\n\nAnswer, in this order:\n1. Is any agent line an intention (\"help\", \"be quick\") instead of\n   something you can check?\n2. Does the context list what the agent needs to know and a person knew\n   without anyone writing it down?\n3. Does the autonomy have a ceiling as a number where there is value?\n4. Is the responsible party a person from the business, with a name?\n5. Is what stays with the person justified, or is it just what was left over?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Hora's table (example)",
+            "html": "<p><b>Replenishment saleswoman → Hora</b> · Horizonte Distribuidora, fictional study company</p><table><thead><tr><th>Item</th><th>Person</th><th>Hora</th></tr></thead><tbody><tr><td>Role</td><td>replenishment saleswoman</td><td>record replenishment orders from registered customers that come in through WhatsApp</td></tr><tr><td>Goal</td><td>hit the monthly target</td><td>order in the app that picking doesn't need to correct</td></tr><tr><td>Context</td><td>knew who pays late</td><td>customer record, current price list, discount policy in writing</td></tr><tr><td>Tools</td><td>phone, app, spreadsheet</td><td>read customer record and price list; create order; never mark as paid</td></tr><tr><td>Autonomy</td><td>discount \"as far as Carlos allows\"</td><td>up to 5% on her own; 5–10% prepares; order above R$ 5 thousand waits for Patrícia</td></tr><tr><td>Evaluation</td><td>conversation at the end of the month</td><td>% of orders accepted without correction, checked every Friday</td></tr></tbody></table><p><b>Responsible:</b> Patrícia Lima. <b>Stays with the person:</b> negotiation above 10% and new customers.</p>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>Each agent line can be checked by someone from another area.</li><li>The context line has at least one thing the person knew without it being written down.</li><li>The autonomy has a number where there is value (discount, order amount).</li><li>Common mistake: copying the person's job description to the agent. The agent doesn't understand \"common sense\"; it understands rules and examples.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "At Horizonte, to practice. Then with a role from your team.",
+      "fonte": "Lab piece: <a href=\"https://inematds.github.io/prof2030-lab/pecas/agente-whatsapp/\">Horizonte's WhatsApp agent</a> (prompt, configuration and conversations; fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · Hora's table",
+          "min": "20 min",
+          "texto": "Read Hora's prompt and configuration in the lab. Copy the template and fill in the before × now table, taking a replenishment saleswoman as the \"before\". Use this lesson's fictional policy (5%, 10%, R$ 5 thousand). Only then compare with the example.",
+          "pronto": "all six lines are filled in, each line in the agent column has something another person can check (a record, a number or a rule), the autonomy cites the three numbers of the policy, and the responsible party is Patrícia."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · A role on your team",
+          "min": "25 min",
+          "texto": "Pick a repetitive task that a person on your team does today and that an agent could take over in part. Fill in the table, run the review prompt and write the two final lines: what stays with the person and where the comparison stops.",
+          "pronto": "the table has all six rows, a named owner, at least one thing that stays with the person along with the reason, and one sentence saying what you look after in the person and not in the agent."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "5 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "What are the two items that managing agents has and managing people did not?",
+          "opcoes": [
+            "Salary and vacation",
+            "Explicit context and graduated autonomy",
+            "Tools and evaluation"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "A person learns the context by being around and earns autonomy over the years. The agent only knows what is written down and can only do what was cleared action by action. Tools and evaluation already existed for people."
+        },
+        {
+          "p": "The accounting posting agent prepared 40 payments. Who approves?",
+          "opcoes": [
+            "The agent itself, if the amount is low",
+            "A person with the authority limit for it: whoever posts does not approve",
+            "No one, if the agent got it right last month"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Separation of duties applies to the agent just as it did to the assistant. The agent goes up to the signature gate, never past it."
+        },
+        {
+          "p": "The agent got the price wrong on three orders this week. Which response fits managing an agent?",
+          "opcoes": [
+            "Talk to it about motivation",
+            "Fix the instruction, create a test case with the error and check again",
+            "Turn it off and switch tools"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "With an agent, an error becomes a corrected instruction and a test case. Talking about motivation is for people. Switching tools without understanding the error just carries the problem along."
+        },
+        {
+          "p": "What is an agent boss, in the framing of Microsoft's 2025 Work Trend Index?",
+          "opcoes": [
+            "An agent that manages people",
+            "The human manager of one or more agents",
+            "A regulated role"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "It is the name Microsoft gave to the human manager who has agents on the team. It is vendor vocabulary, useful for conversation, not a standard or an official role."
+        },
+        {
+          "p": "Which of these sentences treats people like machines?",
+          "opcoes": [
+            "Measuring Hora by the percentage of requests accepted without correction",
+            "Evaluating Juliana only by the number of conversations she closed, without talking about what changed in her work",
+            "Talking with Juliana about her exception load"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Measuring the agent by numbers is right. Reducing the person to a number, with no conversation about workload and future, is the opposite mistake. The comparison helps up to this point."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Same logic",
+          "texto": "Role, goal, tools, autonomy and evaluation, just like with people."
+        },
+        {
+          "t": "Two new items",
+          "texto": "Explicit context and graduated autonomy, written down."
+        },
+        {
+          "t": "Prepares, doesn't decide",
+          "texto": "The agent goes up to the signature gate; whoever posts does not approve."
+        },
+        {
+          "t": "Where it stops",
+          "texto": "A person has workload and a future; an agent has accuracy, time and cost."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Course G3 · Agents: the job sheet, delegation and real authority limits",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Course Companies of 2027: people and agents, side by side",
+          "href": "https://inematds.github.io/empresas-2027-v62/",
+          "icone": "camadas"
+        },
+        {
+          "t": "AI Management Area: the thesis and the accounting, legal and health cases",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "slug": "terceiro-objeto",
+  "num": 1,
+  "menu": "Eras",
+  "titulo": "El tercer objeto de la gestión",
+  "titulo_curto": "El tercer objeto",
+  "minutos": 16,
+  "lead": "Durante cuarenta años la gestión coordinó dos cosas: personas y procesos. Ahora entró una tercera, y trabaja junto a tu equipo. En esta clase recorres las cinco eras de la gestión, ves qué sumó cada una y descubres por qué la de 2027 no trata de crear agentes, sino de responder por ellos.",
+  "objetivo": "explicar por qué la gestión de 2027 coordina personas, procesos y agentes, con un ejemplo tuyo en cada una de las cinco eras.",
+  "competencias": [
+    "situar-las-eras-de-la-gestion",
+    "reconocer-el-agente-como-objeto-de-gestion",
+    "encontrar-preguntas-sin-dueño"
+  ],
+  "aprende": [
+    {
+      "t": "Qué sumó cada era de la gestión y qué sigue vigente"
+    },
+    {
+      "t": "Los tres cambios que hacen del agente un objeto de gestión"
+    },
+    {
+      "t": "Por qué acelerar el proceso antiguo solo entrega el error más rápido"
+    },
+    {
+      "t": "Encontrar, en tu empresa, las preguntas de gestión que aún no tienen dueño"
+    }
+  ],
+  "hero_alt": "Una gerente y un colega alinean cinco tarjetas en blanco sobre una mesa, como una línea de tiempo, junto a un fichero antiguo y una tableta.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "Cinco eras de la gestión",
+      "sub": "Desplaza la página: cada era enciende su parte de la escalera. Ninguna borra a la anterior; cada una suma un objeto para coordinar.",
+      "estilo": "escada",
+      "rolagem": true,
+      "nos": [
+        {
+          "icone": "usuario",
+          "titulo": "Personas",
+          "sub": "1980–2000",
+          "itens": [
+            {
+              "icone": "check",
+              "t": "puesto y límites",
+              "sub": "responsabilidad, evaluación"
+            }
+          ],
+          "detalhe": "La gestión de personas organizó el trabajo en puestos: cada uno con responsabilidad, herramientas, límites y evaluación. Quién da descuento, hasta cuánto, quién revisa. Esa lógica no desapareció: de ella sale casi todo lo que vas a hacer con agentes."
+        },
+        {
+          "icone": "fila",
+          "titulo": "Procesos",
+          "sub": "2000–2020",
+          "itens": [
+            {
+              "icone": "arquivo",
+              "t": "diseñar y entrenar",
+              "sub": "el proceso como activo"
+            }
+          ],
+          "detalhe": "Después la empresa aprendió a diseñar, documentar, entrenar y ejecutar procesos. El proceso se volvió un activo: se puede enseñar a quien llega y exigir a quien ejecuta. El riesgo de esta era es tratar el proceso como algo que no se toca."
+        },
+        {
+          "icone": "nuvem",
+          "titulo": "Digital",
+          "sub": "2020–2025",
+          "itens": [
+            {
+              "icone": "grafico",
+              "t": "automatizar",
+              "sub": "y monitorear"
+            }
+          ],
+          "detalhe": "La transformación digital automatizó lo que ya estaba diseñado: diseñar, automatizar, monitorear. Los sistemas ejecutan pasos fijos; cuando algo se sale de la regla, se detienen y esperan a una persona."
+        },
+        {
+          "icone": "chip",
+          "titulo": "Construir",
+          "sub": "2025–2026",
+          "itens": [
+            {
+              "icone": "caneta",
+              "t": "prompts y herramientas",
+              "sub": "contexto, memoria"
+            }
+          ],
+          "detalhe": "En 2025 y 2026 la pregunta fue cómo crear agentes: prompts, skills, contexto, herramientas, memoria. Muchas empresas aprendieron a armar un agente en una tarde. Pocas aprendieron qué hacer con él al día siguiente."
+        },
+        {
+          "icone": "camadas",
+          "titulo": "Gestionar",
+          "sub": "2027",
+          "forte": true,
+          "itens": [
+            {
+              "icone": "alvo",
+              "t": "humanos + agentes",
+              "sub": "+ procesos, modelos, presupuesto"
+            }
+          ],
+          "detalhe": "En 2027 la empresa coordina al mismo tiempo humanos, agentes, modelos, procesos y presupuesto computacional. La pregunta cambia de \"¿cómo lo creo?\" a \"¿quién responde por él, qué hace solo, cómo sé si está bien y cuánto cuesta cada resultado?\"."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "La escalera completa",
+        "texto": "Personas, procesos, digital, construcción y gestión. La última era usa todas las anteriores: el puesto viene de la gestión de personas, el diseño viene de la de procesos, la medición viene de la digital. Lo que ella agrega es un trabajador nuevo, que necesita jefe.",
+        "curto": "Cinco eras; la última coordina todas."
+      },
+      "legenda": "Las fechas de las eras son aproximadas y vienen del Área Gestión de IA de INEMA; sirven para ubicarte, no para marcar el calendario."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "Tres cambios y una pregunta",
+      "sub": "Horizonte Distribuidora (empresa ficticia de estudio) pasó por las cinco eras. Mira dónde se atascó en la quinta.",
+      "passos": [
+        {
+          "titulo": "Crear se volvió fácil",
+          "sub": "gestionar, no",
+          "texto": [
+            "Cualquier equipo arma un agente en una tarde. Lo que frena a la empresa es lo que viene después: quién responde por él, qué puede hacer solo, cómo se mide si está bien y cuánto cuesta cada resultado.",
+            "Esas cuatro preguntas no son técnicas. Son las mismas que hace un gerente cuando llega un empleado nuevo, y nadie espera que TI responda por él."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Rafael, de la TI tercerizada, encendió a Hora el 1.º de julio. Tres meses después nadie sabe decir quién aprobó el descuento de 35% que ella le dio a un cliente."
+          }
+        },
+        {
+          "titulo": "No aceleres el proceso antiguo",
+          "sub": "rediséñalo antes",
+          "texto": [
+            "Poner un agente en un flujo diseñado para personas hace quince años solo entrega el error más rápido. La pregunta que lo cambia todo: si hoy tuviera humanos, agentes y automatizaciones, ¿ese proceso seguiría existiendo de esa forma?",
+            "Desarmar el proceso antes de automatizar es el tema del curso G2. Aquí basta saber que la pregunta existe."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "Hora entró por el mismo camino de antes: anota el pedido, lo manda al almacén y alguien lo revisa después, si da tiempo. Solo que ahora son cientos de conversaciones por semana."
+          }
+        },
+        {
+          "titulo": "El proceso deja de estar congelado",
+          "sub": "aprende",
+          "texto": [
+            "Con agentes midiendo su propia ejecución, el proceso se vuelve un sistema vivo: ejecuta, observa, propone mejoras, prueba, valida y promueve. INEMA llama a este ciclo LOOP-R, y es el tema del curso G5.",
+            "Para que esto funcione, alguien tiene que haber medido cómo era antes. Sin punto de partida, no hay cómo decir que mejoró."
+          ],
+          "exemplo": {
+            "rot": "En Horizonte",
+            "texto": "El panel de Hora muestra el volumen subiendo cada semana, pero la recolección empezó el día en que se encendió. No hay cómo comparar con el tiempo anterior."
+          }
+        },
+        {
+          "titulo": "El tercer objeto",
+          "sub": "y lo que viene con él",
+          "texto": [
+            "Personas y procesos siguen en la mesa del gestor. El agente es el tercer objeto, y trae consigo otros: el modelo que lo mueve, el contexto que lee, los permisos que recibe y el costo de cada ejecución.",
+            "Una columna del IT Forum (2026, opinión) resumió el momento así: es el año en que las empresas dejan de construir agentes y pasan a operarlos. Es opinión, no medición, pero describe bien el cambio de pregunta."
+          ],
+          "exemplo": {
+            "rot": "Tres preguntas sin dueño en Horizonte",
+            "texto": "¿Quién responde por el descuento de Hora? ¿Quién decide, en noviembre, si empieza a cobrarles a los clientes? ¿Quién sabía de las cuatro herramientas de IA que usa el equipo y que TI no conoce?"
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Modelo para copiar: la línea de tiempo de tu área",
+      "sub": "Una página. Sirve para conversar con el equipo y con la dirección sobre dónde están, y para encontrar las preguntas que aún no tienen dueño.",
+      "blocos": [
+        {
+          "rot": "Línea de tiempo de la gestión en mi área",
+          "icone": "calendario",
+          "conteudo": "LÍNEA DE TIEMPO DE LA GESTIÓN · <área> · <empresa> · <fecha>\n\nERA 1 · PERSONAS (puesto, responsabilidad, límites, evaluación)\n- Ejemplo de aquí: <un puesto con límite escrito, ej.: quién puede dar descuento y hasta cuánto>\n\nERA 2 · PROCESOS (diseñar, documentar, capacitar, ejecutar)\n- Ejemplo de aquí: <un proceso documentado o un sistema de gestión>\n\nERA 3 · DIGITAL (automatizar, monitorear)\n- Ejemplo de aquí: <una automatización o una app que ejecuta pasos fijos>\n\nERA 4 · CONSTRUIR AGENTES (prompts, herramientas, contexto, memoria)\n- Ejemplo de aquí: <un agente, asistente o herramienta de IA en uso, oficial o no>\n\nERA 5 · GESTIONAR (humanos + agentes + procesos + modelos + presupuesto)\n- Pregunta sin dueño 1: <¿quién responde por ...?>\n- Pregunta sin dueño 2: <¿qué puede hacer ... por su cuenta?>\n- Pregunta sin dueño 3: <¿cómo sabemos si ... mejoró? ¿comparado con qué?>\n\nPRÓXIMO PASO: <quién va a responder la pregunta 1, hasta cuándo>"
+        },
+        {
+          "rot": "Prompt · revisar la línea de tiempo",
+          "icone": "chat",
+          "conteudo": "Eres un gestor con experiencia que revisa la línea de tiempo de la gestión de un área.\nNo la reescribas: señala las lagunas.\n\nLínea de tiempo:\n\"\"\"<pega aquí>\"\"\"\n\nResponde, en este orden:\n1. ¿Algún ejemplo está en la era equivocada? (ej.: una automatización de pasos\n   fijos llamada \"agente\")\n2. En la era 4, ¿falta alguna herramienta de IA que las personas usan por su\n   cuenta? ¿Qué preguntas le haría yo al equipo para descubrirlo?\n3. Las preguntas de la era 5, ¿tienen una respuesta posible (un nombre, un\n   número, una regla) o son vagas?\n4. ¿Cuál de las preguntas sin dueño tiene el mayor riesgo si sigue así un\n   mes más? ¿Por qué?"
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Línea de tiempo de Horizonte (ejemplo)",
+            "html": "<p><b>Comercial · Horizonte Distribuidora</b> · empresa ficticia de estudio</p><ul><li><b>Personas:</b> vendedores con lista de precios y un límite de descuento acordado con Carlos.</li><li><b>Procesos:</b> el ERP GestorPlus (inventario, facturas, cuentas) y el paso a paso del pedido.</li><li><b>Digital:</b> la app Horizonte Pedidos, WhatsApp Business y las hojas de cálculo en la nube.</li><li><b>Construir agentes:</b> Hora (desde el 01/07/2026), el asistente de correo del área comercial y el resumen automático de atención de las 18 h. Más cuatro herramientas de IA usadas por cuenta propia.</li><li><b>Gestionar:</b> ¿quién responde por el descuento de Hora? ¿quién decide si pasa a la cobranza? ¿cómo saber si el pedido mejoró, si nadie midió antes de julio?</li></ul>"
+          },
+          {
+            "rot": "Cómo revisar",
+            "html": "<ol><li>Cada era tiene un ejemplo <b>de tu área</b>, no del mercado.</li><li>La era 4 incluye lo que las personas usan sin que TI lo sepa. Si la lista vino solo de TI, pregúntale al equipo.</li><li>Cada pregunta de la era 5 se puede responder con un nombre, un número o una regla.</li><li>Error común: llamar \"agente\" a toda automatización. La automatización sigue pasos fijos; el agente elige el camino dentro de límites.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Práctica",
+      "sub": "Primero en Horizonte, para entrenar. Después en tu área, en serio.",
+      "fonte": "Piezas del laboratorio: <a href=\"https://inematds.github.io/prof2030-lab/inventario.html\">inventario de TI y encuesta interna</a> y <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">panel de Hora</a> (empresa ficticia de estudio).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · La línea de tiempo de Horizonte",
+          "min": "20 min",
+          "texto": "Abre el inventario de TI del laboratorio y lee también las 22 respuestas de la encuesta interna. Copia el modelo y arma la línea de tiempo del área comercial de Horizonte sin mirar el ejemplo de al lado. En la era 5, escribe tres preguntas que hoy nadie responde. Después compara con el ejemplo.",
+          "pronto": "la línea de tiempo tiene las cinco eras, cada una con un sistema o un hecho tomado del laboratorio, la era 4 cita al menos una herramienta que TI no conoce, y la era 5 tiene tres preguntas que se pueden responder con un nombre, un número o una regla."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · La línea de tiempo de tu área",
+          "min": "25 min",
+          "texto": "Haz lo mismo con tu área. Para la era 4, pregunta a dos personas del equipo qué herramientas de IA usan en el trabajo, incluso en el celular. Corre el prompt de revisión y corrige lo que señale. Termina con el próximo paso: quién responde la primera pregunta, hasta cuándo.",
+          "pronto": "tu línea de tiempo tiene un ejemplo tuyo en cada una de las cinco eras, la era 4 incluye lo que oíste de al menos dos personas, y la primera pregunta sin dueño tiene un nombre y una fecha para ser respondida."
+        }
+      ]
+    },
+    {
+      "tipo": "video",
+      "titulo": "Video: el área Gestión de IA en 9 minutos",
+      "sub": "Las cinco eras, la tesis y las tres reglas del proceso, contadas por Nei. Vuelve a él al final del curso para ver el mapa de toda la formación.",
+      "chave": "gestao-ia-caminhos"
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Prueba rápida",
+      "sub": "5 preguntas. La explicación aparece después de tu intento.",
+      "perguntas": [
+        {
+          "p": "¿Qué agrega la era de 2027 a las anteriores?",
+          "opcoes": [
+            "Sustituye la gestión de personas por la de agentes",
+            "Coordina al mismo tiempo humanos, agentes, procesos, modelos y presupuesto computacional",
+            "Cambia el diseño de procesos por agentes que deciden todo"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Cada era agrega, ninguna borra. El puesto sigue viniendo de la gestión de personas y el diseño, de la de procesos. El agente es el tercer objeto, y trae consigo modelo, contexto y costo."
+        },
+        {
+          "p": "Horizonte quiere poner un agente para agilizar la revisión de pedidos, que hoy pasa por tres personas. ¿Cuál es la primera pregunta?",
+          "opcoes": [
+            "Qué modelo de IA es el más rápido",
+            "Si hoy tuviera humanos, agentes y automatizaciones, ¿esta revisión todavía existiría de esta forma?",
+            "Cuánto tiempo va a ahorrar el agente"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Acelerar un proceso viejo entrega el error más rápido. Primero se pregunta si la etapa necesita existir así; el modelo y el tiempo vienen después. Es el tema de G2."
+        },
+        {
+          "p": "El panel de Hora muestra las atenciones subiendo cada semana desde julio. ¿Qué falta para decir que mejoró el proceso?",
+          "opcoes": [
+            "Más semanas de datos",
+            "Saber cómo era el proceso antes de que ella entrara: una medida de partida",
+            "Un gráfico más bonito"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "La recolección empezó el día en que se encendió Hora. Sin punto de partida, un volumen creciente no prueba mejora: puede ser solo más conversación. Es la falla F11 del laboratorio."
+        },
+        {
+          "p": "¿Cuáles de estas son preguntas de gestión, y no técnicas?",
+          "opcoes": [
+            "Qué lenguaje de programación usa el agente",
+            "Quién responde por el agente, qué hace por su cuenta, cómo se mide y cuánto cuesta cada resultado",
+            "En qué servidor corre el agente"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Las cuatro preguntas son las mismas que se hacen con un empleado nuevo. TI puede responder dónde corre el agente; quien responde por lo que hace es el negocio."
+        },
+        {
+          "p": "¿Cómo tratar la frase \"2026 es el año en que las empresas dejan de construir agentes y pasan a operarlos\"?",
+          "opcoes": [
+            "Como dato de una encuesta",
+            "Como opinión de una columna, útil para describir el giro, sin un número detrás",
+            "Como pronóstico oficial del mercado"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Es una columna de IT Forum. La opinión puede ayudar a entender el momento, pero no sostiene una decisión por sí sola. En la clase 5 aprendes a separar opinión, encuesta y pronóstico."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Resumen",
+      "itens": [
+        {
+          "t": "Cinco eras",
+          "texto": "Personas, procesos, digital, construcción de agentes y gestión. Cada una suma."
+        },
+        {
+          "t": "Tercer objeto",
+          "texto": "El agente entra al lado de las personas y los procesos, y trae modelo, contexto y costo."
+        },
+        {
+          "t": "No aceleres lo antiguo",
+          "texto": "Primero pregunta si el proceso todavía debería existir así."
+        },
+        {
+          "t": "Preguntas sin dueño",
+          "texto": "Quién responde, qué hace solo, cómo se mide, cuánto cuesta."
+        }
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Para ir más allá",
+      "links": [
+        {
+          "t": "Área Gestión de IA: qué está cambiando (las cinco eras)",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        },
+        {
+          "t": "Video: el área en 9 minutos, con guion",
+          "href": "https://inematds.github.io/gestao-ia-caminhos/videos/",
+          "icone": "video"
+        },
+        {
+          "t": "Laboratorio Horizonte: inventario de TI y encuesta interna (empresa ficticia de estudio)",
+          "href": "https://inematds.github.io/prof2030-lab/inventario.html",
+          "icone": "lista"
+        }
+      ]
+    }
+  ]
+}

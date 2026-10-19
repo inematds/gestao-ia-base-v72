@@ -1,0 +1,454 @@
+{
+  "slug": "primeiro-processo",
+  "num": 8,
+  "menu": "Project",
+  "titulo": "Your first diagnosis + What changed",
+  "titulo_curto": "Project: the first process",
+  "minutos": 20,
+  "lead": "The best first step in the program is a process in your company, not a tool. The project for this course is the sheet for the first process you will manage with agents: owner, volume, today's measure and the course that answers your biggest question. At the end, what changed in the market this quarter, with date and source.",
+  "objetivo": "choose the first process to manage with agents, with owner, volume and today's measure, and the next course in the program.",
+  "competencias": [
+    "escolher-primeiro-processo",
+    "medir-linha-de-base",
+    "choose-program-track"
+  ],
+  "aprende": [
+    {
+      "t": "Choose the first process using three filters, not the trendy tool"
+    },
+    {
+      "t": "Measure how the process stands today, before any agent touches it"
+    },
+    {
+      "t": "Link your biggest question to the course in the program that answers it"
+    },
+    {
+      "t": "What changed through October 2026, with date and source"
+    }
+  ],
+  "hero_alt": "A manager draws boxes connected by arrows on a large sheet on the table, with colorful notes and a phone beside it; a coworker walks up with two coffees.",
+  "secoes": [
+    {
+      "tipo": "diagrama",
+      "titulo": "How to choose the first process",
+      "sub": "From the list of candidates to the next course, in five steps. Click each one.",
+      "nos": [
+        {
+          "icone": "lista",
+          "titulo": "Candidates",
+          "sub": "three processes",
+          "detalhe": "List three processes that run with people today and that already have, or soon will have, AI around them. Use the diagnosis from lesson 6: tools with no owner usually point to where the process is."
+        },
+        {
+          "icone": "portao",
+          "titulo": "Three filters",
+          "sub": "volume, rule, damage",
+          "detalhe": "What stays is what has volume (it happens every week), a rule you can write down (someone can explain right from wrong), and known damage (you know what can go wrong and what it costs). These filters come from this course, to help you choose where to start."
+        },
+        {
+          "icone": "usuario",
+          "titulo": "Owner",
+          "sub": "a name",
+          "forte": true,
+          "detalhe": "The process you choose gets a business owner, with a name, who answers for the result from end to end. Without an owner, the process becomes just another disconnected project."
+        },
+        {
+          "icone": "grafico",
+          "titulo": "Today's measure",
+          "sub": "before the agent",
+          "detalhe": "Two or three measures of the process as it is, taken before any change: how many cases, how many corrected, how much time. It is the starting point that was missing from the Hora dashboard."
+        },
+        {
+          "icone": "seta",
+          "titulo": "Next course",
+          "sub": "based on your question",
+          "detalhe": "Your biggest question about the process picks the course: should it exist this way? G2. How do I hand it to the agent? G3. Which model and how much does it cost? G4. What about the people? G1. How do I govern and measure? G5."
+        }
+      ],
+      "legenda": "The recommendation to start with a process from your own company comes from the AI Management Area (\"Start now\"). The three filters are a tool from this course."
+    },
+    {
+      "tipo": "passos",
+      "titulo": "From candidate to sheet",
+      "sub": "Four steps. Horizonte (a fictional study company) does the practice run; your process is the one that counts.",
+      "passos": [
+        {
+          "titulo": "Process, not tool",
+          "sub": "the starting point",
+          "texto": [
+            "Whoever starts with the tool ends up looking for a process that fits it. Whoever starts with the process first asks whether it should still exist this way, and only then chooses a person, an agent or automation.",
+            "Pick just one. The first process is for learning to manage; the second comes out faster."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Candidates: the order that comes in by WhatsApp through to invoicing, collections (which Carlos wants to hand to Hora in November) and the daily customer service summary."
+          }
+        },
+        {
+          "titulo": "Three filters",
+          "sub": "volume, rule, damage",
+          "texto": [
+            "Volume: it happens every week, in an amount worth looking at. Rule: someone can write down what is right and wrong. Damage: you know what can go wrong and how big the mess would be.",
+            "A process that fails the third filter is not forbidden; it just isn't the first one. Start where the error is known and can be contained."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "The order passes all three: 141 to 171 orders per week on the dashboard, a written discount policy and known damage (discount, large order). Collections has no written rule yet."
+          }
+        },
+        {
+          "titulo": "Today's measure",
+          "sub": "two weeks is enough",
+          "texto": [
+            "Choose two or three measures the process already lets you count: how many cases, how many needed correction, how much time from start to finish. Measure for two weeks, as it is, without changing anything.",
+            "Without this starting point, any number afterward becomes an impression. It is failure F11 from the lab: the dashboard started on the day Hora was turned on."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Measure for two weeks: orders accepted without correction at picking, hours from order to invoicing, and exceptions per day. Owner: Patrícia."
+          }
+        },
+        {
+          "titulo": "The next course",
+          "sub": "based on your biggest question",
+          "texto": [
+            "Write your biggest question about the process in one sentence. It picks the course: G2 if it is \"should it exist this way?\", G3 if it is \"how do I hand it to the agent and how far does it go?\", G4 if it is model and cost, G1 if it is the people, G5 if it is governing and measuring.",
+            "The program's suggested order (G0, G2, G3, G4, G1, G5) applies when there is no urgency. A present risk beats the order."
+          ],
+          "exemplo": {
+            "rot": "At Horizonte",
+            "texto": "Patrícia's biggest question is \"how far can Hora go on its own?\". Next course: G3. Then G2, to redesign the order."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "codigo",
+      "titulo": "Templates to copy",
+      "sub": "The sheet for the first process, which is this course's project, the rubric to check it, and a prompt that points out gaps without choosing for you.",
+      "blocos": [
+        {
+          "rot": "Sheet · my first process",
+          "icone": "arquivo",
+          "conteudo": "MY FIRST PROCESS · <company / area> · <date>\n\nCANDIDATES: 1 <...> · 2 <...> · 3 <...>\nFILTERS (volume / rule / known damage):\n  1: <y/n> <y/n> <y/n>   2: <y/n> <y/n> <y/n>   3: <y/n> <y/n> <y/n>\n\nCHOSEN: <from where to where, e.g.: order on WhatsApp through to invoicing>\nBUSINESS OWNER: <name and role> · WHO MAINTAINS THE SYSTEMS: <name>\nVOLUME: <cases per week or month> · source: <where I got the number>\nAI ALREADY PRESENT: <agents and tools, from the lesson 6 diagnosis>\n\nTODAY'S MEASURE (before changing anything)\n  1. <measure> · how I count: <...>\n  2. <measure> · how I count: <...>\n  3. <measure> · how I count: <...>\n  Period: <date> to <date> · owner: <name>\n\nBIGGEST QUESTION (1 sentence): <...>\nNEXT COURSE: <G1..G5> · AFTER THAT: <...>\nREVIEW OF THIS SHEET: <date>"
+        },
+        {
+          "rot": "Sheet rubric (100 points)",
+          "icone": "lista",
+          "conteudo": "RUBRIC · first process sheet · passes with >= 70 AND the 4 required items\n\nBLOCK                                POINTS  FULL MARKS WHEN\n1. Candidates and filters              15    3 candidates, all 3 filters marked on each\n2. Process with start and end          15    \"from where to where\" with no ambiguity\n3. Owner and maintainer                15    business owner with a name; IT listed separately\n4. Volume with source                  15    number per period and where it came from\n5. Today's measure                     25    2 or 3 measures, how to count, period, owner\n6. Question and next course            15    1-sentence question tied to a G1..G5 course\n\nREQUIRED (one missing fails it)\n[ ] Business owner with a name\n[ ] At least one today's measure with a defined period\n[ ] No number without a source\n[ ] Customer data identified as fictional or anonymized\n\nSCORE: <...>/100 · required: <...>/4 · [ ] ready  [ ] goes back to <block>"
+        },
+        {
+          "rot": "Prompt · sheet gaps",
+          "icone": "chat",
+          "conteudo": "You are an experienced manager reviewing the sheet for the first process\nthat a company will manage with AI agents, using the rubric below. Do not\nchoose the process and do not give the final score: point out gaps.\n\n1. For each rubric block, say what is missing for full marks,\n   quoting the passage from the sheet.\n2. Mark each required item as present or absent.\n3. Does any of today's measures depend on something that is not yet recorded?\n   How can it be counted without a new system?\n4. Does the written question match the chosen course?\n\nRubric:\n\"\"\"<paste the rubric>\"\"\"\nSheet:\n\"\"\"<paste the sheet>\"\"\""
+        }
+      ],
+      "saida": {
+        "selo": "simulacao",
+        "abas": [
+          {
+            "rot": "Horizonte sheet (example)",
+            "html": "<p><b>Sales · Horizonte Distribuidora</b> · fictional study company · numbers from the lab dashboard</p><ul><li><b>Chosen:</b> order that comes in by WhatsApp through to invoicing.</li><li><b>Owner:</b> Patrícia Lima · systems: Rafael.</li><li><b>Volume:</b> 141 to 171 orders closed per week and 702 to 901 Hora interactions per week (Sep–Oct/2026, dashboard).</li><li><b>AI present:</b> Hora; the sales team's email assistant.</li><li><b>Today's measure (two weeks):</b> % of orders accepted without correction at picking; hours from order to invoicing; exceptions per day.</li><li><b>Biggest question:</b> how far can Hora go on its own? <b>Next course:</b> G3; then G2.</li><li><b>Rubric:</b> 85/100, 4 of 4 required.</li></ul>"
+          },
+          {
+            "rot": "How to check",
+            "html": "<ol><li>The process has a start and an end that anyone in the area recognizes.</li><li>Each number has a source (dashboard, system, hand count).</li><li>Today's measure has a period and an owner, and is taken before anything changes.</li><li>Common mistake: choosing the flashiest process. The first one is the one with volume, rule and known damage.</li></ol>"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "passos",
+      "titulo": "What changed · October 2026",
+      "sub": "Quarterly dashboard, updated with each course review. Each item has a date, a source and a type of claim, plus a consequence for how you choose your first process.",
+      "passos": [
+        {
+          "titulo": "Tools change in months",
+          "sub": "vendor announcements",
+          "texto": [
+            "OpenAI: Workspace Agents, which replace Custom GPTs, moved to per-token billing (07/06/2026), and the AgentKit Agent Builder will be shut down on 11/30/2026. Microsoft: Agent 365, announced at Build (06/2026).",
+            "Sources: each vendor's release notes and announcements. These are swappable examples: next quarter the list will be different."
+          ],
+          "exemplo": {
+            "rot": "For your first process",
+            "texto": "Choose the process and the measure before the tool. If the tool changes, the process and the starting point still hold."
+          }
+        },
+        {
+          "titulo": "Few agents in real use",
+          "sub": "surveys",
+          "texto": [
+            "Gartner (2026): only 17% of companies have agents in use, worldwide. GFT, Tech Trends 2026 LATAM with data from BCG: 18% of Brazilian companies integrate agents, versus 13% worldwide.",
+            "Different definitions, same reading: if you are just starting now, you are not behind most others."
+          ],
+          "exemplo": {
+            "rot": "For your first process",
+            "texto": "One well-chosen, well-measured process is worth more than five agents switched on with no owner."
+          }
+        },
+        {
+          "titulo": "Governance behind adoption",
+          "sub": "survey and forecast",
+          "texto": [
+            "Okta, AI Agents at Work 2026 (vendor survey): almost two thirds of organizations apply weaker controls to agents than to people. Deloitte (09/17/2026): 27% of Brazilian companies have mature governance.",
+            "Gartner (02/17/2026, forecast): spending on AI governance rises from US$ 492 million in 2026 to more than US$ 1 billion in 2030."
+          ],
+          "exemplo": {
+            "rot": "For your first process",
+            "texto": "Owner, permissions and logging go into your first process from day one, not after the first scare."
+          }
+        },
+        {
+          "titulo": "Management at the center",
+          "sub": "vendor and opinion",
+          "texto": [
+            "Microsoft, Work Trend Index 2026 (05/2026, vendor survey): when the manager uses AI in front of the team, perceived value goes up 17 points. IT Forum (2026, opinion column): the year companies stop building agents and start operating them.",
+            "Next review of this dashboard: January 2027. What is method (lessons 1 to 7) does not change; what is product and numbers does."
+          ],
+          "exemplo": {
+            "rot": "For your first process",
+            "texto": "The person who leads the first process is the manager of the area, in front of the team. Don't outsource the example."
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "mapa",
+      "titulo": "The course map",
+      "sub": "The four deliverables that lead to the first process sheet. Click an exercise to see the \"done when\".",
+      "degraus": [
+        {
+          "aula": "nove-objetos",
+          "icone": "camadas",
+          "quando": "Week 1",
+          "titulo": "Map",
+          "sub": "the 9 objects",
+          "saida": "Map of your area with nine owners or an accepted \"no owner\".",
+          "passo": "Comes after understanding the eras and the thesis (lessons 1 and 2). It shows what exists and who is responsible."
+        },
+        {
+          "aula": "competencias",
+          "icone": "lupa",
+          "quando": "Week 1",
+          "titulo": "Measure yourself",
+          "sub": "8 competencies",
+          "saida": "Self-assessment with evidence and one chosen course.",
+          "passo": "Requires the map: the highest-risk competency shows up where objects have no owner."
+        },
+        {
+          "aula": "brasil",
+          "icone": "grafico",
+          "quando": "Week 2",
+          "titulo": "Diagnose",
+          "sub": "five lines",
+          "saida": "Five-line diagnosis sent to the person who decides.",
+          "passo": "Uses the critical reading from lesson 5 and counts what exists, including shadow AI. The career track (lesson 7) runs in parallel."
+        },
+        {
+          "aula": "primeiro-processo",
+          "icone": "alvo",
+          "quando": "Week 3",
+          "titulo": "Choose",
+          "sub": "the first process",
+          "saida": "First process sheet with today's measure and the next course.",
+          "passo": "Requires the diagnosis. Today's measure needs two weeks of counting before you change anything."
+        }
+      ],
+      "rolagem_fim": {
+        "titulo": "The whole path",
+        "texto": "Map, measure yourself, diagnose and choose. Each deliverable builds on the one before, and the first-process sheet is the gateway to the next course in the program."
+      },
+      "resultado": {
+        "titulo": "By the end of the course",
+        "texto": "Your chosen first process, with an owner, a volume and today's measure, plus the course in the program that answers your biggest question.",
+        "total": "17 exercises"
+      },
+      "legenda": "Recommended order: each deliverable builds on the one before."
+    },
+    {
+      "tipo": "gerador",
+      "titulo": "Generate your plan with dates",
+      "sub": "Pick a start date and how much time you have each week. The plan includes the two weeks of measuring the first process.",
+      "curso": "The agentic company and the 2027 manager",
+      "horas_padrao": 3,
+      "degraus": [
+        {
+          "titulo": "Lesson 1 · The third object of management",
+          "aula": "terceiro-objeto"
+        },
+        {
+          "titulo": "Lesson 2 · Managing an agent feels like managing people",
+          "aula": "como-gente"
+        },
+        {
+          "titulo": "Lesson 3 · The 9 management objects",
+          "aula": "nove-objetos"
+        },
+        {
+          "titulo": "Lesson 4 · The 8 competencies",
+          "aula": "competencias"
+        },
+        {
+          "titulo": "Lesson 5 · How the market is reorganizing",
+          "aula": "mercado"
+        },
+        {
+          "titulo": "Lesson 6 · Brazil: lots of adoption, little management",
+          "aula": "brasil"
+        },
+        {
+          "titulo": "Lesson 7 · Career",
+          "aula": "carreira"
+        },
+        {
+          "titulo": "Lesson 8 · The first process",
+          "aula": "primeiro-processo"
+        }
+      ],
+      "txt": {
+        "titulo": "Plan — The agentic company and the 2027 manager",
+        "inicio": "Start",
+        "ritmo": "Pace",
+        "termino": "Expected finish",
+        "ate": "by",
+        "pronto": "done when",
+        "semanas": "weeks",
+        "travou": "## What got stuck and the rule I created",
+        "h": "h per week",
+        "exs": "exercises"
+      }
+    },
+    {
+      "tipo": "pratica",
+      "titulo": "Practice",
+      "sub": "The Horizonte sheet is for practicing the rubric; the one for your process is the one that counts.",
+      "fonte": "Lab piece: <a href=\"https://inematds.github.io/prof2030-lab/pecas/painel/\">Hora dashboard</a> (made-up numbers; fictional study company).",
+      "exercicios": [
+        {
+          "id": "e1",
+          "titulo": "1 · The Horizonte sheet",
+          "min": "25 min",
+          "texto": "With the dashboard and your lesson 6 diagnosis open, fill in Horizonte's first-process sheet for the three candidates (order request, collections, customer-service summary). Run it through the rubric and run the prompt. Only then compare with the example.",
+          "pronto": "the sheet has the three candidates with the three filters marked, the chosen order request with Patrícia as owner, the volume with its source (dashboard), three of today's measures with a period and a person responsible, and a score of 70 or more with the four required items."
+        },
+        {
+          "id": "e2",
+          "titulo": "2 · Your process sheet",
+          "min": "40 min",
+          "dias": 14,
+          "texto": "Fill in the sheet for your first process. Agree with the owner on the two weeks of today's measure and start counting. Write down your biggest question, choose the next course, and put the sheet's review date on your calendar, at the end of the two weeks.",
+          "pronto": "your sheet scores 70 or more with the four required items, today's measure has started (at least one day of counting is recorded), and the next course is chosen, with the question that justifies it."
+        },
+        {
+          "id": "e3",
+          "titulo": "3 · Your dated plan",
+          "min": "5 min",
+          "texto": "Use the generator above to build the plan with your dates and download the .ics for your calendar.",
+          "pronto": "the plan is saved and the dates are on your calendar."
+        }
+      ]
+    },
+    {
+      "tipo": "quiz",
+      "titulo": "Quick quiz",
+      "sub": "4 questions. The explanation appears after your attempt.",
+      "perguntas": [
+        {
+          "p": "Where should the program start, according to this lesson?",
+          "opcoes": [
+            "With the newest tool on the market",
+            "With a process in your company, chosen by volume, rules and known damage",
+            "With the best-known certificate"
+          ],
+          "certa": 1,
+          "ref": "diagrama",
+          "explica": "Tools change in months; the process and the measure stay. The three filters help you pick a first process where you can learn without big damage."
+        },
+        {
+          "p": "Why measure the process for two weeks before changing anything?",
+          "opcoes": [
+            "To produce a report for the board",
+            "To have the starting point that lets you say, later, whether it got better",
+            "Because the agent needs data to train"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Without a starting point, every number that comes later becomes an impression. That is what happened with Hora's dashboard, which started on the day it was turned on."
+        },
+        {
+          "p": "Your biggest question is \"should this checking step still exist?\" Which course comes next?",
+          "opcoes": [
+            "G2 · Processes",
+            "G4 · Resources",
+            "G5 · Govern, measure and evolve"
+          ],
+          "certa": 0,
+          "ref": "passos",
+          "explica": "Asking whether a step should exist is work architecture: the subject of G2, which teaches you to take the process apart before automating it."
+        },
+        {
+          "p": "AgentKit's Agent Builder will be shut down on 11/30/2026. What does this teach about the first process?",
+          "opcoes": [
+            "That it is better to wait for the tools to stabilize",
+            "That the process and the measure should be chosen before the tool, because they outlast the tool's replacement",
+            "That you should only use one vendor's brand"
+          ],
+          "certa": 1,
+          "ref": "passos",
+          "explica": "Products get discontinued and change price within months. If you chose the process and measured the baseline, you can switch tools without losing what you learned."
+        }
+      ]
+    },
+    {
+      "tipo": "resumo",
+      "titulo": "Summary",
+      "itens": [
+        {
+          "t": "Process first",
+          "texto": "Three candidates, three filters, one chosen."
+        },
+        {
+          "t": "Owner and volume",
+          "texto": "A name from the business and a number with a source."
+        },
+        {
+          "t": "Today's measure",
+          "texto": "Two weeks of counting before changing anything."
+        },
+        {
+          "t": "Course by question",
+          "texto": "Your biggest question chooses between G1 and G5."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Certificate",
+      "paragrafos": [
+        "INEMA qualification certificate \"AI Manager\", coming soon at cert.inema.pro. It is not a regulated professional certification.",
+        "This is course G0, the entry point of the AI Management Program 2027. The other courses cover people (G1), processes (G2), agents (G3), resources (G4), and governing, measuring and evolving (G5), where the program's final project lives."
+      ]
+    },
+    {
+      "tipo": "links",
+      "titulo": "Going further",
+      "links": [
+        {
+          "t": "Course G3 · Agents: hire, delegate and supervise (published)",
+          "href": "https://inematds.github.io/gestao-ia-agentes-v72/",
+          "icone": "usuario"
+        },
+        {
+          "t": "Course G2 · Processes: a process is not sacred",
+          "href": "https://inematds.github.io/gestao-ia-processos-v72/",
+          "icone": "fila"
+        },
+        {
+          "t": "AI Management Area: start now",
+          "href": "https://eventos.inema.pro/gestao-ia/",
+          "icone": "alvo"
+        }
+      ]
+    }
+  ]
+}
