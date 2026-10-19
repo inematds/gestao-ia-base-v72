@@ -263,7 +263,7 @@
           "opcoes": [
             "Nothing: he's the one who set it up",
             "He keeps the agent running, but the person who answers for the result (discount, customer) is on the business side: Patrícia",
-            "The person responsible should be the tool vendor"
+            "The owner should be the tool vendor, who knows the model inside out and is contractually liable for every error the agent makes"
           ],
           "certa": 1,
           "ref": "passos",
@@ -273,7 +273,7 @@
           "p": "Why start the map with the invisible objects?",
           "opcoes": [
             "Because they are the most expensive",
-            "Because they are technical and IT has to fill them in first",
+            "Because they are technical and IT has to fill them in first, since only IT has access to the systems where those objects are kept today",
             "Because context, knowledge, permissions and budget don't show up on an org chart, and they are the ones most likely to have no owner"
           ],
           "certa": 2,
@@ -284,7 +284,7 @@
           "p": "Deloitte (Tech Trends 2026) calls agents a \"silicon-based\" workforce. How should you use that?",
           "opcoes": [
             "As a consulting view that supports the logic: an agent needs integration, graduated autonomy and prepared supervisors",
-            "As measured proof that agents replace people",
+            "As measured proof that agents replace people, since the consultancy tracked companies that swapped entire teams for agents",
             "As a standard the company is required to follow"
           ],
           "certa": 0,

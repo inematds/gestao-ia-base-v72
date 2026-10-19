@@ -239,7 +239,7 @@
         {
           "p": "El orden sugerido empieza por G2, pero tu agente está dando descuentos sin tope hoy. ¿Por dónde seguir?",
           "opcoes": [
-            "Por G2, porque ese es el orden sugerido",
+            "Por el G2, porque el orden sugerido existe por una razón y saltarse pasos deja vacíos en el camino",
             "Por G3, porque el riesgo presente está en la delegación y en el nivel de autorización",
             "Por ninguno, hasta terminar la autoevaluación de todo el equipo"
           ],

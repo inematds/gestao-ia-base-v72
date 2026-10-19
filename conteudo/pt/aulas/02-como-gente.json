@@ -201,7 +201,7 @@
           "p": "O agente de lançamentos da contabilidade preparou 40 pagamentos. Quem aprova?",
           "opcoes": [
             "O próprio agente, se o valor for baixo",
-            "Ninguém, se o agente acertou no mês passado",
+            "Ninguém, se o agente acertou no mês passado e o total do lote ficou dentro do previsto",
             "Uma pessoa com alçada para isso: quem lança não aprova"
           ],
           "certa": 2,
@@ -213,7 +213,7 @@
           "opcoes": [
             "Corrigir a instrução, criar um caso de teste com o erro e conferir de novo",
             "Conversar com ele sobre motivação",
-            "Desligar e trocar de ferramenta"
+            "Desligar o agente e trocar de ferramenta, porque um erro repetido mostra que o modelo não serve"
           ],
           "certa": 0,
           "ref": "passos",
@@ -233,7 +233,7 @@
         {
           "p": "Qual destas frases trata gente como máquina?",
           "opcoes": [
-            "Medir a Hora pela porcentagem de pedidos aceitos sem correção",
+            "Medir a Hora pela porcentagem de pedidos aceitos sem correção e rever a instrução sempre que essa taxa cair de uma semana para a outra",
             "Conversar com a Juliana sobre a carga de exceções",
             "Avaliar a Juliana só pela quantidade de conversas que ela fechou, sem conversar sobre o que mudou no trabalho dela"
           ],

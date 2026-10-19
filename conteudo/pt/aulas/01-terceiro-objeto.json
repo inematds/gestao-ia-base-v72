@@ -231,7 +231,7 @@
           "p": "O que a era de 2027 acrescenta às anteriores?",
           "opcoes": [
             "Substitui a gestão de pessoas pela de agentes",
-            "Troca o desenho de processos por agentes que decidem tudo",
+            "Troca o desenho de processos por agentes que decidem tudo sozinhos, sem precisar de um gestor humano por perto",
             "Coordena ao mesmo tempo humanos, agentes, processos, modelos e orçamento computacional"
           ],
           "certa": 2,
@@ -243,7 +243,7 @@
           "opcoes": [
             "Se eu tivesse hoje humanos, agentes e automações, essa conferência ainda existiria desse jeito?",
             "Qual modelo de IA é o mais rápido",
-            "Quanto tempo o agente vai economizar"
+            "Quanto tempo o agente vai economizar por pedido e em quantos meses a compra da ferramenta se paga sozinha"
           ],
           "certa": 0,
           "ref": "passos",
@@ -252,7 +252,7 @@
         {
           "p": "O painel da Hora mostra os atendimentos subindo toda semana desde julho. O que falta para dizer que ela melhorou o processo?",
           "opcoes": [
-            "Mais semanas de dados",
+            "Mais semanas de dados no mesmo painel, para ter certeza de que a curva de subida continua",
             "Saber como o processo era antes de ela entrar: uma medida de partida",
             "Um gráfico mais bonito"
           ],
@@ -263,7 +263,7 @@
         {
           "p": "Quais destas são perguntas de gestão, e não técnicas?",
           "opcoes": [
-            "Que linguagem de programação o agente usa",
+            "Que linguagem de programação o agente usa, em que nuvem ele roda e qual biblioteca de IA está por trás dele",
             "Em que servidor o agente roda",
             "Quem responde pelo agente, o que ele faz sozinho, como se mede e quanto custa cada resultado"
           ],
@@ -276,7 +276,7 @@
           "opcoes": [
             "Como opinião de uma coluna, útil para descrever a virada, sem número por trás",
             "Como dado de pesquisa",
-            "Como previsão oficial do mercado"
+            "Como previsão oficial do mercado, publicada para orientar o planejamento das empresas no ano seguinte"
           ],
           "certa": 0,
           "ref": "passos",

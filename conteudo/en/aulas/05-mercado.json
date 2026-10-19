@@ -294,7 +294,7 @@
         {
           "p": "Why does a Work Trend Index number deserve extra care before going into a plan?",
           "opcoes": [
-            "Because the sample is small",
+            "Because the sample is too small: the survey polled only a few companies, in only a few countries, so the number doesn't apply to the Brazilian market",
             "Because it's a survey run by the company that sells the tool, with other companies and a different question; it works as a map, not as proof for your case",
             "Because Microsoft doesn't publish surveys"
           ],
@@ -306,7 +306,7 @@
           "p": "What is the argument of the critics of \"flattening\" middle management?",
           "opcoes": [
             "AI doesn't work",
-            "The average manager is irreplaceable by law",
+            "The middle manager is irreplaceable by law, because labor legislation requires human leadership between the board and the team",
             "Removing the layer from the org chart doesn't eliminate its work: coordinating, reviewing, training newcomers"
           ],
           "certa": 2,
@@ -317,7 +317,7 @@
           "p": "What is the last question on the critical reading sheet?",
           "opcoes": [
             "What applies to me: what I take away and what I need to measure here before deciding",
-            "Who the author is",
+            "Who wrote the report, what year it came out, and whether the company that published it is well known in the market",
             "How many pages the report has"
           ],
           "certa": 0,

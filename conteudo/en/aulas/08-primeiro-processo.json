@@ -357,7 +357,7 @@
           "p": "Where should the program start, according to this lesson?",
           "opcoes": [
             "With the newest tool on the market",
-            "With the best-known certificate",
+            "By the best-known certification, to get a complete map of the subject before touching any process",
             "With a process in your company, chosen by volume, rules and known damage"
           ],
           "certa": 2,
@@ -369,7 +369,7 @@
           "opcoes": [
             "To have the starting point that lets you say, later, whether it got better",
             "To produce a report for the board",
-            "Because the agent needs data to train"
+            "Because the agent needs two weeks of real data to train before going into production"
           ],
           "certa": 0,
           "ref": "passos",
@@ -389,7 +389,7 @@
         {
           "p": "AgentKit's Agent Builder will be shut down on 11/30/2026. What does this teach about the first process?",
           "opcoes": [
-            "That it is better to wait for the tools to stabilize",
+            "That it's better to wait for the tools to stabilize before choosing any process, so the work doesn't have to be redone later",
             "That you should only use one vendor's brand",
             "That the process and the measure should be chosen before the tool, because they outlast the tool's replacement"
           ],

@@ -263,7 +263,7 @@
           "opcoes": [
             "Nada: foi ele que configurou",
             "Ele mantém o agente funcionando, mas quem responde pelo resultado (desconto, cliente) é do negócio: a Patrícia",
-            "O responsável deveria ser o fornecedor da ferramenta"
+            "O responsável deveria ser o fornecedor da ferramenta, que conhece o modelo por dentro e responde em contrato pelos erros que ele comete"
           ],
           "certa": 1,
           "ref": "passos",
@@ -273,7 +273,7 @@
           "p": "Por que começar o mapa pelos objetos invisíveis?",
           "opcoes": [
             "Porque são os mais caros",
-            "Porque são técnicos e a TI precisa preencher antes",
+            "Porque são técnicos e a TI precisa preencher antes, já que só ela tem acesso aos sistemas onde esses objetos ficam guardados",
             "Porque contexto, conhecimento, permissões e orçamento não aparecem em organograma e são os que mais ficam sem dono"
           ],
           "certa": 2,
@@ -284,7 +284,7 @@
           "p": "A Deloitte (Tech Trends 2026) chama os agentes de força de trabalho \"de silício\". Como usar isso?",
           "opcoes": [
             "Como visão de consultoria que reforça a lógica: agente precisa de integração, autonomia graduada e supervisores preparados",
-            "Como prova medida de que agentes substituem pessoas",
+            "Como prova medida de que agentes substituem pessoas, já que a consultoria acompanhou empresas que trocaram equipes inteiras por agentes",
             "Como norma que a empresa é obrigada a seguir"
           ],
           "certa": 0,

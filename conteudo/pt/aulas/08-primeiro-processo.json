@@ -357,7 +357,7 @@
           "p": "Por onde começar a formação, segundo esta aula?",
           "opcoes": [
             "Pela ferramenta mais nova do mercado",
-            "Pela certificação mais conhecida",
+            "Pela certificação mais conhecida, para ter um mapa completo do assunto antes de mexer em qualquer processo",
             "Por um processo da sua empresa, escolhido por volume, regra e dano conhecido"
           ],
           "certa": 2,
@@ -369,7 +369,7 @@
           "opcoes": [
             "Para ter o ponto de partida que permite dizer, depois, se melhorou",
             "Para gerar relatório para a diretoria",
-            "Porque o agente precisa de dados para treinar"
+            "Porque o agente precisa de duas semanas de dados reais para treinar antes de entrar em produção"
           ],
           "certa": 0,
           "ref": "passos",
@@ -389,7 +389,7 @@
         {
           "p": "O Agent Builder do AgentKit será desativado em 30/11/2026. O que isso ensina sobre o primeiro processo?",
           "opcoes": [
-            "Que é melhor esperar as ferramentas estabilizarem",
+            "Que é melhor esperar as ferramentas estabilizarem antes de escolher qualquer processo, para não refazer o trabalho depois",
             "Que só se deve usar uma marca de fornecedor",
             "Que o processo e a medida devem ser escolhidos antes da ferramenta, porque sobrevivem à troca dela"
           ],

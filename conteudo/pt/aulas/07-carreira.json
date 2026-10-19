@@ -204,7 +204,7 @@
           "opcoes": [
             "Sai o repasse de informação e o relatório; crescem coordenar, decidir alçada, revisar resultado e formar gente",
             "Sai coordenar; cresce fazer relatório",
-            "Sai tudo; o agente assume a gerência"
+            "Sai tudo o que o gerente fazia; o agente assume a gerência e a pessoa passa a cuidar só da relação com a diretoria"
           ],
           "certa": 0,
           "ref": "diagrama",
@@ -213,7 +213,7 @@
         {
           "p": "Você é gerente comercial e quer aprender a gerenciar agentes no dia a dia. A AIGP resolve?",
           "opcoes": [
-            "Sim, é a certificação de gestão de agentes",
+            "Sim, é a certificação de gestão de agentes: a prova cobre delegação, supervisão e alçada, que são justamente o dia a dia do gerente comercial",
             "Não exatamente: ela cobre governança e IA responsável, com força em privacidade e jurídico; não ensina a delegar e supervisionar um agente",
             "Sim, desde que você tenha CISSP"
           ],
@@ -246,7 +246,7 @@
         {
           "p": "O que a certificação INEMA \"Gestor de IA\" é, e o que não é?",
           "opcoes": [
-            "É profissional regulada e substitui AIGP e ISO/IEC 42001",
+            "É profissional regulada e substitui AIGP e ISO/IEC 42001, porque cobre os mesmos temas em seis cursos com um projeto final avaliado",
             "É de qualificação, sobre os 6 cursos da formação; não é regulada e não substitui AIGP ou ISO/IEC 42001 quando o cargo exige",
             "É uma credencial de fornecedor"
           ],

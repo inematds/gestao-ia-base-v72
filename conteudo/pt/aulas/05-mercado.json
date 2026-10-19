@@ -294,7 +294,7 @@
         {
           "p": "Por que um número do Work Trend Index merece cuidado extra antes de entrar num plano?",
           "opcoes": [
-            "Porque a amostra é pequena",
+            "Porque a amostra é pequena demais: a pesquisa ouviu poucas empresas, em poucos países, e por isso o número não vale para o mercado brasileiro",
             "Porque é pesquisa feita por quem vende a ferramenta, com outras empresas e outra pergunta; serve de mapa, não de prova do seu caso",
             "Porque a Microsoft não publica pesquisas"
           ],
@@ -306,7 +306,7 @@
           "p": "Qual é o argumento dos críticos do \"achatamento\" da gerência?",
           "opcoes": [
             "A IA não funciona",
-            "Gerente médio é insubstituível por lei",
+            "Gerente médio é insubstituível por lei, porque a legislação trabalhista exige uma chefia humana entre a diretoria e a equipe",
             "Tirar a camada do organograma não elimina o trabalho dela: coordenar, revisar, formar quem chega"
           ],
           "certa": 2,
@@ -317,7 +317,7 @@
           "p": "Qual é a última pergunta da ficha de leitura crítica?",
           "opcoes": [
             "O que vale para mim: o que eu levo e o que preciso medir aqui antes de decidir",
-            "Quem é o autor",
+            "Quem é o autor do relatório, em que ano ele saiu e se a empresa que publicou é conhecida no mercado",
             "Quantas páginas tem o relatório"
           ],
           "certa": 0,

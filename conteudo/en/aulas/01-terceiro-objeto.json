@@ -231,7 +231,7 @@
           "p": "What does the 2027 era add to the earlier ones?",
           "opcoes": [
             "It replaces people management with agent management",
-            "It swaps process design for agents that decide everything",
+            "Replaces process design with agents that decide everything on their own, with no need for a human manager nearby",
             "It coordinates humans, agents, processes, models and compute budget at the same time"
           ],
           "certa": 2,
@@ -243,7 +243,7 @@
           "opcoes": [
             "If I had humans, agents and automations today, would this checking still exist in this form?",
             "Which AI model is the fastest",
-            "How much time the agent will save"
+            "How much time the agent will save per request and in how many months the tool pays for itself"
           ],
           "certa": 0,
           "ref": "passos",
@@ -252,7 +252,7 @@
         {
           "p": "Hora's dashboard shows customer-service volume going up every week since July. What is missing before you can say she improved the process?",
           "opcoes": [
-            "More weeks of data",
+            "More weeks of data on the same dashboard, to be sure the upward curve keeps going",
             "Knowing how the process was before she came in: a starting measure",
             "A nicer chart"
           ],
@@ -263,7 +263,7 @@
         {
           "p": "Which of these are management questions, not technical ones?",
           "opcoes": [
-            "What programming language the agent uses",
+            "Which programming language the agent uses, which cloud it runs on, and which AI library and model version are behind it",
             "Which server the agent runs on",
             "Who is accountable for the agent, what it does on its own, how it is measured and how much each result costs"
           ],
@@ -276,7 +276,7 @@
           "opcoes": [
             "As the opinion of a column, useful for describing the shift, with no number behind it",
             "As survey data",
-            "As an official market forecast"
+            "As an official market forecast, published to guide companies' planning for the following year"
           ],
           "certa": 0,
           "ref": "passos",

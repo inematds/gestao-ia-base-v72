@@ -92,7 +92,7 @@
     ],
     "cursos": {
       "titulo": "The 6 courses in the program",
-      "sub": "Suggested order: G0 → G2 → G3 → G4 → G1 → G5. G1 (people) can run in parallel, and if you work in HR you can start with it. Courses not yet published open as they become ready.",
+      "sub": "Suggested order: G0 → G2 → G3 → G4 → G1 → G5. G1 (people) can run in parallel, and if you work in HR, you can start with it. All six are already published.",
       "abrir": "Open the course",
       "itens": [
         {
@@ -128,7 +128,7 @@
           "img": "assets/img/cursos/g4.jpg"
         },
         {
-          "rot": "G1 · people",
+          "rot": "G1 · people · published",
           "t": "People: leading the hybrid team",
           "l": "What stays with people, the conversation about change, the junior who supervises agents and team training.",
           "href": "https://inematds.github.io/gestao-ia-pessoas-v72/",
@@ -136,7 +136,7 @@
           "img": "assets/img/cursos/g1.jpg"
         },
         {
-          "rot": "G5 · wrap-up + final project",
+          "rot": "G5 · wrap-up + final project · published",
           "t": "Govern, measure and evolve",
           "l": "Owners, permissions and records; evaluation with indicators; one LOOP-R cycle and the final project of the program.",
           "href": "https://inematds.github.io/gestao-ia-governanca-v72/",

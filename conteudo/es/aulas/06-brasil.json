@@ -185,7 +185,7 @@
           "opcoes": [
             "Nada",
             "El 50% (Deloitte) corresponde a empresas que adoptaron IA de algún tipo; los agentes integrados son el 18% (GFT/BCG)",
-            "El número correcto es 40%"
+            "El número correcto es 40%: la encuesta de Deloitte fue revisada y la adopción de agentes cayó en el último relevamiento"
           ],
           "certa": 1,
           "ref": "passos",
@@ -206,7 +206,7 @@
           "p": "¿Por qué el diagnóstico de Horizonte encuentra 7 herramientas de IA, si el inventario oficial solo muestra 2?",
           "opcoes": [
             "Porque una fue armada por TI fuera de la lista y cuatro se usan por cuenta propia, y solo aparecen preguntando a las personas",
-            "Porque el inventario está desactualizado a propósito",
+            "Porque el inventario está desactualizado a propósito, para que TI no tenga que responder por las herramientas que todavía están en prueba",
             "Porque el diagnóstico cuenta también el antivirus"
           ],
           "certa": 0,
@@ -228,7 +228,7 @@
           "p": "¿Cuál es la flecha de regreso del diagrama?",
           "opcoes": [
             "Apagar toda la IA",
-            "Contratar un único proveedor",
+            "Contratar un proveedor único que concentre todas las herramientas de IA de la empresa en un solo contrato",
             "El diagnóstico: llevar cada herramienta a un responsable y una medida"
           ],
           "certa": 2,

@@ -204,7 +204,7 @@
           "opcoes": [
             "Passing along information and the report leave; coordinating, deciding authority limits, reviewing results and developing people grow",
             "Coordinating leaves; making reports grows",
-            "Everything leaves; the agent takes over management"
+            "Everything the manager used to do goes away; the agent takes over management and the person handles only the relationship with the board"
           ],
           "certa": 0,
           "ref": "diagrama",
@@ -213,7 +213,7 @@
         {
           "p": "You are a sales manager and want to learn to manage agents day to day. Does AIGP solve that?",
           "opcoes": [
-            "Yes, it is the agent management certification",
+            "Yes, it's the agent management certification: the exam covers delegation, supervision, and authority levels, which are exactly the day-to-day of a sales manager",
             "Not exactly: it covers governance and responsible AI, with strength in privacy and legal; it does not teach you how to delegate to and supervise an agent",
             "Yes, as long as you have the CISSP"
           ],
@@ -246,7 +246,7 @@
         {
           "p": "What is the INEMA \"AI Manager\" certificate, and what is it not?",
           "opcoes": [
-            "It is a regulated professional certification and replaces AIGP and ISO/IEC 42001",
+            "It's a regulated profession and replaces AIGP and ISO/IEC 42001, because it covers the same topics across six courses with a graded final project at the end",
             "It is a qualification certificate, covering the 6 courses of the program; it is not regulated and does not replace AIGP or ISO/IEC 42001 when the role requires them",
             "It is a vendor credential"
           ],

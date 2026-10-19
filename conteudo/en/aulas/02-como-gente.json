@@ -201,7 +201,7 @@
           "p": "The accounting posting agent prepared 40 payments. Who approves?",
           "opcoes": [
             "The agent itself, if the amount is low",
-            "No one, if the agent got it right last month",
+            "No one, if the agent got it right last month and the batch total came in within what was expected",
             "A person with the authority limit for it: whoever posts does not approve"
           ],
           "certa": 2,
@@ -213,7 +213,7 @@
           "opcoes": [
             "Fix the instruction, create a test case with the error and check again",
             "Talk to it about motivation",
-            "Turn it off and switch tools"
+            "Turn off the agent and switch tools, because a repeated error shows the model isn't up to the job"
           ],
           "certa": 0,
           "ref": "passos",
@@ -233,7 +233,7 @@
         {
           "p": "Which of these sentences treats people like machines?",
           "opcoes": [
-            "Measuring Hora by the percentage of requests accepted without correction",
+            "Measure Hora by the percentage of requests accepted without correction and revisit the instruction whenever that rate drops from one week to the next",
             "Talking with Juliana about her exception load",
             "Evaluating Juliana only by the number of conversations she closed, without talking about what changed in her work"
           ],

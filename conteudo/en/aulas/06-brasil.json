@@ -185,7 +185,7 @@
           "opcoes": [
             "Nothing",
             "The 50% (Deloitte) is for companies that adopted AI of some kind; integrated agents are 18% (GFT/BCG)",
-            "The right number is 40%"
+            "The right number is 40%: the Deloitte survey was revised, and agent adoption fell in the latest round of the study"
           ],
           "certa": 1,
           "ref": "passos",
@@ -206,7 +206,7 @@
           "p": "Why does Horizonte's diagnosis find 7 AI tools if the official inventory shows only 2?",
           "opcoes": [
             "Because one was built by IT outside the list and four are used on people's own initiative, and they only show up when you ask people",
-            "Because the inventory is out of date on purpose",
+            "Because the inventory is out of date on purpose, so IT doesn't have to answer for the tools that are still being tested in a few areas",
             "Because the diagnosis also counts antivirus software"
           ],
           "certa": 0,
@@ -228,7 +228,7 @@
           "p": "What is the return arrow in the diagram?",
           "opcoes": [
             "Shut down all AI",
-            "Hire a single vendor",
+            "Hire a single vendor that concentrates all of the company's AI tools under one contract",
             "The diagnosis: bring each tool to one owner and one measure"
           ],
           "certa": 2,

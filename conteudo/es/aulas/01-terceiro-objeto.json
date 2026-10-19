@@ -231,7 +231,7 @@
           "p": "¿Qué agrega la era de 2027 a las anteriores?",
           "opcoes": [
             "Sustituye la gestión de personas por la de agentes",
-            "Cambia el diseño de procesos por agentes que deciden todo",
+            "Cambia el diseño de procesos por agentes que deciden todo por su cuenta, sin necesidad de un gerente humano cerca",
             "Coordina al mismo tiempo humanos, agentes, procesos, modelos y presupuesto computacional"
           ],
           "certa": 2,
@@ -243,7 +243,7 @@
           "opcoes": [
             "Si hoy tuviera humanos, agentes y automatizaciones, ¿esta revisión todavía existiría de esta forma?",
             "Qué modelo de IA es el más rápido",
-            "Cuánto tiempo va a ahorrar el agente"
+            "Cuánto tiempo va a ahorrar el agente por solicitud y en cuántos meses la compra de la herramienta se paga sola"
           ],
           "certa": 0,
           "ref": "passos",
@@ -252,7 +252,7 @@
         {
           "p": "El panel de Hora muestra las atenciones subiendo cada semana desde julio. ¿Qué falta para decir que mejoró el proceso?",
           "opcoes": [
-            "Más semanas de datos",
+            "Más semanas de datos en el mismo panel, para tener la certeza de que la curva de subida continúa",
             "Saber cómo era el proceso antes de que ella entrara: una medida de partida",
             "Un gráfico más bonito"
           ],
@@ -263,7 +263,7 @@
         {
           "p": "¿Cuáles de estas son preguntas de gestión, y no técnicas?",
           "opcoes": [
-            "Qué lenguaje de programación usa el agente",
+            "Qué lenguaje de programación usa el agente, en qué nube corre y qué biblioteca de IA hay detrás de él",
             "En qué servidor corre el agente",
             "Quién responde por el agente, qué hace por su cuenta, cómo se mide y cuánto cuesta cada resultado"
           ],
@@ -276,7 +276,7 @@
           "opcoes": [
             "Como opinión de una columna, útil para describir el giro, sin un número detrás",
             "Como dato de una encuesta",
-            "Como pronóstico oficial del mercado"
+            "Como pronóstico oficial del mercado, publicado para orientar la planificación de las empresas el año siguiente"
           ],
           "certa": 0,
           "ref": "passos",

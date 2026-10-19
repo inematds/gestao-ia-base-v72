@@ -263,7 +263,7 @@
           "opcoes": [
             "Nada: él fue quien lo configuró",
             "Él mantiene el agente funcionando, pero quien responde por el resultado (descuento, cliente) es el negocio: Patrícia",
-            "El responsable debería ser el proveedor de la herramienta"
+            "El responsable debería ser el proveedor de la herramienta, que conoce el modelo por dentro y responde por contrato por los errores que comete"
           ],
           "certa": 1,
           "ref": "passos",
@@ -273,7 +273,7 @@
           "p": "¿Por qué empezar el mapa por los objetos invisibles?",
           "opcoes": [
             "Porque son los más caros",
-            "Porque son técnicos y TI tiene que llenarlos antes",
+            "Porque son técnicos y TI necesita completarlos antes, ya que solo ella tiene acceso a los sistemas donde se guardan esos objetos",
             "Porque contexto, conocimiento, permisos y presupuesto no aparecen en un organigrama y son los que más se quedan sin dueño"
           ],
           "certa": 2,
@@ -284,7 +284,7 @@
           "p": "Deloitte (Tech Trends 2026) llama a los agentes fuerza laboral \"de silicio\". ¿Cómo usar eso?",
           "opcoes": [
             "Como visión de consultoría que refuerza la lógica: un agente necesita integración, autonomía graduada y supervisores preparados",
-            "Como prueba medida de que los agentes reemplazan a las personas",
+            "Como prueba medida de que los agentes reemplazan a las personas, ya que la consultora acompañó a empresas que cambiaron equipos enteros por agentes",
             "Como una norma que la empresa está obligada a seguir"
           ],
           "certa": 0,

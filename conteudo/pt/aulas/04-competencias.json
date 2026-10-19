@@ -239,7 +239,7 @@
         {
           "p": "A ordem sugerida começa pelo G2, mas o seu agente está dando desconto sem teto hoje. Por onde seguir?",
           "opcoes": [
-            "Pelo G2, porque a ordem é a sugerida",
+            "Pelo G2, porque a ordem sugerida existe por um motivo e pular etapas deixa lacunas no caminho",
             "Pelo G3, porque o risco presente está na delegação e na alçada",
             "Por nenhum, até terminar a autoavaliação de toda a equipe"
           ],

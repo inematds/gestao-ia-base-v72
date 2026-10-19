@@ -201,7 +201,7 @@
           "p": "El agente de registros de la contabilidad preparó 40 pagos. ¿Quién aprueba?",
           "opcoes": [
             "El propio agente, si el valor es bajo",
-            "Nadie, si el agente acertó el mes pasado",
+            "Nadie, si el agente acertó el mes pasado y el total del lote quedó dentro de lo previsto",
             "Una persona con nivel de autorización para eso: quien registra no aprueba"
           ],
           "certa": 2,
@@ -213,7 +213,7 @@
           "opcoes": [
             "Corregir la instrucción, crear un caso de prueba con el error y revisar de nuevo",
             "Conversar con él sobre motivación",
-            "Apagarlo y cambiar de herramienta"
+            "Apagar el agente y cambiar de herramienta, porque un error repetido muestra que el modelo no sirve"
           ],
           "certa": 0,
           "ref": "passos",
@@ -233,7 +233,7 @@
         {
           "p": "¿Cuál de estas frases trata a las personas como máquinas?",
           "opcoes": [
-            "Medir a Hora por el porcentaje de pedidos aceptados sin corrección",
+            "Medir la Hora por el porcentaje de solicitudes aceptadas sin corrección y revisar la instrucción cada vez que esa tasa baje de una semana a otra",
             "Conversar con Juliana sobre la carga de excepciones",
             "Evaluar a Juliana solo por la cantidad de conversaciones que cerró, sin conversar sobre lo que cambió en su trabajo"
           ],

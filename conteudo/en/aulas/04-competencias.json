@@ -239,7 +239,7 @@
         {
           "p": "The suggested order starts with G2, but your agent is giving discounts with no cap today. Where do you go next?",
           "opcoes": [
-            "G2, because it is the suggested order",
+            "By G2, because the suggested order exists for a reason and skipping steps leaves gaps along the way",
             "G3, because the present risk is in delegation and authority limits",
             "None, until the whole team finishes the self-assessment"
           ],
